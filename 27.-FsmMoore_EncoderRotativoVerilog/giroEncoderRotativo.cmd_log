@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/fsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/fsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/fsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/fsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf -ucf sentidoGiroEncoder.ucf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf -ucf sentidoGiroEncoder.ucf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf -ucf sentidoGiroEncoder.ucf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf -ucf sentidoGiroEncoder.ucf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf -ucf sentidoGiroEncoder.ucf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf -ucf sentidoGiroEncoder.ucf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/26.-FsmMoore_EncoderRotativoVerilog/giroEncoderRotativo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sentidoGiroEncoder.ucf -p xc3s500e-fg320-5 giroEncoderRotativo.ngc giroEncoderRotativo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o giroEncoderRotativo_map.ncd giroEncoderRotativo.ngd giroEncoderRotativo.pcf 
+par -w -intstyle ise -ol high -t 1 giroEncoderRotativo_map.ncd giroEncoderRotativo.ncd giroEncoderRotativo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml giroEncoderRotativo.twx giroEncoderRotativo.ncd -o giroEncoderRotativo.twr giroEncoderRotativo.pcf -ucf sentidoGiroEncoder.ucf 
+bitgen -intstyle ise -f giroEncoderRotativo.ut giroEncoderRotativo.ncd 

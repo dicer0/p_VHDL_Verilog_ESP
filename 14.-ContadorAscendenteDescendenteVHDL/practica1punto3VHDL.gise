@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="practica1punto3VHDL.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contadorAscendente.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="contadorAscendente.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="contadorAscendente.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="contadorAscendente.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorAscendente.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="contadorAscendente.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="contadorAscendente.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="contadorAscendente.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorAscendente_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="contadorAscendente_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="contadorAscendente_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorAscendente_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorAscendente_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contadorAscendente_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="contadorHexadecimalTLD.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="contadorHexadecimalTLD.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="contadorHexadecimalTLD.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contadorHexadecimalTLD.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="contadorHexadecimalTLD.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="contadorHexadecimalTLD.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="contadorHexadecimalTLD.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="contadorHexadecimalTLD.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="contadorHexadecimalTLD.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="contadorHexadecimalTLD.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="contadorHexadecimalTLD.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="contadorHexadecimalTLD.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="contadorHexadecimalTLD.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorHexadecimalTLD.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="contadorHexadecimalTLD.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="contadorHexadecimalTLD.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="contadorHexadecimalTLD.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="contadorHexadecimalTLD.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="contadorHexadecimalTLD.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="contadorHexadecimalTLD.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="contadorHexadecimalTLD.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="contadorHexadecimalTLD.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="contadorHexadecimalTLD.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contadorHexadecimalTLD_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="contadorHexadecimalTLD_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="contadorHexadecimalTLD_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="contadorHexadecimalTLD_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="contadorHexadecimalTLD_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="contadorHexadecimalTLD_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contadorHexadecimalTLD_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contadorHexadecimalTLD_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="contadorHexadecimalTLD_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="contadorHexadecimalTLD_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contadorHexadecimalTLD_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contadorHexadecimalTLD_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="contadorHexadecimalTLD_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="contadorHexadecimalTLD_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorHexadecimalTLD_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contadorHexadecimalTLD_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="contadorhexadecimaltld.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="contadorhexadecimaltld.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="contadorhexadecimaltld.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decodificadorBinHex.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decodificadorBinHex.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decodificadorBinHex.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divisorDeReloj.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="divisorDeReloj.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="divisorDeReloj.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1603374005" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1603374005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1603374005" xil_pn:in_ck="-468466876612380061" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1603374005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="contadorAscendenteDescendente.vhd"/>
+      <outfile xil_pn:name="contadorHezadecimalTLD.vhd"/>
+      <outfile xil_pn:name="divisorDeReloj.vhd"/>
+      <outfile xil_pn:name="mostrarHexadecimalDisplay.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1603374005" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4790195471186646743" xil_pn:start_ts="1603374005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1603374005" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1490518025651854183" xil_pn:start_ts="1603374005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1603374005" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6081671869212307104" xil_pn:start_ts="1603374005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1603374005" xil_pn:in_ck="-468466876612380061" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1603374005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="contadorAscendenteDescendente.vhd"/>
+      <outfile xil_pn:name="contadorHezadecimalTLD.vhd"/>
+      <outfile xil_pn:name="divisorDeReloj.vhd"/>
+      <outfile xil_pn:name="mostrarHexadecimalDisplay.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1603374019" xil_pn:in_ck="-468466876612380061" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8743980302466854685" xil_pn:start_ts="1603374005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="contadorAscendente_beh.prj"/>
+      <outfile xil_pn:name="contadorAscendente_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1603374335" xil_pn:in_ck="-4019498169274730141" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5437778760108544592" xil_pn:start_ts="1603374334">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="contadorAscendente_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657316" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1610657316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657316" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="392231631910920761" xil_pn:start_ts="1610657316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657316" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6081671869212307104" xil_pn:start_ts="1610657316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657316" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1610657316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657316" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8140691053861555721" xil_pn:start_ts="1610657316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657316" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1610657316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657316" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6218482924055917718" xil_pn:start_ts="1610657316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1688217199" xil_pn:in_ck="-468466876612380061" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6143042792900086179" xil_pn:start_ts="1688217193">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.lso"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.ngc"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.ngr"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.prj"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.stx"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.syr"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.xst"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_vhdl.prj"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1610657332" xil_pn:in_ck="-4540384730424246372" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="2950072936728332876" xil_pn:start_ts="1610657332">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1688388980" xil_pn:in_ck="-4703326122024201137" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4846242175002560307" xil_pn:start_ts="1688388975">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.bld"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.ngd"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1688388984" xil_pn:in_ck="-1700721497007266282" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1688388980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.pcf"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_map.map"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_map.mrp"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_map.ncd"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_map.ngm"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_map.xrpt"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_summary.xml"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1688388997" xil_pn:in_ck="-2765384446643921393" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1688388984">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.ncd"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.pad"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.par"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.ptwx"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.unroutes"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.xpi"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_pad.csv"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_pad.txt"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1688389000" xil_pn:in_ck="-2650514255248758986" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1688388997">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.bgn"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.bit"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.drc"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1688388997" xil_pn:in_ck="-3558119887108728302" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1688388995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.twr"/>
+      <outfile xil_pn:name="contadorHexadecimalTLD.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,3 @@
+verilog work "MedioSumador.v"
+verilog work "CompuertaOR.v"
+verilog work "TopLevelDesignVerilog.v"

@@ -1,0 +1,5 @@
+set -tmpdir "C:/DLPs/practica2Punto4/xst/projnav.tmp"
+set -xsthdpdir "C:/DLPs/practica2Punto4/xst"
+elaborate
+-ifn decodificadorIPN.prj
+-ifmt mixed

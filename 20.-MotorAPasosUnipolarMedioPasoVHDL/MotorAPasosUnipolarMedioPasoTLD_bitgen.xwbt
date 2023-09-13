@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Aprendiendo/VHDL_Verilog/17.-motorAPasosUnipolarMedioPasoVHDL/MotorAPasosUnipolarMedioPasoTLD.ncd
+OUTFILE=/home/ise/Aprendiendo/VHDL_Verilog/17.-motorAPasosUnipolarMedioPasoVHDL/MotorAPasosUnipolarMedioPasoTLD.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/ise/Aprendiendo/VHDL_Verilog/17.-motorAPasosUnipolarMedioPasoVHDL
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,15 @@
+V3 6
+FL C:/electDigit/contadorVHDL/contadorAscendente.vhd 2020/05/01.03:34:09 P.20131013
+EN work/contadorAscendente 1588322056 \
+      FL C:/electDigit/contadorVHDL/contadorAscendente.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorAscendente/Behavioral 1588322057 \
+      FL C:/electDigit/contadorVHDL/contadorAscendente.vhd \
+      EN work/contadorAscendente 1588322056
+FL C:/electDigit/contadorVHDL/contadorDescendente.vhd 2020/05/01.03:52:58 P.20131013
+EN work/contadorDescendente 1588323187 \
+      FL C:/electDigit/contadorVHDL/contadorDescendente.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorDescendente/Behavioral 1588323188 \
+      FL C:/electDigit/contadorVHDL/contadorDescendente.vhd \
+      EN work/contadorDescendente 1588323187

@@ -1,0 +1,3 @@
+vhdl work "medioSumador.vhd"
+vhdl work "compuertaOR.vhd"
+vhdl work "TopLevelDesign.vhd"

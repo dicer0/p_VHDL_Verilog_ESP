@@ -1,0 +1,4 @@
+net "CLK" loc = "B8";
+net "boton" loc = "H13";
+
+net "ledSecuencia" loc = "J14";

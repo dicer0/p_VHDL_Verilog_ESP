@@ -1,0 +1,3 @@
+vhdl work "C:\electDigit\frecuenciaRelojVHDL\encenderApagarLed.vhd"
+vhdl work "C:\electDigit\frecuenciaRelojVHDL\divisorDeReloj.vhd"
+vhdl work "C:\electDigit\frecuenciaRelojVHDL\parpadeoLedTLD.vhd"

@@ -1,0 +1,32 @@
+V3 20
+FL /home/ise/Aprendiendo/electDigit/9.-UnionModulosVHDL/compuertaOR.vhd 2023/06/26.10:33:28 P.20131013
+FL /home/ise/Aprendiendo/electDigit/9.-UnionModulosVHDL/medioSumador.vhd 2020/04/23.23:02:50 P.20131013
+FL /home/ise/Aprendiendo/electDigit/9.-UnionModulosVHDL/TopLevelDesign.vhd 2020/05/02.19:41:38 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/compuertaOR.vhd 2023/06/29.13:56:48 P.20131013
+EN work/nombreEntidadCompuertaOR 1688060514 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/compuertaOR.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nombreEntidadCompuertaOR/compuertaOR 1688060515 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/compuertaOR.vhd \
+      EN work/nombreEntidadCompuertaOR 1688060514
+FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/medioSumador.vhd 2023/06/29.13:56:33 P.20131013
+EN work/nombreEntidadMedioSumador 1688060512 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/medioSumador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nombreEntidadMedioSumador/medioSumador 1688060513 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/medioSumador.vhd \
+      EN work/nombreEntidadMedioSumador 1688060512
+FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/TopLevelDesign.vhd 2023/06/29.14:04:24 P.20131013
+EN work/TopLevelDesign 1688060516 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/TopLevelDesign.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TopLevelDesign/Behavioral 1688060517 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/TopLevelDesign.vhd \
+      EN work/TopLevelDesign 1688060516 CP work/nombreEntidadMedioSumador \
+      CP work/nombreEntidadCompuertaOR
+FL /home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVHDL/compuertaOR.vhd 2023/06/26.10:33:28 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVHDL/medioSumador.vhd 2020/04/23.23:02:50 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVHDL/TopLevelDesign.vhd 2023/06/29.12:53:31 P.20131013
+FL C:/electDigit/UnionModulosVHDL/compuertaOR.vhd 2020/04/23.18:03:05 P.20131013
+FL C:/electDigit/UnionModulosVHDL/medioSumador.vhd 2020/04/23.18:02:49 P.20131013
+FL C:/electDigit/UnionModulosVHDL/TopLevelDesign.vhd 2020/04/23.17:58:19 P.20131013

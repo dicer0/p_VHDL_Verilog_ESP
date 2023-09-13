@@ -1,0 +1,105 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/25.-SecuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/25.-SecuenciaFSM_MooreVerilog/fsmMoore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMoore.ngc fsmMoore.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMoore_map.ncd fsmMoore.ngd fsmMoore.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMoore_map.ncd fsmMoore.ncd fsmMoore.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMoore.twx fsmMoore.ncd -o fsmMoore.twr fsmMoore.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMoore.ut fsmMoore.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/25.-SecuenciaFSM_MooreVerilog/fsmMoore.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/25.-SecuenciaFSM_MooreVerilog/fsmMoore.syr" 

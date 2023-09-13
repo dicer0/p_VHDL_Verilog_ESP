@@ -1,0 +1,10 @@
+V3 4
+FL /home/ise/Aprendiendo/VHDL_Verilog/8.-sumResMultDivVHDL/operacionMatematica.vhd 2023/06/29.10:39:06 P.20131013
+EN work/aritmetica 1688033574 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/8.-sumResMultDivVHDL/operacionMatematica.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/aritmetica/operacionMatematica 1688033575 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/8.-sumResMultDivVHDL/operacionMatematica.vhd \
+      EN work/aritmetica 1688033574
+FL C:/electDigit/sumResMultDivVHDL/operacionMatematica.vhd 2020/04/24.03:12:19 P.20131013

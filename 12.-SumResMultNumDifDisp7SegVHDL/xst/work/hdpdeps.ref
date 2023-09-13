@@ -1,0 +1,81 @@
+V3 50
+FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd 2023/06/30.16:53:55 P.20131013
+EN work/contadorSelector 1688388455 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorSelector/contador2Bits 1688388456 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd \
+      EN work/contadorSelector 1688388455
+FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd 2023/06/30.17:11:46 P.20131013
+EN work/DecodificadorBinBCD 1688388459 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/DecodificadorBinBCD/SHIFTADD3 1688388460 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd \
+      EN work/DecodificadorBinBCD 1688388459
+FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd 2023/06/30.17:21:07 P.20131013
+EN work/display7Seg 1688388461 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/display7Seg/mostrar4Valores 1688388462 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd \
+      EN work/display7Seg 1688388461
+FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd 2023/06/30.16:51:19 P.20131013
+EN work/divisorDeReloj 1688388453 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1688388454 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688388453
+FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd 2023/06/30.16:46:29 P.20131013
+EN work/relojContadorAritmeticaMuxDisp7SegTLD 1688388463 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/relojContadorAritmeticaMuxDisp7SegTLD/Behavioral 1688388464 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd \
+      EN work/relojContadorAritmeticaMuxDisp7SegTLD 1688388463 \
+      CP work/divisorDeReloj CP work/contadorSelector \
+      CP work/sumadorRestadorMultiplicador CP work/DecodificadorBinBCD \
+      CP work/display7Seg
+FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd 2023/06/30.17:01:38 P.20131013
+EN work/sumadorRestadorMultiplicador 1688388457 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/sumadorRestadorMultiplicador/seleccionarOperacion 1688388458 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd \
+      EN work/sumadorRestadorMultiplicador 1688388457
+FL C:/cLogicos/sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd 2020/05/04.18:24:01 P.20131013
+FL C:/cLogicos/sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd 2020/05/05.00:28:32 P.20131013
+FL C:/cLogicos/sumResMultNumDifDisp7SegVHDL/display7Seg.vhd 2020/05/04.19:55:30 P.20131013
+FL C:/cLogicos/sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd 2020/05/05.00:34:29 P.20131013
+FL C:/cLogicos/sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd 2020/05/05.00:50:36 P.20131013
+FL C:/cLogicos/sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd 2020/05/05.00:39:48 P.20131013
+FL C:/DLPs/12.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd 2020/12/15.18:46:38 P.20131013
+FL C:/DLPs/12.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd 2020/12/15.17:49:04 P.20131013
+FL C:/DLPs/12.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd 2020/12/15.17:49:12 P.20131013
+FL C:/DLPs/12.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd 2021/01/14.16:17:05 P.20131013
+FL C:/DLPs/12.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd 2020/12/15.18:45:51 P.20131013
+FL C:/DLPs/12.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd 2021/01/14.16:23:38 P.20131013
+FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd 2020/05/04.17:24:01 P.20131013
+FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd 2020/12/15.17:49:04 P.20131013
+FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd 2020/12/15.17:49:12 P.20131013
+FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd 2020/12/15.17:31:10 P.20131013
+FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd 2020/12/15.18:33:47 P.20131013
+FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/selectorEncoder.vhd 2020/12/15.18:32:40 P.20131013
+EN work/selectorEncoder 1608078859 \
+      FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/selectorEncoder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/selectorEncoder/Behavioral 1608078860 \
+      FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/selectorEncoder.vhd \
+      EN work/selectorEncoder 1608078859
+FL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd 2020/12/15.18:06:01 P.20131013
+FL C:/electDigit/sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd 2020/05/04.18:24:01 P.20131013
+FL C:/electDigit/sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd 2020/05/04.19:07:06 P.20131013
+FL C:/electDigit/sumResMultNumDifDisp7SegVHDL/display7Seg.vhd 2020/05/04.19:55:30 P.20131013
+FL C:/electDigit/sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd 2020/05/04.23:23:43 P.20131013
+FL C:/electDigit/sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd 2020/05/04.22:54:51 P.20131013
+FL C:/electDigit/sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd 2020/05/04.18:24:12 P.20131013

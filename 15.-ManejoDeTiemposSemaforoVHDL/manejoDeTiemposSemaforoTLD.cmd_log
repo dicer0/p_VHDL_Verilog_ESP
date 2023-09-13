@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 manejoDeTiemposSemaforoTLD.ngc manejoDeTiemposSemaforoTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o manejoDeTiemposSemaforoTLD_map.ncd manejoDeTiemposSemaforoTLD.ngd manejoDeTiemposSemaforoTLD.pcf 
+par -w -intstyle ise -ol high -t 1 manejoDeTiemposSemaforoTLD_map.ncd manejoDeTiemposSemaforoTLD.ncd manejoDeTiemposSemaforoTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml manejoDeTiemposSemaforoTLD.twx manejoDeTiemposSemaforoTLD.ncd -o manejoDeTiemposSemaforoTLD.twr manejoDeTiemposSemaforoTLD.pcf 
+bitgen -intstyle ise -f manejoDeTiemposSemaforoTLD.ut manejoDeTiemposSemaforoTLD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc semaforo.ucf -p xc3s500e-fg320-5 manejoDeTiemposSemaforoTLD.ngc manejoDeTiemposSemaforoTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o manejoDeTiemposSemaforoTLD_map.ncd manejoDeTiemposSemaforoTLD.ngd manejoDeTiemposSemaforoTLD.pcf 
+par -w -intstyle ise -ol high -t 1 manejoDeTiemposSemaforoTLD_map.ncd manejoDeTiemposSemaforoTLD.ncd manejoDeTiemposSemaforoTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml manejoDeTiemposSemaforoTLD.twx manejoDeTiemposSemaforoTLD.ncd -o manejoDeTiemposSemaforoTLD.twr manejoDeTiemposSemaforoTLD.pcf -ucf semaforo.ucf 
+bitgen -intstyle ise -f manejoDeTiemposSemaforoTLD.ut manejoDeTiemposSemaforoTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc semaforo.ucf -p xc3s500e-fg320-5 manejoDeTiemposSemaforoTLD.ngc manejoDeTiemposSemaforoTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o manejoDeTiemposSemaforoTLD_map.ncd manejoDeTiemposSemaforoTLD.ngd manejoDeTiemposSemaforoTLD.pcf 
+par -w -intstyle ise -ol high -t 1 manejoDeTiemposSemaforoTLD_map.ncd manejoDeTiemposSemaforoTLD.ncd manejoDeTiemposSemaforoTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml manejoDeTiemposSemaforoTLD.twx manejoDeTiemposSemaforoTLD.ncd -o manejoDeTiemposSemaforoTLD.twr manejoDeTiemposSemaforoTLD.pcf -ucf semaforo.ucf 
+bitgen -intstyle ise -f manejoDeTiemposSemaforoTLD.ut manejoDeTiemposSemaforoTLD.ncd 

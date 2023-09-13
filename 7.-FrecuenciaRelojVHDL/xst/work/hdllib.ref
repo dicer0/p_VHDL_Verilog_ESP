@@ -1,0 +1,14 @@
+AR divisor_frec behavioral C:/electDigit/frecuenciaRelojVHDL/divisorDeReloj.vhd sub00/vhpl07 1588048355
+AR divisordereloj behavioral /home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/divisorDeReloj.vhd sub00/vhpl02 1688727009
+EN led NULL C:/electDigit/frecuenciaRelojVHDL/encenderApagarLed.vhd sub00/vhpl08 1588048356
+AR parpadeoledtld behavioral /home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/parpadeoLedTLD.vhd sub00/vhpl13 1688727013
+EN divisordereloj NULL /home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/divisorDeReloj.vhd sub00/vhpl01 1688727008
+AR parpadeoledtld topleveldesign C:/electDigit/frecuenciaRelojVHDL/parpadeoLedTLD.vhd sub00/vhpl05 1588048128
+AR encenderapagarled behavioral /home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/encenderApagarLed.vhd sub00/vhpl12 1688727011
+EN divisor_frec NULL C:/electDigit/frecuenciaRelojVHDL/divisorDeReloj.vhd sub00/vhpl06 1588048354
+EN encenderapagarled NULL /home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/encenderApagarLed.vhd sub00/vhpl03 1688727010
+EN parpadeoledtld NULL /home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/parpadeoLedTLD.vhd sub00/vhpl00 1688727012
+AR arquitectura_top behavioral C:/electDigit/frecuenciaRelojVHDL/parpadeoLedTLD.vhd sub00/vhpl11 1588048359
+AR led behavioral C:/electDigit/frecuenciaRelojVHDL/encenderApagarLed.vhd sub00/vhpl09 1588048357
+AR encenderapagarled encapagledconreloj C:/electDigit/frecuenciaRelojVHDL/encenderApagarLed.vhd sub00/vhpl04 1588048126
+EN arquitectura_top NULL C:/electDigit/frecuenciaRelojVHDL/parpadeoLedTLD.vhd sub00/vhpl10 1588048358

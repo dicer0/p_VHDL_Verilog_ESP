@@ -1,0 +1,10 @@
+V3 5
+FL /home/ise/Aprendiendo/VHDL_Verilog/24.-SecuenciaFSM_MooreVHDL/maquinaDeEstadosMoore.vhd 2023/08/01.10:51:12 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/25.-SecuenciaFSM_MooreVHDL/maquinaDeEstadosMoore.vhd 2023/08/01.12:53:13 P.20131013
+EN work/fsmMoore 1691000316 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/25.-SecuenciaFSM_MooreVHDL/maquinaDeEstadosMoore.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/fsmMoore/deteccionSecuencia1011Boton 1691000317 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/25.-SecuenciaFSM_MooreVHDL/maquinaDeEstadosMoore.vhd \
+      EN work/fsmMoore 1691000316
+FL /home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MooreVHDL/maquinaDeEstadosMoore.vhd 2023/07/30.17:14:58 P.20131013

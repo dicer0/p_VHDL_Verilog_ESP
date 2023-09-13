@@ -1,0 +1,115 @@
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.xst" -ofn "C:/DLPs/practica1punto3VHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "C:/electDigit/13.-ContadorAscendenteDescendenteVHDL/contadorHexadecimalTLD.xst" -ofn "C:/electDigit/13.-ContadorAscendenteDescendenteVHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorHexadecimalTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorHexadecimalTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorHexadecimalTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 contadorHexadecimalTLD.ngc contadorHexadecimalTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ngd contadorHexadecimalTLD.pcf 
+par -w -intstyle ise -ol high -t 1 contadorHexadecimalTLD_map.ncd contadorHexadecimalTLD.ncd contadorHexadecimalTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contadorHexadecimalTLD.twx contadorHexadecimalTLD.ncd -o contadorHexadecimalTLD.twr contadorHexadecimalTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f contadorHexadecimalTLD.ut contadorHexadecimalTLD.ncd 

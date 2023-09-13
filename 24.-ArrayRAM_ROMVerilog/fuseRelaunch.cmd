@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Aprendiendo/VHDL_Verilog/23.-ArrayRAM_ROMVerilog/memoriaRAM_ROM_isim_beh.exe" -prj "/home/ise/Aprendiendo/VHDL_Verilog/23.-ArrayRAM_ROMVerilog/memoriaRAM_ROM_beh.prj" "work.memoriaRAM_ROM" "work.glbl" 

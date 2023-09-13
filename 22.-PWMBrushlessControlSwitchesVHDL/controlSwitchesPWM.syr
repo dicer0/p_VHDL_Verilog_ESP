@@ -1,0 +1,511 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: controlSwitchesPWM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "controlSwitchesPWM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "controlSwitchesPWM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : controlSwitchesPWM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/Aprendiendo/VHDL_Verilog/23.-PWMBrushlessControlSwitchesVHDL/controlSwitchesPWM.vhd" in Library work.
+Entity <controlswitchespwm> compiled.
+Entity <controlswitchespwm> (Architecture <frecuencianueva>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <controlSwitchesPWM> in library <work> (architecture <frecuencianueva>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <controlSwitchesPWM> in library <work> (Architecture <frecuencianueva>).
+Entity <controlSwitchesPWM> analyzed. Unit <controlSwitchesPWM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <controlSwitchesPWM>.
+    Related source file is "/home/ise/Aprendiendo/VHDL_Verilog/23.-PWMBrushlessControlSwitchesVHDL/controlSwitchesPWM.vhd".
+WARNING:Xst:653 - Signal <posicion0Grados> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000001101111010101000.
+    Found 3-bit register for signal <ledAngulo>.
+    Found 20-bit up counter for signal <conteoFrecuenciaPWM>.
+    Found 26-bit up counter for signal <divisorDeReloj>.
+    Found 16-bit register for signal <movServo>.
+    Found 32-bit adder for signal <PWM$addsub0000> created at line 127.
+    Found 32-bit comparator lessequal for signal <PWM$cmp_le0000> created at line 127.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <controlSwitchesPWM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 2
+ 16-bit register                                       : 1
+ 3-bit register                                        : 1
+# Comparators                                          : 1
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1293 - FF/Latch <movServo_0> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_1> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_2> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_10> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_11> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_12> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 19
+ Flip-Flops                                            : 19
+# Comparators                                          : 1
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <movServo_0> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_1> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_2> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_10> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_11> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <movServo_12> has a constant value of 0 in block <controlSwitchesPWM>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <movServo_3> in Unit <controlSwitchesPWM> is equivalent to the following 3 FFs/Latches, which will be removed : <movServo_5> <movServo_7> <movServo_13> 
+INFO:Xst:2261 - The FF/Latch <movServo_4> in Unit <controlSwitchesPWM> is equivalent to the following 3 FFs/Latches, which will be removed : <movServo_6> <movServo_9> <movServo_15> 
+INFO:Xst:2261 - The FF/Latch <movServo_8> in Unit <controlSwitchesPWM> is equivalent to the following FF/Latch, which will be removed : <movServo_14> 
+INFO:Xst:2261 - The FF/Latch <movServo_3> in Unit <controlSwitchesPWM> is equivalent to the following FF/Latch, which will be removed : <ledAngulo_1> 
+INFO:Xst:2261 - The FF/Latch <movServo_4> in Unit <controlSwitchesPWM> is equivalent to the following FF/Latch, which will be removed : <ledAngulo_2> 
+WARNING:Xst:2677 - Node <divisorDeReloj_13> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_14> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_15> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_16> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_17> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_18> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_19> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_20> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_21> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_22> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_23> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_24> of sequential type is unconnected in block <controlSwitchesPWM>.
+WARNING:Xst:2677 - Node <divisorDeReloj_25> of sequential type is unconnected in block <controlSwitchesPWM>.
+
+Optimizing unit <controlSwitchesPWM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block controlSwitchesPWM, actual ratio is 0.
+FlipFlop movServo_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop movServo_3 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 39
+ Flip-Flops                                            : 39
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : controlSwitchesPWM.ngr
+Top Level Output File Name         : controlSwitchesPWM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 147
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 31
+#      LUT2                        : 5
+#      LUT3                        : 18
+#      LUT4                        : 7
+#      MUXCY                       : 47
+#      VCC                         : 1
+#      XORCY                       : 33
+# FlipFlops/Latches                : 39
+#      FDC                         : 13
+#      FDE                         : 26
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 4
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       33  out of   4656     0%  
+ Number of Slice Flip Flops:             36  out of   9312     0%  
+ Number of 4 input LUTs:                 65  out of   9312     0%  
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    232     3%  
+    IOB Flip Flops:                       3
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+divisorDeReloj_12                  | NONE(movServo_3)       | 6     |
+relojNexys2                        | BUFGP                  | 33    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 13    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.904ns (Maximum Frequency: 256.118MHz)
+   Minimum input arrival time before clock: 3.988ns
+   Maximum output required time after clock: 7.584ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'relojNexys2'
+  Clock period: 3.904ns (frequency: 256.118MHz)
+  Total number of paths / destination ports: 301 / 33
+-------------------------------------------------------------------------
+Delay:               3.904ns (Levels of Logic = 20)
+  Source:            conteoFrecuenciaPWM_1 (FF)
+  Destination:       conteoFrecuenciaPWM_19 (FF)
+  Source Clock:      relojNexys2 rising
+  Destination Clock: relojNexys2 rising
+
+  Data Path: conteoFrecuenciaPWM_1 to conteoFrecuenciaPWM_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.514   0.532  conteoFrecuenciaPWM_1 (conteoFrecuenciaPWM_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_conteoFrecuenciaPWM_cy<1>_rt (Mcount_conteoFrecuenciaPWM_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_conteoFrecuenciaPWM_cy<1> (Mcount_conteoFrecuenciaPWM_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<2> (Mcount_conteoFrecuenciaPWM_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<3> (Mcount_conteoFrecuenciaPWM_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<4> (Mcount_conteoFrecuenciaPWM_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<5> (Mcount_conteoFrecuenciaPWM_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<6> (Mcount_conteoFrecuenciaPWM_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<7> (Mcount_conteoFrecuenciaPWM_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<8> (Mcount_conteoFrecuenciaPWM_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<9> (Mcount_conteoFrecuenciaPWM_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<10> (Mcount_conteoFrecuenciaPWM_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<11> (Mcount_conteoFrecuenciaPWM_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<12> (Mcount_conteoFrecuenciaPWM_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<13> (Mcount_conteoFrecuenciaPWM_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<14> (Mcount_conteoFrecuenciaPWM_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<15> (Mcount_conteoFrecuenciaPWM_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<16> (Mcount_conteoFrecuenciaPWM_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<17> (Mcount_conteoFrecuenciaPWM_cy<17>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<18> (Mcount_conteoFrecuenciaPWM_cy<18>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_conteoFrecuenciaPWM_xor<19> (Result<19>1)
+     FDE:D                     0.268          conteoFrecuenciaPWM_19
+    ----------------------------------------
+    Total                      3.904ns (3.373ns logic, 0.532ns route)
+                                       (86.4% logic, 13.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'divisorDeReloj_12'
+  Total number of paths / destination ports: 36 / 12
+-------------------------------------------------------------------------
+Offset:              3.460ns (Levels of Logic = 2)
+  Source:            selectPos<1> (PAD)
+  Destination:       movServo_3 (FF)
+  Destination Clock: divisorDeReloj_12 rising
+
+  Data Path: selectPos<1> to movServo_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.690  selectPos_1_IBUF (selectPos_1_IBUF)
+     LUT3:I0->O            6   0.612   0.569  movServo_not00001 (movServo_not0000)
+     FDE:CE                    0.483          movServo_3
+    ----------------------------------------
+    Total                      3.460ns (2.201ns logic, 1.259ns route)
+                                       (63.6% logic, 36.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'relojNexys2'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              3.988ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       conteoFrecuenciaPWM_0 (FF)
+  Destination Clock: relojNexys2 rising
+
+  Data Path: rst to conteoFrecuenciaPWM_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            14   1.106   0.850  rst_IBUF (rst_IBUF)
+     INV:I->O             20   0.612   0.937  rst_inv1_INV_0 (rst_inv)
+     FDE:CE                    0.483          conteoFrecuenciaPWM_0
+    ----------------------------------------
+    Total                      3.988ns (2.201ns logic, 1.787ns route)
+                                       (55.2% logic, 44.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'relojNexys2'
+  Total number of paths / destination ports: 20 / 1
+-------------------------------------------------------------------------
+Offset:              6.708ns (Levels of Logic = 18)
+  Source:            conteoFrecuenciaPWM_0 (FF)
+  Destination:       PWM (PAD)
+  Source Clock:      relojNexys2 rising
+
+  Data Path: conteoFrecuenciaPWM_0 to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.514   0.532  conteoFrecuenciaPWM_0 (conteoFrecuenciaPWM_0)
+     LUT3:I0->O            1   0.612   0.000  Mcompar_PWM_cmp_le0000_lut<0> (Mcompar_PWM_cmp_le0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Mcompar_PWM_cmp_le0000_cy<0> (Mcompar_PWM_cmp_le0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<1> (Mcompar_PWM_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<2> (Mcompar_PWM_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<3> (Mcompar_PWM_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<4> (Mcompar_PWM_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<5> (Mcompar_PWM_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<6> (Mcompar_PWM_cmp_le0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<7> (Mcompar_PWM_cmp_le0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<8> (Mcompar_PWM_cmp_le0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<9> (Mcompar_PWM_cmp_le0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<10> (Mcompar_PWM_cmp_le0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<11> (Mcompar_PWM_cmp_le0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<12> (Mcompar_PWM_cmp_le0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Mcompar_PWM_cmp_le0000_cy<13> (Mcompar_PWM_cmp_le0000_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Mcompar_PWM_cmp_le0000_cy<14> (Mcompar_PWM_cmp_le0000_cy<14>)
+     MUXCY:CI->O           1   0.399   0.357  Mcompar_PWM_cmp_le0000_cy<15> (PWM_OBUF)
+     OBUF:I->O                 3.169          PWM_OBUF (PWM)
+    ----------------------------------------
+    Total                      6.708ns (5.820ns logic, 0.889ns route)
+                                       (86.7% logic, 13.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'divisorDeReloj_12'
+  Total number of paths / destination ports: 71 / 4
+-------------------------------------------------------------------------
+Offset:              7.584ns (Levels of Logic = 16)
+  Source:            movServo_3 (FF)
+  Destination:       PWM (PAD)
+  Source Clock:      divisorDeReloj_12 rising
+
+  Data Path: movServo_3 to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             22   0.514   1.141  movServo_3 (movServo_3)
+     LUT2:I0->O            0   0.612   0.000  Madd_PWM_addsub0000_xor<5>11 (PWM_addsub0000<6>)
+     MUXCY:DI->O           1   0.773   0.000  Mcompar_PWM_cmp_le0000_cy<2> (Mcompar_PWM_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<3> (Mcompar_PWM_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<4> (Mcompar_PWM_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<5> (Mcompar_PWM_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<6> (Mcompar_PWM_cmp_le0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<7> (Mcompar_PWM_cmp_le0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<8> (Mcompar_PWM_cmp_le0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<9> (Mcompar_PWM_cmp_le0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<10> (Mcompar_PWM_cmp_le0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<11> (Mcompar_PWM_cmp_le0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<12> (Mcompar_PWM_cmp_le0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Mcompar_PWM_cmp_le0000_cy<13> (Mcompar_PWM_cmp_le0000_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Mcompar_PWM_cmp_le0000_cy<14> (Mcompar_PWM_cmp_le0000_cy<14>)
+     MUXCY:CI->O           1   0.399   0.357  Mcompar_PWM_cmp_le0000_cy<15> (PWM_OBUF)
+     OBUF:I->O                 3.169          PWM_OBUF (PWM)
+    ----------------------------------------
+    Total                      7.584ns (6.086ns logic, 1.498ns route)
+                                       (80.2% logic, 19.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 0.80 secs
+ 
+--> 
+
+
+Total memory usage is 608692 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   26 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

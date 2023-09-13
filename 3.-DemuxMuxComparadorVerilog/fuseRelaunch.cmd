@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/electDigit/demuxMuxComparadorVerilog/demuxIf_isim_beh.exe" -prj "C:/electDigit/demuxMuxComparadorVerilog/demuxIf_beh.prj" "work.demuxIf" "work.glbl" 

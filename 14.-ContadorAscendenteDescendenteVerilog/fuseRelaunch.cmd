@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/DLPs/practica1punto3Verilog/divisorDeReloj_isim_beh.exe" -prj "C:/DLPs/practica1punto3Verilog/divisorDeReloj_beh.prj" "work.divisorDeReloj" "work.glbl" 

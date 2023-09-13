@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/electDigit/unionModulosVerilog/SumadorCompleto.xst" -ofn "C:/electDigit/unionModulosVerilog/SumadorCompleto.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/SumadorCompleto.syr" 

@@ -1,0 +1,39 @@
+V3 23
+FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorAscendenteDescendente.vhd 2023/07/01.13:06:58 P.20131013
+EN work/contadorAsc_Desc 1688217197 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorAscendenteDescendente.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorAsc_Desc/Behavioral 1688217198 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorAscendenteDescendente.vhd \
+      EN work/contadorAsc_Desc 1688217197
+FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorHezadecimalTLD.vhd 2023/07/01.12:59:54 P.20131013
+EN work/contadorHexadecimalTLD 1688217201 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorHezadecimalTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/contadorHexadecimalTLD/encenderDisplayTLD 1688217202 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/contadorHezadecimalTLD.vhd \
+      EN work/contadorHexadecimalTLD 1688217201 CP work/divisorDeReloj \
+      CP work/contadorAsc_Desc CP work/decodificadorBinHex
+FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/divisorDeReloj.vhd 2023/06/30.18:51:47 P.20131013
+EN work/divisorDeReloj 1688217195 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1688217196 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688217195
+FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/mostrarHexadecimalDisplay.vhd 2023/07/01.13:12:08 P.20131013
+EN work/decodificadorBinHex 1688217199 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/mostrarHexadecimalDisplay.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decodificadorBinHex/mostrarEnDisplay 1688217200 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVHDL/mostrarHexadecimalDisplay.vhd \
+      EN work/decodificadorBinHex 1688217199
+FL C:/DLPs/practica1punto3VHDL/contadorAscendenteDescendente.vhd 2020/10/23.23:56:34 P.20131013
+FL C:/DLPs/practica1punto3VHDL/contadorHezadecimalTLD.vhd 2020/10/23.23:30:36 P.20131013
+FL C:/DLPs/practica1punto3VHDL/divisorDeReloj.vhd 2020/10/22.10:42:05 P.20131013
+FL C:/DLPs/practica1punto3VHDL/mostrarHexadecimalDisplay.vhd 2020/10/24.00:20:30 P.20131013
+FL C:/electDigit/13.-ContadorAscendenteDescendenteVHDL/contadorAscendenteDescendente.vhd 2020/10/23.22:56:34 P.20131013
+FL C:/electDigit/13.-ContadorAscendenteDescendenteVHDL/contadorHezadecimalTLD.vhd 2020/10/23.22:30:36 P.20131013
+FL C:/electDigit/13.-ContadorAscendenteDescendenteVHDL/divisorDeReloj.vhd 2020/10/22.09:42:05 P.20131013
+FL C:/electDigit/13.-ContadorAscendenteDescendenteVHDL/mostrarHexadecimalDisplay.vhd 2020/10/23.23:20:30 P.20131013

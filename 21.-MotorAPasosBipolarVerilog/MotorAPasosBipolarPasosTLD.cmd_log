@@ -1,0 +1,58 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosBipolar.ucf -p xc3s500e-fg320-5 MotorAPasosBipolarPasosTLD.ngc MotorAPasosBipolarPasosTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ngd MotorAPasosBipolarPasosTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosBipolarPasosTLD_map.ncd MotorAPasosBipolarPasosTLD.ncd MotorAPasosBipolarPasosTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosBipolarPasosTLD.twx MotorAPasosBipolarPasosTLD.ncd -o MotorAPasosBipolarPasosTLD.twr MotorAPasosBipolarPasosTLD.pcf -ucf motorAPasosBipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosBipolarPasosTLD.ut MotorAPasosBipolarPasosTLD.ncd 

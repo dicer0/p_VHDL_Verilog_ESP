@@ -1,0 +1,8 @@
+AR contadortiempo behavioral /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/contadorTiempo.vhd sub00/vhpl03 1689692330
+AR secuenciasemaforo behavioral /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/secuenciaSemaforo.vhd sub00/vhpl05 1689692332
+EN divisordereloj NULL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/divisorDeReloj.vhd sub00/vhpl00 1689692327
+AR divisordereloj frecuencianueva /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/divisorDeReloj.vhd sub00/vhpl01 1689692328
+AR manejodetiempossemaforotld behavioral /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.vhd sub00/vhpl07 1689692334
+EN contadortiempo NULL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/contadorTiempo.vhd sub00/vhpl02 1689692329
+EN manejodetiempossemaforotld NULL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.vhd sub00/vhpl06 1689692333
+EN secuenciasemaforo NULL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/secuenciaSemaforo.vhd sub00/vhpl04 1689692331

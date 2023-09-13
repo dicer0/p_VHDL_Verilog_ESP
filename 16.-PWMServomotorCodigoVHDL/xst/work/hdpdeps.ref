@@ -1,0 +1,9 @@
+V3 4
+FL /home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVHDL/PWMServomotor.vhd 2023/07/14.16:30:13 P.20131013
+EN work/divisorDeRelojPWM 1689352322 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVHDL/PWMServomotor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeRelojPWM/frecuenciaNueva 1689352323 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVHDL/PWMServomotor.vhd \
+      EN work/divisorDeRelojPWM 1689352322
+FL /home/ise/Aprendiendo/VHDL_Verilog/PWMServomotorVHDL/PWMServomotor.vhd 2023/07/13.11:11:05 P.20131013

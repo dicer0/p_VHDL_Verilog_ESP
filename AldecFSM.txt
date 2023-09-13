@@ -1,0 +1,140 @@
+//-----------------------------------------------------------------------------
+//
+// Title       : No Title
+// Design      : 
+// Author      : diego-rko@live.com.mx
+// Company     : UPIITA
+//
+//-----------------------------------------------------------------------------
+//
+// File        : D:/maquinasEstadoAldec/FSMmoore_DeteccionGiroEncoderVerilog/sentidoDeGiroEncoder/compile/giroEncoderRotativoVerilog.v
+// Generated   : Fri Aug  4 15:41:40 2023
+// From        : D:/maquinasEstadoAldec/FSMmoore_DeteccionGiroEncoderVerilog/sentidoDeGiroEncoder/src/giroEncoderRotativoVerilog.asf
+// By          : Active-HDL Student Edition FSM Code Generator ver. 6.0
+//
+//-----------------------------------------------------------------------------
+//
+// Description : 
+//
+//-----------------------------------------------------------------------------
+
+`timescale 1ns / 1ps
+
+module giroEncoderRotativo (clk, pinesAB, giroCW, giroCCW);
+input		clk;
+input		pinesAB;
+output		giroCW;
+output		giroCCW;
+
+wire		clk;
+wire		pinesAB;
+reg			giroCW;
+reg			giroCCW;
+
+// BINARY ENCODED state machine: Sreg0
+// State codes definitions:
+`define AB_1_1 3'b000
+`define AB_0_1CW 3'b001
+`define AB_1_0CCW 3'b010
+`define AB_0_0 3'b011
+`define giroDer 3'b100
+`define giroIzq 3'b101
+
+reg [2:0] CurrState_Sreg0;
+reg [2:0] NextState_Sreg0;
+
+// FSM coverage pragmas
+// Aldec enum Machine_Sreg0 CURRENT=CurrState_Sreg0
+// Aldec enum Machine_Sreg0 NEXT=NextState_Sreg0
+// Aldec enum Machine_Sreg0 INITIAL_STATE=`AB_1_1
+// Aldec enum Machine_Sreg0 STATES=`AB_0_0,`AB_0_1CW,`AB_1_0CCW,`giroDer,`giroIzq
+// Aldec enum Machine_Sreg0 TRANS=`AB_0_0->`giroDer,`AB_0_0->`giroIzq,`AB_0_1CW->`AB_0_0,`AB_1_0CCW->`AB_0_0
+// Aldec enum Machine_Sreg0 TRANS=`AB_1_1->`AB_0_1CW,`AB_1_1->`AB_1_0CCW,`giroDer->`AB_1_1,`giroIzq->`AB_1_1
+
+// User statements
+
+// Diagram ACTION
+
+//--------------------------------------------------------------------
+// Machine: Sreg0
+//--------------------------------------------------------------------
+//----------------------------------
+// Next State Logic (combinatorial)
+//----------------------------------
+always @ (pinesAB or CurrState_Sreg0)
+begin : Sreg0_NextState
+	NextState_Sreg0 = CurrState_Sreg0;
+	// Set default values for outputs and signals
+	giroCW = 1'b0;
+	giroCCW = 1'b0;
+	case (CurrState_Sreg0) // synopsys parallel_case full_case
+		`AB_1_1:
+		begin
+			giroCW = 1'b0;
+			giroCCW = 1'b0;
+			case (pinesAB)
+				2'b01 :
+					NextState_Sreg0 = `AB_0_1CW;
+				2'b10 :
+					NextState_Sreg0 = `AB_1_0CCW;
+			endcase
+		end
+		`AB_0_1CW:
+		begin
+			giroCW = 1'b0;
+			giroCCW = 1'b0;
+			case (pinesAB)
+				2'b00 :
+					NextState_Sreg0 = `AB_0_0;
+			endcase
+		end
+		`AB_1_0CCW:
+		begin
+			giroCW = 1'b0;
+			giroCCW = 1'b0;
+			case (pinesAB)
+				2'b00 :
+					NextState_Sreg0 = `AB_0_0;
+			endcase
+		end
+		`AB_0_0:
+		begin
+			giroCW = 1'b0;
+			giroCCW = 1'b0;
+			case (pinesAB)
+				2'b10 :
+					NextState_Sreg0 = `giroDer;
+				2'b01 :
+					NextState_Sreg0 = `giroIzq;
+			endcase
+		end
+		`giroDer:
+		begin
+			giroCW = 1'b1;
+			giroCCW = 1'b0;
+			case (pinesAB)
+				2'b11 :
+					NextState_Sreg0 = `AB_1_1;
+			endcase
+		end
+		`giroIzq:
+		begin
+			giroCW = 1'b0;
+			giroCCW = 1'b1;
+			case (pinesAB)
+				2'b11 :
+					NextState_Sreg0 = `AB_1_1;
+			endcase
+		end
+	endcase
+end
+
+//----------------------------------
+// Current State Logic (sequential)
+//----------------------------------
+always @ (posedge clk)
+begin : Sreg0_CurrentState
+	CurrState_Sreg0 <= NextState_Sreg0;
+end
+
+endmodule

@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Aug 16 02:40:07 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "PWM_Servo" LOCATE = SITE "L15" LEVEL 1;
+COMP "DP" LOCATE = SITE "C17" LEVEL 1;
+COMP "productoDisponible" LOCATE = SITE "N17" LEVEL 1;
+COMP "on_off" LOCATE = SITE "R17" LEVEL 1;
+COMP "disponible" LOCATE = SITE "J14" LEVEL 1;
+COMP "ledsDisplay7Seg<0>" LOCATE = SITE "H14" LEVEL 1;
+COMP "ledsDisplay7Seg<1>" LOCATE = SITE "J17" LEVEL 1;
+COMP "ledsDisplay7Seg<2>" LOCATE = SITE "G14" LEVEL 1;
+COMP "ledsDisplay7Seg<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "ledsDisplay7Seg<4>" LOCATE = SITE "D17" LEVEL 1;
+COMP "selectorArticulo<0>" LOCATE = SITE "H13" LEVEL 1;
+COMP "ledsDisplay7Seg<5>" LOCATE = SITE "F18" LEVEL 1;
+COMP "selectorArticulo<1>" LOCATE = SITE "E18" LEVEL 1;
+COMP "ledsDisplay7Seg<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "CLK" LOCATE = SITE "B8" LEVEL 1;
+COMP "anodoComun<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "selectorArticulo<2>" LOCATE = SITE "D18" LEVEL 1;
+COMP "anodoComun<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "anodoComun<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "anodoComun<3>" LOCATE = SITE "F15" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

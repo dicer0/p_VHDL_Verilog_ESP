@@ -1,0 +1,28 @@
+Command line:
+   divisorDeReloj_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  41853
+
+Wed Jul 12 14:59:17 2023
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 198.713 Meg
+
+ Total Signals          : 4
+ Total Nets             : 27
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 405
+
+ Total Simulation Time: 57.51 sec
+
+ Current Memory Usage: 276.312 Meg
+
+Wed Jul 12 15:01:59 2023
+

@@ -1,0 +1,3 @@
+vhdl work "divisorDeReloj.vhd"
+vhdl work "controlPasosMotor.vhd"
+vhdl work "MotorAPasosBipolarPasosTLD.vhd"

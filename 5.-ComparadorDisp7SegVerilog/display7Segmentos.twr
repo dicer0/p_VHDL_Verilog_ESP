@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o
+display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf
+
+Design file:              display7Segmentos.ncd
+Physical constraint file: display7Segmentos.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |AN<0>          |    8.144|
+A<0>           |AN<1>          |    8.592|
+A<0>           |AN<2>          |    8.254|
+A<0>           |AN<3>          |    8.144|
+A<0>           |CC             |    8.831|
+A<0>           |CE             |    8.360|
+A<1>           |AN<0>          |    7.719|
+A<1>           |AN<1>          |    8.167|
+A<1>           |AN<2>          |    7.829|
+A<1>           |AN<3>          |    7.752|
+A<1>           |CC             |    8.406|
+A<1>           |CE             |    7.968|
+A<2>           |AN<0>          |    7.899|
+A<2>           |AN<1>          |    7.785|
+A<2>           |AN<2>          |    7.447|
+A<2>           |AN<3>          |    7.400|
+A<2>           |CC             |    8.586|
+A<2>           |CE             |    7.616|
+A<3>           |AN<0>          |    8.181|
+A<3>           |AN<1>          |    8.209|
+A<3>           |AN<2>          |    7.871|
+A<3>           |AN<3>          |    7.681|
+A<3>           |CC             |    8.868|
+A<3>           |CE             |    7.897|
+B<0>           |AN<0>          |    8.196|
+B<0>           |AN<1>          |    8.644|
+B<0>           |AN<2>          |    8.306|
+B<0>           |AN<3>          |    8.202|
+B<0>           |CC             |    8.883|
+B<0>           |CE             |    8.418|
+B<1>           |AN<0>          |    7.764|
+B<1>           |AN<1>          |    8.212|
+B<1>           |AN<2>          |    7.874|
+B<1>           |AN<3>          |    7.820|
+B<1>           |CC             |    8.451|
+B<1>           |CE             |    8.036|
+B<2>           |AN<0>          |    7.084|
+B<2>           |AN<1>          |    6.932|
+B<2>           |AN<2>          |    6.594|
+B<2>           |AN<3>          |    6.463|
+B<2>           |CC             |    7.771|
+B<2>           |CE             |    6.679|
+B<3>           |AN<0>          |    6.917|
+B<3>           |AN<1>          |    7.162|
+B<3>           |AN<2>          |    6.824|
+B<3>           |AN<3>          |    6.677|
+B<3>           |CC             |    7.604|
+B<3>           |CE             |    6.893|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Jul  3 12:03:06 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 347 MB
+
+
+

@@ -1,0 +1,6 @@
+vhdl work "servomotorPWM.vhd"
+vhdl work "divisorDeReloj.vhd"
+vhdl work "displayDe7Segmentos.vhd"
+vhdl work "control.vhd"
+vhdl work "contadorDisplay.vhd"
+vhdl work "expendedoraGelAntibacterial.vhd"

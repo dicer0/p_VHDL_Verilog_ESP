@@ -1,0 +1,661 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: expendedoraGelAntibacterial.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "expendedoraGelAntibacterial.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "expendedoraGelAntibacterial"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : expendedoraGelAntibacterial
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd" is newer than current system time.
+Architecture frecuencianueva of Entity divisordereloj is up to date.
+Compiling vhdl file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd" is newer than current system time.
+Architecture contador2bits of Entity contadorselector is up to date.
+Compiling vhdl file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd" is newer than current system time.
+Architecture behavioral of Entity controldisplay is up to date.
+Compiling vhdl file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd" is newer than current system time.
+Architecture muxadisplay of Entity displayde7segmentos is up to date.
+Compiling vhdl file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd" is newer than current system time.
+Architecture frecuencianueva of Entity servomotorpwm is up to date.
+Compiling vhdl file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd" is newer than current system time.
+Architecture behavioral of Entity expendedoragelantibacterial is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <expendedoraGelAntibacterial> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <divisorDeReloj> in library <work> (architecture <frecuenciaNueva>).
+
+Analyzing hierarchy for entity <contadorSelector> in library <work> (architecture <contador2Bits>).
+
+Analyzing hierarchy for entity <controlDisplay> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <displayDe7Segmentos> in library <work> (architecture <muxAdisplay>).
+
+Analyzing hierarchy for entity <servomotorPWM> in library <work> (architecture <frecuenciaNueva>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <expendedoraGelAntibacterial> in library <work> (Architecture <behavioral>).
+Entity <expendedoraGelAntibacterial> analyzed. Unit <expendedoraGelAntibacterial> generated.
+
+Analyzing Entity <divisorDeReloj> in library <work> (Architecture <frecuenciaNueva>).
+Entity <divisorDeReloj> analyzed. Unit <divisorDeReloj> generated.
+
+Analyzing Entity <contadorSelector> in library <work> (Architecture <contador2Bits>).
+Entity <contadorSelector> analyzed. Unit <contadorSelector> generated.
+
+Analyzing Entity <controlDisplay> in library <work> (Architecture <Behavioral>).
+Entity <controlDisplay> analyzed. Unit <controlDisplay> generated.
+
+Analyzing Entity <displayDe7Segmentos> in library <work> (Architecture <muxAdisplay>).
+Entity <displayDe7Segmentos> analyzed. Unit <displayDe7Segmentos> generated.
+
+Analyzing Entity <servomotorPWM> in library <work> (Architecture <frecuenciaNueva>).
+WARNING:Xst:819 - "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd" line 78: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <selectorDutyCycle>
+Entity <servomotorPWM> analyzed. Unit <servomotorPWM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divisorDeReloj>.
+    Related source file is "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd".
+    Found 25-bit up counter for signal <divisorDeReloj>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <divisorDeReloj> synthesized.
+
+
+Synthesizing Unit <contadorSelector>.
+    Related source file is "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd".
+    Found 2-bit up counter for signal <conteoAscendente>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contadorSelector> synthesized.
+
+
+Synthesizing Unit <controlDisplay>.
+    Related source file is "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd".
+Unit <controlDisplay> synthesized.
+
+
+Synthesizing Unit <displayDe7Segmentos>.
+    Related source file is "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd".
+    Found 4x32-bit ROM for signal <selectorMUX$rom0000>.
+    Found 7-bit 4-to-1 multiplexer for signal <ledsAhastaG>.
+    Found 4-bit 4-to-1 multiplexer for signal <prenderDisplay>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  11 Multiplexer(s).
+Unit <displayDe7Segmentos> synthesized.
+
+
+Synthesizing Unit <servomotorPWM>.
+    Related source file is "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd".
+WARNING:Xst:643 - "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd" line 110: The result of a 2x16-bit multiplication is partially used. Only the 17 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 17-bit adder for signal <$add0000> created at line 132.
+    Found 20-bit up counter for signal <conteoFrecuenciaPWM>.
+    Found 26-bit up counter for signal <divisorDeReloj>.
+    Found 2x16-bit multiplier for signal <DutyCycle_1a2ms$mult0000> created at line 110.
+    Found 20-bit comparator lessequal for signal <PWM$cmp_le0000> created at line 132.
+    Found 2-bit up counter for signal <selectorDutyCycle>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   1 Comparator(s).
+Unit <servomotorPWM> synthesized.
+
+
+Synthesizing Unit <expendedoraGelAntibacterial>.
+    Related source file is "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd".
+WARNING:Xst:646 - Signal <CLK50MHz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <expendedoraGelAntibacterial> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x32-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 2x16-bit multiplier                                   : 1
+# Adders/Subtractors                                   : 1
+ 17-bit adder                                          : 1
+# Counters                                             : 5
+ 2-bit up counter                                      : 2
+ 20-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 26-bit up counter                                     : 1
+# Comparators                                          : 1
+ 20-bit comparator lessequal                           : 1
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x32-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 2x16-bit multiplier                                   : 1
+# Adders/Subtractors                                   : 1
+ 17-bit adder                                          : 1
+# Counters                                             : 5
+ 2-bit up counter                                      : 2
+ 20-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 26-bit up counter                                     : 1
+# Comparators                                          : 1
+ 20-bit comparator lessequal                           : 1
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_17> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_18> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_19> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_20> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_21> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_22> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_23> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_24> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+WARNING:Xst:2677 - Node <controlServoMotor/divisorDeReloj_25> of sequential type is unconnected in block <expendedoraGelAntibacterial>.
+
+Optimizing unit <expendedoraGelAntibacterial> ...
+
+Optimizing unit <displayDe7Segmentos> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block expendedoraGelAntibacterial, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : expendedoraGelAntibacterial.ngr
+Top Level Output File Name         : expendedoraGelAntibacterial
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 296
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 61
+#      LUT2                        : 30
+#      LUT3                        : 10
+#      LUT4                        : 24
+#      MUXCY                       : 89
+#      VCC                         : 1
+#      XORCY                       : 75
+# FlipFlops/Latches                : 66
+#      FD                          : 18
+#      FDC                         : 25
+#      FDE                         : 20
+#      FDR                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 5
+#      OBUF                        : 14
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       69  out of   4656     1%  
+ Number of Slice Flip Flops:             66  out of   9312     0%  
+ Number of 4 input LUTs:                130  out of   9312     1%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    232     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                      | Load  |
+-----------------------------------+--------------------------------------------+-------+
+CLK                                | BUFGP                                      | 62    |
+frecuenciaReloj/divisorDeReloj_16  | NONE(selectorDisplay/conteoAscendente_1)   | 2     |
+controlServoMotor/divisorDeReloj_24| NONE(controlServoMotor/selectorDutyCycle_0)| 2     |
+-----------------------------------+--------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------+-----------------------------------------+-------+
+Control Signal                        | Buffer(FF name)                         | Load  |
+--------------------------------------+-----------------------------------------+-------+
+onOffServo(mostrarMensaje/servo_ON1:O)| NONE(controlServoMotor/divisorDeReloj_0)| 25    |
+--------------------------------------+-----------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.139ns (Maximum Frequency: 241.604MHz)
+   Minimum input arrival time before clock: 6.869ns
+   Maximum output required time after clock: 9.269ns
+   Maximum combinational path delay: 10.321ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.139ns (frequency: 241.604MHz)
+  Total number of paths / destination ports: 688 / 62
+-------------------------------------------------------------------------
+Delay:               4.139ns (Levels of Logic = 25)
+  Source:            controlServoMotor/divisorDeReloj_1 (FF)
+  Destination:       controlServoMotor/divisorDeReloj_24 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: controlServoMotor/divisorDeReloj_1 to controlServoMotor/divisorDeReloj_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.509  controlServoMotor/divisorDeReloj_1 (controlServoMotor/divisorDeReloj_1)
+     LUT1:I0->O            1   0.612   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<1>_rt (controlServoMotor/Mcount_divisorDeReloj_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<1> (controlServoMotor/Mcount_divisorDeReloj_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<2> (controlServoMotor/Mcount_divisorDeReloj_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<3> (controlServoMotor/Mcount_divisorDeReloj_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<4> (controlServoMotor/Mcount_divisorDeReloj_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<5> (controlServoMotor/Mcount_divisorDeReloj_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<6> (controlServoMotor/Mcount_divisorDeReloj_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<7> (controlServoMotor/Mcount_divisorDeReloj_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<8> (controlServoMotor/Mcount_divisorDeReloj_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<9> (controlServoMotor/Mcount_divisorDeReloj_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<10> (controlServoMotor/Mcount_divisorDeReloj_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<11> (controlServoMotor/Mcount_divisorDeReloj_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<12> (controlServoMotor/Mcount_divisorDeReloj_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<13> (controlServoMotor/Mcount_divisorDeReloj_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<14> (controlServoMotor/Mcount_divisorDeReloj_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<15> (controlServoMotor/Mcount_divisorDeReloj_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<16> (controlServoMotor/Mcount_divisorDeReloj_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<17> (controlServoMotor/Mcount_divisorDeReloj_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<18> (controlServoMotor/Mcount_divisorDeReloj_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<19> (controlServoMotor/Mcount_divisorDeReloj_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<20> (controlServoMotor/Mcount_divisorDeReloj_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<21> (controlServoMotor/Mcount_divisorDeReloj_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<22> (controlServoMotor/Mcount_divisorDeReloj_cy<22>)
+     MUXCY:CI->O           0   0.051   0.000  controlServoMotor/Mcount_divisorDeReloj_cy<23> (controlServoMotor/Mcount_divisorDeReloj_cy<23>)
+     XORCY:CI->O           1   0.699   0.000  controlServoMotor/Mcount_divisorDeReloj_xor<24> (Result<24>1)
+     FDC:D                     0.268          controlServoMotor/divisorDeReloj_24
+    ----------------------------------------
+    Total                      4.139ns (3.630ns logic, 0.509ns route)
+                                       (87.7% logic, 12.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'frecuenciaReloj/divisorDeReloj_16'
+  Clock period: 2.410ns (frequency: 414.860MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.410ns (Levels of Logic = 1)
+  Source:            selectorDisplay/conteoAscendente_1 (FF)
+  Destination:       selectorDisplay/conteoAscendente_1 (FF)
+  Source Clock:      frecuenciaReloj/divisorDeReloj_16 rising
+  Destination Clock: frecuenciaReloj/divisorDeReloj_16 rising
+
+  Data Path: selectorDisplay/conteoAscendente_1 to selectorDisplay/conteoAscendente_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              15   0.514   1.016  selectorDisplay/conteoAscendente_1 (selectorDisplay/conteoAscendente_1)
+     LUT2:I0->O            1   0.612   0.000  selectorDisplay/Mcount_conteoAscendente_xor<1>11 (Result<1>1)
+     FD:D                      0.268          selectorDisplay/conteoAscendente_1
+    ----------------------------------------
+    Total                      2.410ns (1.394ns logic, 1.016ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'controlServoMotor/divisorDeReloj_24'
+  Clock period: 3.317ns (frequency: 301.441MHz)
+  Total number of paths / destination ports: 7 / 4
+-------------------------------------------------------------------------
+Delay:               3.317ns (Levels of Logic = 1)
+  Source:            controlServoMotor/selectorDutyCycle_1 (FF)
+  Destination:       controlServoMotor/selectorDutyCycle_0 (FF)
+  Source Clock:      controlServoMotor/divisorDeReloj_24 rising
+  Destination Clock: controlServoMotor/divisorDeReloj_24 rising
+
+  Data Path: controlServoMotor/selectorDutyCycle_1 to controlServoMotor/selectorDutyCycle_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             15   0.514   1.016  controlServoMotor/selectorDutyCycle_1 (controlServoMotor/selectorDutyCycle_1)
+     LUT2:I0->O            2   0.612   0.380  Result<1>411 (controlServoMotor/DutyCycle_1a2ms<10>)
+     FDR:R                     0.795          controlServoMotor/selectorDutyCycle_0
+    ----------------------------------------
+    Total                      3.317ns (1.921ns logic, 1.396ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 140 / 20
+-------------------------------------------------------------------------
+Offset:              6.869ns (Levels of Logic = 4)
+  Source:            productoDisponible (PAD)
+  Destination:       controlServoMotor/conteoFrecuenciaPWM_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: productoDisponible to controlServoMotor/conteoFrecuenciaPWM_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.106   0.849  productoDisponible_IBUF (productoDisponible_IBUF)
+     LUT2:I0->O            7   0.612   0.754  controladorMaquina/mensajeBienvenida<0>11 (disponible_OBUF)
+     LUT4:I0->O           13   0.612   0.905  controladorMaquina/mensajeBienvenida<0>2 (mensaje<0>)
+     LUT3:I1->O           20   0.612   0.937  onOffServo_inv1 (onOffServo_inv)
+     FDE:CE                    0.483          controlServoMotor/conteoFrecuenciaPWM_0
+    ----------------------------------------
+    Total                      6.869ns (3.425ns logic, 3.444ns route)
+                                       (49.9% logic, 50.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'frecuenciaReloj/divisorDeReloj_16'
+  Total number of paths / destination ports: 33 / 12
+-------------------------------------------------------------------------
+Offset:              6.758ns (Levels of Logic = 3)
+  Source:            selectorDisplay/conteoAscendente_0 (FF)
+  Destination:       ledsDisplay7Seg<5> (PAD)
+  Source Clock:      frecuenciaReloj/divisorDeReloj_16 rising
+
+  Data Path: selectorDisplay/conteoAscendente_0 to ledsDisplay7Seg<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             17   0.514   1.045  selectorDisplay/conteoAscendente_0 (selectorDisplay/conteoAscendente_0)
+     LUT4:I0->O            2   0.612   0.449  mostrarMensaje/Mmux_ledsAhastaG214 (mostrarMensaje/Mmux_ledsAhastaG214)
+     LUT4:I1->O            1   0.612   0.357  mostrarMensaje/Mmux_ledsAhastaG10 (ledsDisplay7Seg_5_OBUF)
+     OBUF:I->O                 3.169          ledsDisplay7Seg_5_OBUF (ledsDisplay7Seg<5>)
+    ----------------------------------------
+    Total                      6.758ns (4.907ns logic, 1.851ns route)
+                                       (72.6% logic, 27.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 20 / 1
+-------------------------------------------------------------------------
+Offset:              6.677ns (Levels of Logic = 19)
+  Source:            controlServoMotor/conteoFrecuenciaPWM_1 (FF)
+  Destination:       PWM_Servo (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: controlServoMotor/conteoFrecuenciaPWM_1 to PWM_Servo
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.514   0.449  controlServoMotor/conteoFrecuenciaPWM_1 (controlServoMotor/conteoFrecuenciaPWM_1)
+     LUT2:I1->O            1   0.612   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_lut<1> (controlServoMotor/Mcompar_PWM_cmp_le0000_lut<1>)
+     MUXCY:S->O            1   0.404   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<1> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<2> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<3> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<4> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<5> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<6> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<7> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<8> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<9> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<10> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<11> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<12> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<13> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<14> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<15> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<16> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<16>)
+     MUXCY:CI->O           1   0.399   0.357  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<17> (PWM_Servo_OBUF)
+     OBUF:I->O                 3.169          PWM_Servo_OBUF (PWM_Servo)
+    ----------------------------------------
+    Total                      6.677ns (5.871ns logic, 0.806ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'controlServoMotor/divisorDeReloj_24'
+  Total number of paths / destination ports: 340 / 1
+-------------------------------------------------------------------------
+Offset:              9.269ns (Levels of Logic = 17)
+  Source:            controlServoMotor/selectorDutyCycle_0 (FF)
+  Destination:       PWM_Servo (PAD)
+  Source Clock:      controlServoMotor/divisorDeReloj_24 rising
+
+  Data Path: controlServoMotor/selectorDutyCycle_0 to PWM_Servo
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             19   0.514   1.074  controlServoMotor/selectorDutyCycle_0 (controlServoMotor/selectorDutyCycle_0)
+     LUT1:I0->O            1   0.612   0.000  controlServoMotor/Madd__add0000_cy<5>_rt (controlServoMotor/Madd__add0000_cy<5>_rt)
+     MUXCY:S->O            1   0.404   0.000  controlServoMotor/Madd__add0000_cy<5> (controlServoMotor/Madd__add0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<6> (controlServoMotor/Madd__add0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<7> (controlServoMotor/Madd__add0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<8> (controlServoMotor/Madd__add0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<9> (controlServoMotor/Madd__add0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<10> (controlServoMotor/Madd__add0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<11> (controlServoMotor/Madd__add0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<12> (controlServoMotor/Madd__add0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<13> (controlServoMotor/Madd__add0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  controlServoMotor/Madd__add0000_cy<14> (controlServoMotor/Madd__add0000_cy<14>)
+     MUXCY:CI->O           0   0.051   0.000  controlServoMotor/Madd__add0000_cy<15> (controlServoMotor/Madd__add0000_cy<15>)
+     XORCY:CI->O           1   0.699   0.509  controlServoMotor/Madd__add0000_xor<16> (controlServoMotor/_add0000<16>)
+     LUT2:I0->O            1   0.612   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_lut<16> (controlServoMotor/Mcompar_PWM_cmp_le0000_lut<16>)
+     MUXCY:S->O            1   0.404   0.000  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<16> (controlServoMotor/Mcompar_PWM_cmp_le0000_cy<16>)
+     MUXCY:CI->O           1   0.399   0.357  controlServoMotor/Mcompar_PWM_cmp_le0000_cy<17> (PWM_Servo_OBUF)
+     OBUF:I->O                 3.169          PWM_Servo_OBUF (PWM_Servo)
+    ----------------------------------------
+    Total                      9.269ns (7.328ns logic, 1.940ns route)
+                                       (79.1% logic, 20.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 197 / 13
+-------------------------------------------------------------------------
+Delay:               10.321ns (Levels of Logic = 6)
+  Source:            productoDisponible (PAD)
+  Destination:       anodoComun<3> (PAD)
+
+  Data Path: productoDisponible to anodoComun<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.106   0.849  productoDisponible_IBUF (productoDisponible_IBUF)
+     LUT2:I0->O            7   0.612   0.754  controladorMaquina/mensajeBienvenida<0>11 (disponible_OBUF)
+     LUT4:I0->O           13   0.612   0.988  controladorMaquina/mensajeBienvenida<0>2 (mensaje<0>)
+     LUT4:I0->O            4   0.612   0.651  mostrarMensaje/Mmux_prenderDisplay221 (mostrarMensaje/N3)
+     LUT3:I0->O            1   0.612   0.357  mostrarMensaje/Mmux_prenderDisplay81 (anodoComun_3_OBUF)
+     OBUF:I->O                 3.169          anodoComun_3_OBUF (anodoComun<3>)
+    ----------------------------------------
+    Total                     10.321ns (6.723ns logic, 3.598ns route)
+                                       (65.1% logic, 34.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 0.80 secs
+ 
+--> 
+
+
+Total memory usage is 515792 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

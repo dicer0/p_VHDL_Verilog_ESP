@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jul 03 11:55:52 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "salidaNOR" LOCATE = SITE "K14" LEVEL 1;
+COMP "salidaOR" LOCATE = SITE "J15" LEVEL 1;
+COMP "salidaNOTa" LOCATE = SITE "F4" LEVEL 1;
+COMP "salidaNAND" LOCATE = SITE "K15" LEVEL 1;
+COMP "salidaAND" LOCATE = SITE "J14" LEVEL 1;
+COMP "salidaXOR" LOCATE = SITE "E17" LEVEL 1;
+COMP "salidaXNOR" LOCATE = SITE "P15" LEVEL 1;
+COMP "a" LOCATE = SITE "G18" LEVEL 1;
+COMP "b" LOCATE = SITE "H18" LEVEL 1;
+COMP "c" LOCATE = SITE "K18" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/electDigit/frecuenciaRelojVHDL/divisorDeReloj_isim_beh.exe" -prj "C:/electDigit/frecuenciaRelojVHDL/divisorDeReloj_beh.prj" "work.divisorDeReloj" 

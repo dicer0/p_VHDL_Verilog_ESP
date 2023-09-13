@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/DLPs/practica1punto3VHDL/contadorAscendente_isim_beh.exe" -prj "C:/DLPs/practica1punto3VHDL/contadorAscendente_beh.prj" "work.contadorAscendente" 

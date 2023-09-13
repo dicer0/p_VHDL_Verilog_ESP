@@ -1,0 +1,5 @@
+MO relojContadorMuxDisp7SegTLD NULL contadorHexadecimalTLD.v vlg6E/reloj_contador_mux_disp7_seg_t_l_d.bin 1688388793
+MO decodificadorBinHex NULL decodificadorBinHex.v vlg7A/decodificador_bin_hex.bin 1688388793
+MO divisorDeReloj NULL divisorDeReloj.v vlg55/divisor_de_reloj.bin 1688388793
+MO contadorSelector NULL contadorAsc_Desc.v vlg23/contador_selector.bin 1603516324
+MO contadorAsc_Desc NULL contadorAsc_Desc.v vlg5F/contador_asc___desc.bin 1688388793

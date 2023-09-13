@@ -1,0 +1,41 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 divisorDeRelojPWM.ngc divisorDeRelojPWM.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ngd divisorDeRelojPWM.pcf 
+par -w -intstyle ise -ol high -t 1 divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ncd divisorDeRelojPWM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisorDeRelojPWM.twx divisorDeRelojPWM.ncd -o divisorDeRelojPWM.twr divisorDeRelojPWM.pcf 
+bitgen -intstyle ise -f divisorDeRelojPWM.ut divisorDeRelojPWM.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 divisorDeRelojPWM.ngc divisorDeRelojPWM.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ngd divisorDeRelojPWM.pcf 
+par -w -intstyle ise -ol high -t 1 divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ncd divisorDeRelojPWM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisorDeRelojPWM.twx divisorDeRelojPWM.ncd -o divisorDeRelojPWM.twr divisorDeRelojPWM.pcf 
+bitgen -intstyle ise -f divisorDeRelojPWM.ut divisorDeRelojPWM.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM_Servomotor.ucf -p xc3s500e-fg320-5 divisorDeRelojPWM.ngc divisorDeRelojPWM.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ngd divisorDeRelojPWM.pcf 
+par -w -intstyle ise -ol high -t 1 divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ncd divisorDeRelojPWM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisorDeRelojPWM.twx divisorDeRelojPWM.ncd -o divisorDeRelojPWM.twr divisorDeRelojPWM.pcf -ucf PWM_Servomotor.ucf 
+bitgen -intstyle ise -f divisorDeRelojPWM.ut divisorDeRelojPWM.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM_Servomotor.ucf -p xc3s500e-fg320-5 divisorDeRelojPWM.ngc divisorDeRelojPWM.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ngd divisorDeRelojPWM.pcf 
+par -w -intstyle ise -ol high -t 1 divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ncd divisorDeRelojPWM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisorDeRelojPWM.twx divisorDeRelojPWM.ncd -o divisorDeRelojPWM.twr divisorDeRelojPWM.pcf -ucf PWM_Servomotor.ucf 
+bitgen -intstyle ise -f divisorDeRelojPWM.ut divisorDeRelojPWM.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM_Servomotor.ucf -p xc3s500e-fg320-5 divisorDeRelojPWM.ngc divisorDeRelojPWM.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ngd divisorDeRelojPWM.pcf 
+par -w -intstyle ise -ol high -t 1 divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ncd divisorDeRelojPWM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisorDeRelojPWM.twx divisorDeRelojPWM.ncd -o divisorDeRelojPWM.twr divisorDeRelojPWM.pcf -ucf PWM_Servomotor.ucf 
+bitgen -intstyle ise -f divisorDeRelojPWM.ut divisorDeRelojPWM.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/17.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/17.-PWMServomotorCodigoVerilog/divisorDeRelojPWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PWM_Servomotor.ucf -p xc3s500e-fg320-5 divisorDeRelojPWM.ngc divisorDeRelojPWM.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ngd divisorDeRelojPWM.pcf 
+par -w -intstyle ise -ol high -t 1 divisorDeRelojPWM_map.ncd divisorDeRelojPWM.ncd divisorDeRelojPWM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisorDeRelojPWM.twx divisorDeRelojPWM.ncd -o divisorDeRelojPWM.twr divisorDeRelojPWM.pcf -ucf PWM_Servomotor.ucf 
+bitgen -intstyle ise -f divisorDeRelojPWM.ut divisorDeRelojPWM.ncd 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="26" delta="old" >&quot;<arg fmt="%s" index="1">RAMROM.v</arg>&quot; line <arg fmt="%d" index="2">31</arg> <arg fmt="%s" index="3">unexpected token: &apos;reg&apos;</arg>
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 33 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 34 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 35 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 36 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 37 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 38 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 39 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 40 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 48 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 49 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 50 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 51 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 52 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 53 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 54 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 55 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;RAMROM.v&quot; line 83 </arg>&apos;<arg fmt="%s" index="2">ROM</arg>&apos; has not been declared
+</msg>
+
+</messages>
+

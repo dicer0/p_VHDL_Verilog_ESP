@@ -1,0 +1,31 @@
+//ENTRADAS DEL MODULO decodificadorBinHex
+net "Habilitacion" loc = "G18";//El boton de habilitacion o enable esta conectado al switch SWO.
+
+
+//ENTRADAS DEL MODULO Contador
+net "direcc" loc = "H18";//El boton de direccion esta conectado al switch SW1.
+net "Reset" loc = "K18" ;//El Reset esta conectado al switch SW2 y reiniciara los valores cuando este en 0 logico.
+
+
+//ENTRADAS DEL MODULO divisorDeReloj
+net "clkNexys2" loc = "B8" ;//El reloj de 50MHz viene del puerto B8.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex
+//nodo del display de 7 segmentos
+net "anodoDisplay[3]" loc = "F17" ;//El nodo AN3 es el que prende el 4to display o 1er display de izquierda a derecha.
+net "anodoDisplay[2]" loc = "H17" ;//El nodo AN2 es el que prende el 3er display.
+net "anodoDisplay[1]" loc = "C18" ;//El nodo AN1 es el que prende el 2do display.
+net "anodoDisplay[0]" loc = "F15" ;//El nodo AN0 es el que prende el 1er display de derecha a izquierda.
+
+//Punto del display de 7 segmentos
+net "puntoDisplay" LOC = "C17";//Conectado al puerto DP (punto) del display de 7 segmentos.
+
+//Leds A,B,C,D,E,F y G del display de 7 segmentos.
+net "numHexadecimal[6]" loc = "L18";//1er bit del vector conectado al puerto CA (led A) del display de 7 segmentos.
+net "numHexadecimal[5]" loc = "F18";//2do bit del vector conectado al puerto CB (led B) del display de 7 segmentos.
+net "numHexadecimal[4]" loc = "D17";//3er bit del vector conectado al puerto CC (led C) del display de 7 segmentos.
+net "numHexadecimal[3]" loc = "D16";//4to bit del vector conectado al puerto CD (led D) del display de 7 segmentos.
+net "numHexadecimal[2]" loc = "G14";//5to bit del vector conectado al puerto CE (led E) del display de 7 segmentos.
+net "numHexadecimal[1]" loc = "J17";//6to bit del vector conectado al puerto CF (led F) del display de 7 segmentos.
+net "numHexadecimal[0]" loc = "H14";//7mo bit del vector conectado al puerto CG (led G) del display de 7 segmentos.

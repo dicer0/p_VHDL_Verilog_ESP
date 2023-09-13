@@ -1,0 +1,35 @@
+//Despues de net se pone el nombre de la variable y su coordenada si es un vector
+//y luego de loc se pone el codigo del elemento al que va dirigido de la NEXYS 2
+//ENTRADAS:
+net "a[3]" loc = "R17";
+net "a[2]" loc = "N17";
+net "a[1]" loc = "L13";
+net "a[0]" loc = "L14";
+
+net "b[3]" loc = "K17";
+net "b[2]" loc = "K18";
+net "b[1]" loc = "H18";
+net "b[0]" loc = "G18";
+
+//SALIDAS:
+//Leds de todos los displays de 7 segmentos
+net "CA" loc = "L18";
+net "CB" loc = "F18";
+net "CC" loc = "D17";
+net "CD" loc = "D16";
+net "CE" loc = "G14";
+net "CF" loc = "J17";
+net "CG" loc = "H14";
+net "DP" loc = "C17";
+
+//Para encender cada uno de los 4 displays de 7 segmentos en el orden en que fueron
+//declararos en los vectores del codigo debo ponerlos desde el bit menos significativo 
+//hasta el mas significativo.
+net "AN[0]" loc = "F17";
+//Bit menos significativo del vector AN al display AN3 que es el primero viendolo de izq a der.
+net "AN[1]" loc = "H17";
+//Bit que le sigue al display AN2 que es el segundo viendolo de izq a der
+net "AN[2]" loc = "C18";
+//Bit que le sigue al display AN1 que es el penultimo viendolo de izq a der
+net "AN[3]" loc = "F15";
+//Bit mas significativo del vector AN al display AN0, que es el ultimo viendolo de izq a der.

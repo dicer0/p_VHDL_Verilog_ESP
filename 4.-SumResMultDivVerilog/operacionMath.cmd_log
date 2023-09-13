@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/electDigit/sumResMultDivVerilog/operacionMath.xst" -ofn "C:/electDigit/sumResMultDivVerilog/operacionMath.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultDivVerilog/operacionMath.xst" -ofn "C:/electDigit/sumResMultDivVerilog/operacionMath.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultDivVerilog/operacionMath.xst" -ofn "C:/electDigit/sumResMultDivVerilog/operacionMath.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultDivVerilog/operacionMath.xst" -ofn "C:/electDigit/sumResMultDivVerilog/operacionMath.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/8.-sumResMultDivVerilog/operacionMath.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/8.-sumResMultDivVerilog/operacionMath.syr" 

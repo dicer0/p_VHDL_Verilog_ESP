@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jul 03 12:53:23 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Habilitacion" LOCATE = SITE "G18" LEVEL 1;
+COMP "direcc" LOCATE = SITE "H18" LEVEL 1;
+COMP "clkNexys2" LOCATE = SITE "B8" LEVEL 1;
+COMP "puntoDisplay" LOCATE = SITE "C17" LEVEL 1;
+COMP "numHexadecimal<0>" LOCATE = SITE "H14" LEVEL 1;
+COMP "anodoDisplay<0>" LOCATE = SITE "F15" LEVEL 1;
+COMP "numHexadecimal<1>" LOCATE = SITE "J17" LEVEL 1;
+COMP "anodoDisplay<1>" LOCATE = SITE "C18" LEVEL 1;
+COMP "numHexadecimal<2>" LOCATE = SITE "G14" LEVEL 1;
+COMP "anodoDisplay<2>" LOCATE = SITE "H17" LEVEL 1;
+COMP "numHexadecimal<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "anodoDisplay<3>" LOCATE = SITE "F17" LEVEL 1;
+COMP "numHexadecimal<4>" LOCATE = SITE "D17" LEVEL 1;
+COMP "numHexadecimal<5>" LOCATE = SITE "F18" LEVEL 1;
+COMP "numHexadecimal<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "Reset" LOCATE = SITE "K18" LEVEL 1;
+NET "clkNexys2_BUFGP/IBUFG" BEL "clkNexys2_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

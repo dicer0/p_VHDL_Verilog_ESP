@@ -1,0 +1,4 @@
+vhdl work "divisorDeReloj.vhd"
+vhdl work "decodificadorBinHex.vhd"
+vhdl work "contadorSelector.vhd"
+vhdl work "displayLetreroIPN.vhd"

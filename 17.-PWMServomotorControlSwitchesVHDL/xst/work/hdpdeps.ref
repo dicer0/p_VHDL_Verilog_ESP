@@ -1,0 +1,8 @@
+V3 3
+FL /home/ise/Aprendiendo/VHDL_Verilog/17.-PWMServomotorControlSwitchesVHDL/PWMControlSwitches.vhd 2023/07/14.17:45:41 P.20131013
+EN work/controlSwitchesPWM 1689356744 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/17.-PWMServomotorControlSwitchesVHDL/PWMControlSwitches.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/controlSwitchesPWM/frecuenciaNueva 1689356745 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/17.-PWMServomotorControlSwitchesVHDL/PWMControlSwitches.vhd \
+      EN work/controlSwitchesPWM 1689356744

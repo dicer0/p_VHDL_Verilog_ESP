@@ -1,0 +1,5 @@
+set -tmpdir "C:/DLPs/practica1punto3VHDL/xst/projnav.tmp"
+set -xsthdpdir "C:/DLPs/practica1punto3VHDL/xst"
+elaborate
+-ifn decodificadorBinHex.prj
+-ifmt mixed

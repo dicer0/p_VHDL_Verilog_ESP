@@ -1,0 +1,27 @@
+net "AN[3]" loc="F17";//Esta es la coordenada del bit menos significativo
+net "AN[2]" loc="H17";
+net "AN[1]" loc="C18";
+net "AN[0]" loc="F15";//Esta es la coordenada del bit mas significativo
+//Para prender los diferentes displays de 7 segmentos de los 4 disponibles en la NEXYS 2
+
+net "CA" loc="L18";
+net "CB" loc="F18";
+net "CC" loc="D17";
+net "CD" loc="D16";
+net "CE" loc="G14";
+net "CF" loc="J17";
+net "CG" loc="H14";
+net "DP" loc="C17";
+//Los diferentes Leds A,B,C,D,E,F,G y el punto de los displays
+
+net "A[3]" loc="R17";
+net "A[2]" loc="N17";
+net "A[1]" loc="L13";
+net "A[0]" loc="L14";
+//Switches para los 4 bits de la entrada A
+
+net "B[3]" loc="K17";
+net "B[2]" loc="K18";
+net "B[1]" loc="H18";
+net "B[0]" loc="G18";
+//Switches para los 4 bits de la entrada B

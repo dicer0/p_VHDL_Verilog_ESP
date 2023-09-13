@@ -1,0 +1,353 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml memoriaRAM_ROM.twx memoriaRAM_ROM.ncd -o memoriaRAM_ROM.twr
+memoriaRAM_ROM.pcf
+
+Design file:              memoriaRAM_ROM.ncd
+Physical constraint file: memoriaRAM_ROM.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock adressBus<0>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+dataInRAM<0>|   -2.229(R)|    4.153(R)|RAM_8_not0001     |   0.000|
+            |   -1.190(F)|    2.854(F)|RAM_1_cmp_eq0000  |   0.000|
+            |    0.435(F)|    1.153(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.159(F)|    1.562(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.956(F)|    3.668(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -1.859(F)|    3.693(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.471(F)|    2.161(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -1.174(F)|    2.825(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<1>|   -2.603(R)|    4.452(R)|RAM_8_not0001     |   0.000|
+            |   -1.564(F)|    3.153(F)|RAM_1_cmp_eq0000  |   0.000|
+            |    0.040(F)|    1.469(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.607(F)|    1.920(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.950(F)|    3.664(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -2.232(F)|    3.991(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -1.660(F)|    3.112(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.935(F)|    2.634(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<2>|   -1.304(R)|    3.112(R)|RAM_8_not0001     |   0.000|
+            |   -0.788(F)|    2.252(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.276(F)|    1.717(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.251(F)|    1.692(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.307(F)|    3.088(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -1.043(F)|    2.896(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.790(F)|    2.468(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -1.051(F)|    2.694(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<3>|   -1.342(R)|    3.143(R)|RAM_8_not0001     |   0.000|
+            |   -0.297(F)|    1.860(F)|RAM_1_cmp_eq0000  |   0.000|
+            |    0.239(F)|    1.305(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.075(F)|    1.551(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.293(F)|    3.076(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.637(F)|    2.571(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.080(F)|    1.899(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.875(F)|    2.553(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<4>|   -1.830(R)|    3.585(R)|RAM_8_not0001     |   0.000|
+            |   -0.634(F)|    2.091(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.575(F)|    1.917(F)|RAM_2_cmp_eq0000  |   0.000|
+            |    0.013(F)|    1.548(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -0.835(F)|    2.711(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.825(F)|    2.684(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.510(F)|    2.303(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -1.356(F)|    2.892(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<5>|   -2.251(R)|    3.922(R)|RAM_8_not0001     |   0.000|
+            |   -1.055(F)|    2.428(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.587(F)|    1.927(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.408(F)|    1.884(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.228(F)|    3.026(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -1.194(F)|    2.979(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.903(F)|    2.618(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -1.368(F)|    2.902(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<6>|   -0.896(R)|    2.894(R)|RAM_8_not0001     |   0.000|
+            |    0.776(F)|    1.014(F)|RAM_1_cmp_eq0000  |   0.000|
+            |    0.372(F)|    1.287(F)|RAM_2_cmp_eq0000  |   0.000|
+            |    0.521(F)|    1.200(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -0.654(F)|    2.570(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.553(F)|    2.465(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.694(F)|    2.492(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.906(F)|    2.638(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<7>|   -1.022(R)|    2.995(R)|RAM_8_not0001     |   0.000|
+            |    0.600(F)|    1.156(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.113(F)|    1.675(F)|RAM_2_cmp_eq0000  |   0.000|
+            |    0.035(F)|    1.588(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.139(F)|    2.958(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.679(F)|    2.566(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.782(F)|    2.563(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.698(F)|    2.472(F)|RAM_7_cmp_eq0000  |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock adressBus<1>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+dataInRAM<0>|   -2.166(R)|    4.074(R)|RAM_8_not0001     |   0.000|
+            |   -1.428(F)|    3.151(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.440(F)|    2.246(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -1.030(F)|    2.650(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.836(F)|    3.517(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -1.743(F)|    3.547(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.462(F)|    2.150(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -1.120(F)|    2.758(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<1>|   -2.540(R)|    4.373(R)|RAM_8_not0001     |   0.000|
+            |   -1.802(F)|    3.450(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.835(F)|    2.562(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -1.478(F)|    3.008(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.830(F)|    3.513(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -2.116(F)|    3.845(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -1.651(F)|    3.101(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.881(F)|    2.567(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<2>|   -1.241(R)|    3.033(R)|RAM_8_not0001     |   0.000|
+            |   -1.026(F)|    2.549(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -1.151(F)|    2.810(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -1.122(F)|    2.780(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.187(F)|    2.937(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.927(F)|    2.750(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.781(F)|    2.457(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.997(F)|    2.627(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<3>|   -1.279(R)|    3.064(R)|RAM_8_not0001     |   0.000|
+            |   -0.535(F)|    2.157(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.636(F)|    2.398(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.946(F)|    2.639(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.173(F)|    2.925(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.521(F)|    2.425(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.071(F)|    1.888(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.821(F)|    2.486(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<4>|   -1.767(R)|    3.506(R)|RAM_8_not0001     |   0.000|
+            |   -0.872(F)|    2.388(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -1.450(F)|    3.010(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.858(F)|    2.636(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -0.715(F)|    2.560(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.709(F)|    2.538(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.501(F)|    2.292(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -1.302(F)|    2.825(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<5>|   -2.188(R)|    3.843(R)|RAM_8_not0001     |   0.000|
+            |   -1.293(F)|    2.725(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -1.462(F)|    3.020(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -1.279(F)|    2.972(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.108(F)|    2.875(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -1.078(F)|    2.833(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.894(F)|    2.607(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -1.314(F)|    2.835(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<6>|   -0.833(R)|    2.815(R)|RAM_8_not0001     |   0.000|
+            |    0.538(F)|    1.311(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.503(F)|    2.380(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.350(F)|    2.288(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -0.534(F)|    2.419(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.437(F)|    2.319(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.685(F)|    2.481(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.852(F)|    2.571(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<7>|   -0.959(R)|    2.916(R)|RAM_8_not0001     |   0.000|
+            |    0.362(F)|    1.453(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.988(F)|    2.768(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.836(F)|    2.676(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.019(F)|    2.807(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.563(F)|    2.420(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.773(F)|    2.552(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.644(F)|    2.405(F)|RAM_7_cmp_eq0000  |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock adressBus<2>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+dataInRAM<0>|   -1.717(R)|    3.514(R)|RAM_8_not0001     |   0.000|
+            |   -1.295(F)|    2.984(F)|RAM_1_cmp_eq0000  |   0.000|
+            |    0.170(F)|    1.484(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.397(F)|    1.859(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.738(F)|    3.395(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -1.601(F)|    3.369(F)|RAM_5_cmp_eq0000  |   0.000|
+            |    0.011(F)|    1.559(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.665(F)|    2.189(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<1>|   -2.091(R)|    3.813(R)|RAM_8_not0001     |   0.000|
+            |   -1.669(F)|    3.283(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.225(F)|    1.800(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.845(F)|    2.217(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.732(F)|    3.391(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -1.974(F)|    3.667(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -1.178(F)|    2.510(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.426(F)|    1.998(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<2>|   -0.792(R)|    2.473(R)|RAM_8_not0001     |   0.000|
+            |   -0.893(F)|    2.382(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.541(F)|    2.048(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.489(F)|    1.989(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.089(F)|    2.815(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.785(F)|    2.572(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.308(F)|    1.866(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.542(F)|    2.058(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<3>|   -0.830(R)|    2.504(R)|RAM_8_not0001     |   0.000|
+            |   -0.402(F)|    1.990(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.026(F)|    1.636(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.313(F)|    1.848(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.075(F)|    2.803(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.379(F)|    2.247(F)|RAM_5_cmp_eq0000  |   0.000|
+            |    0.402(F)|    1.297(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.366(F)|    1.917(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<4>|   -1.318(R)|    2.946(R)|RAM_8_not0001     |   0.000|
+            |   -0.739(F)|    2.221(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.840(F)|    2.248(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.225(F)|    1.845(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -0.617(F)|    2.438(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.567(F)|    2.360(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.028(F)|    1.701(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.847(F)|    2.256(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<5>|   -1.739(R)|    3.283(R)|RAM_8_not0001     |   0.000|
+            |   -1.160(F)|    2.558(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.852(F)|    2.258(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.646(F)|    2.181(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -1.010(F)|    2.753(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.936(F)|    2.655(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.421(F)|    2.016(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.859(F)|    2.266(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<6>|   -0.384(R)|    2.255(R)|RAM_8_not0001     |   0.000|
+            |    0.671(F)|    1.144(F)|RAM_1_cmp_eq0000  |   0.000|
+            |    0.107(F)|    1.618(F)|RAM_2_cmp_eq0000  |   0.000|
+            |    0.283(F)|    1.497(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -0.436(F)|    2.297(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.295(F)|    2.141(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.212(F)|    1.890(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.397(F)|    2.002(F)|RAM_7_cmp_eq0000  |   0.000|
+dataInRAM<7>|   -0.510(R)|    2.356(R)|RAM_8_not0001     |   0.000|
+            |    0.495(F)|    1.286(F)|RAM_1_cmp_eq0000  |   0.000|
+            |   -0.378(F)|    2.006(F)|RAM_2_cmp_eq0000  |   0.000|
+            |   -0.203(F)|    1.885(F)|RAM_3_cmp_eq0000  |   0.000|
+            |   -0.921(F)|    2.685(F)|RAM_4_cmp_eq0000  |   0.000|
+            |   -0.421(F)|    2.242(F)|RAM_5_cmp_eq0000  |   0.000|
+            |   -0.300(F)|    1.961(F)|RAM_6_cmp_eq0000  |   0.000|
+            |   -0.189(F)|    1.836(F)|RAM_7_cmp_eq0000  |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock RW to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+dataBus<0>  |    9.139(F)|RW_IBUF           |   0.000|
+dataBus<1>  |    8.654(F)|RW_IBUF           |   0.000|
+dataBus<2>  |    8.422(F)|RW_IBUF           |   0.000|
+dataBus<3>  |    8.673(F)|RW_IBUF           |   0.000|
+dataBus<4>  |    9.129(F)|RW_IBUF           |   0.000|
+dataBus<5>  |    8.796(F)|RW_IBUF           |   0.000|
+dataBus<6>  |    9.751(F)|RW_IBUF           |   0.000|
+dataBus<7>  |    9.515(F)|RW_IBUF           |   0.000|
+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+dataBus<0>  |    8.406(R)|clk_BUFGP         |   0.000|
+dataBus<1>  |    8.229(R)|clk_BUFGP         |   0.000|
+dataBus<2>  |    8.494(R)|clk_BUFGP         |   0.000|
+dataBus<5>  |    7.719(R)|clk_BUFGP         |   0.000|
+dataBus<6>  |    7.977(R)|clk_BUFGP         |   0.000|
+dataBus<7>  |    8.429(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock RW
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adressBus<0>   |         |         |    5.984|    5.645|
+adressBus<1>   |         |         |    5.984|    5.964|
+adressBus<2>   |         |         |    5.984|    5.741|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adressBus<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RW             |    2.294|    2.294|    4.530|    4.530|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adressBus<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RW             |    2.357|    2.357|    4.137|    4.137|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adressBus<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RW             |    2.806|    2.806|    4.592|    4.592|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adressBus<0>   |    0.439|    0.439|         |         |
+adressBus<1>   |    0.710|    0.710|         |         |
+adressBus<2>   |    0.629|    0.629|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+CS             |dataBus<0>     |    6.360|
+CS             |dataBus<1>     |    6.822|
+CS             |dataBus<2>     |    6.651|
+CS             |dataBus<3>     |    5.838|
+CS             |dataBus<4>     |    5.782|
+CS             |dataBus<5>     |    6.136|
+CS             |dataBus<6>     |    6.543|
+CS             |dataBus<7>     |    6.865|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Jul 28 05:15:21 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 349 MB
+
+
+

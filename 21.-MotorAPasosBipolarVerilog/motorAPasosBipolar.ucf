@@ -1,0 +1,27 @@
+//ENTRADAS Y SALIDAS DEL archivo Top Level Design controlMotorAPasosUnipolarPasoSImpleTLD
+//ENTRADAS:
+net "clk" loc = "B8";//Entrada clk asignada al reloj en el puerto B8.
+net "rst" loc = "H13";//Entrada reset asignada al push button BTN3 en el puerto H13.
+net "direcc" loc = "R17";//Entrada direccion de giro asignada al switch SW7 en el puerto R17.
+//Bit mas significativo del selector de la secuenciaPasos conectado al switch SW2 en el puerto K18.
+net "secuenciaPasos[2]" loc = "K18";
+//Bit intermedio del selector de la secuenciaPasos conectado al switch SW1 en el puerto H18.
+net "secuenciaPasos[1]" loc = "H18";
+//Bit menos significativo del selector de la secuenciaPasos conectado al switch SW0 en el puerto G18.
+net "secuenciaPasos[0]" loc = "G18";
+
+
+//SALIDAS:
+net "microStepping[2]" loc = "L15";//Bit MS1 conectado al puerto JA1 perteneciente a los puertos JA.
+net "microStepping[1]" loc = "K12";//Bit MS2 conectado al puerto JA2 perteneciente a los puertos JA.
+net "microStepping[0]" loc = "L17";//Bit MS3 conectado al puerto JA3 perteneciente a los puertos JA.
+//Leds Micro Stepping: Pines MS1, MS2 y MS3.
+net "ledsMicroStepping[2]" loc = "K15";//Salida MS3 conectada al led LD2 perteneciente al puerto K15.
+net "ledsMicroStepping[1]" loc = "J15";//Salida MS2 conectada al led LD1 perteneciente al puerto J15.
+net "ledsMicroStepping[0]" loc = "J14";//Salida MS1 conectada al led LD0 perteneciente al puerto J14.
+//Salida ledDirecc asignada al led LD7 en el puerto R4.
+net "ledDirecc" loc = "R4";
+//Salida STEP asignada al puerto JA7 perteneciente a los puertos JA, con codigo K13.
+net "STEP" loc = "K13";
+//Salida STEP asignada al puerto JA8 perteneciente a los puertos JA, con codigo L16.
+net "dirPin" loc = "L16";

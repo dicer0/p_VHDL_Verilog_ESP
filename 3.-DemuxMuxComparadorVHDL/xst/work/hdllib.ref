@@ -1,0 +1,16 @@
+AR comparador nombrearquitectura /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/comparador.vhd sub00/vhpl05 1687956289
+EN demuxcase NULL /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/demuxCase.vhd sub00/vhpl00 1687956297
+AR muxcase nombrearquitectura /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/muxCase.vhd sub00/vhpl09 1687956308
+AR buclefor behavioral /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/bucleFor.vhd sub00/vhpl13 1688019355
+AR muxcase behavioral C:/electDigit/demuxMuxComparadorVHDL/muxCase.vhd sub00/vhpl07 1587104379
+EN muxif NULL /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/muxIf.vhd sub00/vhpl10 1687956313
+AR demuxif behavioral C:/electDigit/demuxMuxComparadorVHDL/demuxIf.vhd sub00/vhpl03 1587102661
+EN buclefor NULL /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/bucleFor.vhd sub00/vhpl12 1688019354
+AR muxif nombrearquitectura /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/muxIf.vhd sub00/vhpl11 1687956314
+EN muxcase NULL /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/muxCase.vhd sub00/vhpl06 1687956307
+AR demuxif nombrearquitectura /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/demuxIf.vhd sub00/vhpl08 1687956304
+EN demuxif NULL /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/demuxIf.vhd sub00/vhpl02 1687956303
+AR muxbuclewhile behavioral /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/muxBucleWhile.vhd sub00/vhpl15 1688020357
+EN comparador NULL /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/comparador.vhd sub00/vhpl04 1687956288
+AR demuxcase nombrearquitectura /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/demuxCase.vhd sub00/vhpl01 1687956298
+EN muxbuclewhile NULL /home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/muxBucleWhile.vhd sub00/vhpl14 1688020356

@@ -1,0 +1,4 @@
+vhdl work "secuenciaSemaforo.vhd"
+vhdl work "divisorDeReloj.vhd"
+vhdl work "contadorTiempo.vhd"
+vhdl work "manejoDeTiemposSemaforoTLD.vhd"

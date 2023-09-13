@@ -1,0 +1,30 @@
+Command line:
+   memoriaRAM_ROM_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  47917
+
+Fri Jul 28 05:21:06 2023
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 18
+ Total Nets             : 35
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 275
+In process RAMROM.vCont_105_5 
+ FATAL ERROR:ISim: This application has discovered an exceptional condition from which it cannot recover. Process will terminate. To search for possible resolutions to this issue, refer to the Xilinx answer database by going to http://www.xilinx.com/support/answers/index.htm and search with keywords 'ISim' and 'FATAL ERROR'. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 276.185 Meg
+
+Fri Jul 28 05:22:44 2023
+

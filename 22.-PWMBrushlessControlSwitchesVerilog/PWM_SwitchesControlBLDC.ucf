@@ -1,0 +1,18 @@
+//ENTRADAS DEL MODULO divisorDeReloj:
+net "relojNexys2" loc = "B8" ;//El reloj de 50MHz viene del puerto B8.
+net "rst" loc = "H13";//El boton de Reset esta conectado al push button BTN3.
+//Bit mas significativo del selectPos conectado al switch SW2 en el puerto K18.
+net "selectPos[2]" loc = "K18";
+//Bit 2 del selectPos conectado al switch SW1 en el puerto H18.
+net "selectPos[1]" loc = "H18";
+//Bit menos significativo del selectPos conectado al switch SW0 en el puerto G18.
+net "selectPos[0]" loc = "G18";
+
+//CABLE DE SENAL PWM DEL SERVOMOTOR CONECTADO A LOS PUERTOS JA:
+net "PWM" loc = "L15";//La senal PWM del servomotor esta conectada al puerto JA1.
+//Bit mas significativo del ledAngulo conectado al led LD2 en el puerto K15.
+net "ledAngulo[2]" loc = "K15";
+//Bit 2 del ledAngulo conectado al led LD1 en el puerto J15.
+net "ledAngulo[1]" loc = "J15";
+//Bit menos significativo del ledAngulo conectado al led LD0 en el puerto J14.
+net "ledAngulo[0]" loc = "J14";

@@ -1,0 +1,4 @@
+verilog work "divisorDeReloj.v"
+verilog work "decodificadorBinHex.v"
+verilog work "contadorSelector.v"
+verilog work "relojContadorMuxDisp7SegTLD.v"

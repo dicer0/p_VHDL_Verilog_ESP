@@ -1,0 +1,6 @@
+verilog work "sumadorRestadorMultiplicador.v"
+verilog work "divisorDeReloj.v"
+verilog work "display7Seg.v"
+verilog work "decodificadorBinBCD.v"
+verilog work "contadorSelector.v"
+verilog work "relojContadorAritmeticaMuxDisp7SegTLD.v"

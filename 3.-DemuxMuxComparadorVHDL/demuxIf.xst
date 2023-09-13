@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Aprendiendo/VHDL_Verilog/3.-DemuxMuxComparadorVHDL/xst"
+elaborate
+-ifn demuxIf.prj
+-ifmt mixed

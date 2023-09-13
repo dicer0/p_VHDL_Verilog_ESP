@@ -1,0 +1,5 @@
+set -tmpdir "C:/cLogicos/practica2/xst/projnav.tmp"
+set -xsthdpdir "C:/cLogicos/practica2/xst"
+elaborate
+-ifn punto3d.prj
+-ifmt mixed

@@ -1,0 +1,590 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: divisorDeRelojPWM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "divisorDeRelojPWM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "divisorDeRelojPWM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : divisorDeRelojPWM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "divisorDeRelojPWM.v" in library work
+Module <divisorDeRelojPWM> compiled
+No errors in compilation
+Analysis of file <"divisorDeRelojPWM.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <divisorDeRelojPWM> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <divisorDeRelojPWM>.
+Module <divisorDeRelojPWM> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divisorDeRelojPWM>.
+    Related source file is "divisorDeRelojPWM.v".
+WARNING:Xst:643 - "divisorDeRelojPWM.v" line 105: The result of a 32x17-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 33-bit adder for signal <$add0000> created at line 127.
+    Found 32-bit up counter for signal <conteoFrecuenciaPWM>.
+    Found 33-bit comparator greater for signal <conteoFrecuenciaPWM$cmp_gt0000> created at line 59.
+    Found 26-bit up counter for signal <divisorDeReloj>.
+    Found 32-bit register for signal <DutyCycle_1a2ms>.
+    Found 32x17-bit multiplier for signal <DutyCycle_1a2ms$mult0000> created at line 105.
+    Found 32-bit adder for signal <old_selectorDutyCycle_1$addsub0000> created at line 87.
+    Found 33-bit comparator lessequal for signal <PWM$cmp_le0000> created at line 127.
+    Found 32-bit register for signal <selectorDutyCycle>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  64 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   2 Comparator(s).
+Unit <divisorDeRelojPWM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 32x17-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 33-bit adder                                          : 1
+# Counters                                             : 2
+ 26-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 2
+ 32-bit register                                       : 2
+# Comparators                                          : 2
+ 33-bit comparator greater                             : 1
+ 33-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <divisorDeRelojPWM>.
+	Found pipelined multiplier on signal <DutyCycle_1a2ms_mult0000>:
+		- 1 pipeline level(s) found in a register connected to the multiplier macro output.
+		Pushing register(s) into the multiplier macro.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_DutyCycle_1a2ms_mult0000 by adding 1 register level(s).
+Unit <divisorDeRelojPWM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 32x17-bit registered multiplier                       : 1
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 33-bit adder                                          : 1
+# Counters                                             : 2
+ 26-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+# Comparators                                          : 2
+ 33-bit comparator greater                             : 1
+ 33-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <divisorDeReloj_25> of sequential type is unconnected in block <divisorDeRelojPWM>.
+
+Optimizing unit <divisorDeRelojPWM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block divisorDeRelojPWM, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 121
+ Flip-Flops                                            : 121
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : divisorDeRelojPWM.ngr
+Top Level Output File Name         : divisorDeRelojPWM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 537
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 81
+#      LUT2                        : 114
+#      LUT4                        : 14
+#      MUXCY                       : 182
+#      VCC                         : 1
+#      XORCY                       : 133
+# FlipFlops/Latches                : 121
+#      FD                          : 64
+#      FDCE                        : 25
+#      FDE                         : 32
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+# MULTs                            : 2
+#      MULT18X18SIO                : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      125  out of   4656     2%  
+ Number of Slice Flip Flops:            121  out of   9312     1%  
+ Number of 4 input LUTs:                220  out of   9312     2%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    232     1%  
+ Number of MULT18X18SIOs:                 2  out of     20    10%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+divisorDeReloj_241                 | BUFG                   | 64    |
+relojNexys2                        | BUFGP                  | 57    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 12.397ns (Maximum Frequency: 80.666MHz)
+   Minimum input arrival time before clock: 4.345ns
+   Maximum output required time after clock: 9.476ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'divisorDeReloj_241'
+  Clock period: 12.397ns (frequency: 80.666MHz)
+  Total number of paths / destination ports: 157257 / 64
+-------------------------------------------------------------------------
+Delay:               12.397ns (Levels of Logic = 27)
+  Source:            selectorDutyCycle_8 (FF)
+  Destination:       Mmult_DutyCycle_1a2ms_mult00002_0 (FF)
+  Source Clock:      divisorDeReloj_241 rising
+  Destination Clock: divisorDeReloj_241 rising
+
+  Data Path: selectorDutyCycle_8 to Mmult_DutyCycle_1a2ms_mult00002_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  selectorDutyCycle_8 (selectorDutyCycle_8)
+     LUT4:I0->O            1   0.612   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_lut<0> (old_selectorDutyCycle_1_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<0> (old_selectorDutyCycle_1_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<1> (old_selectorDutyCycle_1_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<2> (old_selectorDutyCycle_1_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<3> (old_selectorDutyCycle_1_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<4> (old_selectorDutyCycle_1_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<5> (old_selectorDutyCycle_1_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<6> (old_selectorDutyCycle_1_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          32   0.399   1.225  old_selectorDutyCycle_1_cmp_eq0000_wg_cy<7> (old_selectorDutyCycle_1_cmp_eq0000)
+     LUT2:I0->O            2   0.612   0.380  _old_selectorDutyCycle_1<9>1 (_old_selectorDutyCycle_1<9>)
+     MULT18X18SIO:A9->P17    1   4.331   0.426  Mmult_DutyCycle_1a2ms_mult0000 (Mmult_DutyCycle_1a2ms_mult0000_P_to_Adder_A_17)
+     LUT2:I1->O            1   0.612   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_lut<17> (Mmult_DutyCycle_1a2ms_mult00000_Madd_lut<17>)
+     MUXCY:S->O            1   0.404   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<17> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<18> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<19> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<20> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<21> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<22> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<23> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<24> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<25> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<26> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<27> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<28> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<29> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<30> (Mmult_DutyCycle_1a2ms_mult00000_Madd_cy<30>)
+     XORCY:CI->O           1   0.699   0.000  Mmult_DutyCycle_1a2ms_mult00000_Madd_xor<31> (Mmult_DutyCycle_1a2ms_mult00000_Madd_31)
+     FD:D                      0.268          Mmult_DutyCycle_1a2ms_mult00002_0
+    ----------------------------------------
+    Total                     12.397ns (9.834ns logic, 2.563ns route)
+                                       (79.3% logic, 20.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'relojNexys2'
+  Clock period: 7.511ns (frequency: 133.134MHz)
+  Total number of paths / destination ports: 20743 / 82
+-------------------------------------------------------------------------
+Delay:               7.511ns (Levels of Logic = 47)
+  Source:            conteoFrecuenciaPWM_0 (FF)
+  Destination:       conteoFrecuenciaPWM_31 (FF)
+  Source Clock:      relojNexys2 rising
+  Destination Clock: relojNexys2 rising
+
+  Data Path: conteoFrecuenciaPWM_0 to conteoFrecuenciaPWM_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.514   0.603  conteoFrecuenciaPWM_0 (conteoFrecuenciaPWM_0)
+     LUT4:I0->O            1   0.612   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_lut<0> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<0> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<1> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<2> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<3> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<4> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<5> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<6> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<7> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<8> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<9> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<10> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<11> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<11>)
+     MUXCY:CI->O          58   0.051   1.232  Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<12> (Mcompar_conteoFrecuenciaPWM_cmp_gt0000_cy<12>)
+     LUT2:I0->O            1   0.612   0.000  Mcount_conteoFrecuenciaPWM_lut<0> (Mcount_conteoFrecuenciaPWM_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Mcount_conteoFrecuenciaPWM_cy<0> (Mcount_conteoFrecuenciaPWM_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<1> (Mcount_conteoFrecuenciaPWM_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<2> (Mcount_conteoFrecuenciaPWM_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<3> (Mcount_conteoFrecuenciaPWM_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<4> (Mcount_conteoFrecuenciaPWM_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<5> (Mcount_conteoFrecuenciaPWM_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<6> (Mcount_conteoFrecuenciaPWM_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<7> (Mcount_conteoFrecuenciaPWM_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<8> (Mcount_conteoFrecuenciaPWM_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<9> (Mcount_conteoFrecuenciaPWM_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_conteoFrecuenciaPWM_cy<10> (Mcount_conteoFrecuenciaPWM_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<11> (Mcount_conteoFrecuenciaPWM_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<12> (Mcount_conteoFrecuenciaPWM_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<13> (Mcount_conteoFrecuenciaPWM_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<14> (Mcount_conteoFrecuenciaPWM_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<15> (Mcount_conteoFrecuenciaPWM_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<16> (Mcount_conteoFrecuenciaPWM_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<17> (Mcount_conteoFrecuenciaPWM_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<18> (Mcount_conteoFrecuenciaPWM_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<19> (Mcount_conteoFrecuenciaPWM_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<20> (Mcount_conteoFrecuenciaPWM_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<21> (Mcount_conteoFrecuenciaPWM_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<22> (Mcount_conteoFrecuenciaPWM_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<23> (Mcount_conteoFrecuenciaPWM_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<24> (Mcount_conteoFrecuenciaPWM_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<25> (Mcount_conteoFrecuenciaPWM_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<26> (Mcount_conteoFrecuenciaPWM_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<27> (Mcount_conteoFrecuenciaPWM_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<28> (Mcount_conteoFrecuenciaPWM_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<29> (Mcount_conteoFrecuenciaPWM_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_conteoFrecuenciaPWM_cy<30> (Mcount_conteoFrecuenciaPWM_cy<30>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_conteoFrecuenciaPWM_xor<31> (Mcount_conteoFrecuenciaPWM31)
+     FDE:D                     0.268          conteoFrecuenciaPWM_31
+    ----------------------------------------
+    Total                      7.511ns (5.676ns logic, 1.835ns route)
+                                       (75.6% logic, 24.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'relojNexys2'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              4.345ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       conteoFrecuenciaPWM_0 (FF)
+  Destination Clock: relojNexys2 rising
+
+  Data Path: rst to conteoFrecuenciaPWM_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            26   1.106   1.071  rst_IBUF (rst_IBUF)
+     INV:I->O             32   0.612   1.073  rst_inv1_INV_0 (rst_inv)
+     FDE:CE                    0.483          conteoFrecuenciaPWM_0
+    ----------------------------------------
+    Total                      4.345ns (2.201ns logic, 2.144ns route)
+                                       (50.7% logic, 49.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'divisorDeReloj_241'
+  Total number of paths / destination ports: 849 / 1
+-------------------------------------------------------------------------
+Offset:              9.476ns (Levels of Logic = 32)
+  Source:            Mmult_DutyCycle_1a2ms_mult00002_26 (FF)
+  Destination:       PWM (PAD)
+  Source Clock:      divisorDeReloj_241 rising
+
+  Data Path: Mmult_DutyCycle_1a2ms_mult00002_26 to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.509  Mmult_DutyCycle_1a2ms_mult00002_26 (Mmult_DutyCycle_1a2ms_mult00002_26)
+     LUT1:I0->O            1   0.612   0.000  Madd__add0000_cy<5>_rt (Madd__add0000_cy<5>_rt)
+     MUXCY:S->O            1   0.404   0.000  Madd__add0000_cy<5> (Madd__add0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<6> (Madd__add0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<7> (Madd__add0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<8> (Madd__add0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<9> (Madd__add0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<10> (Madd__add0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<11> (Madd__add0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<12> (Madd__add0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<13> (Madd__add0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<14> (Madd__add0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<15> (Madd__add0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<16> (Madd__add0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<17> (Madd__add0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<18> (Madd__add0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<19> (Madd__add0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<20> (Madd__add0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<21> (Madd__add0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<22> (Madd__add0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<23> (Madd__add0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<24> (Madd__add0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<25> (Madd__add0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<26> (Madd__add0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<27> (Madd__add0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<28> (Madd__add0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<29> (Madd__add0000_cy<29>)
+     MUXCY:CI->O           1   0.051   0.000  Madd__add0000_cy<30> (Madd__add0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.509  Madd__add0000_xor<31> (_add0000<31>)
+     LUT2:I0->O            1   0.612   0.000  Mcompar_PWM_cmp_le0000_lut<31> (Mcompar_PWM_cmp_le0000_lut<31>)
+     MUXCY:S->O            1   0.404   0.000  Mcompar_PWM_cmp_le0000_cy<31> (Mcompar_PWM_cmp_le0000_cy<31>)
+     MUXCY:CI->O           1   0.399   0.357  Mcompar_PWM_cmp_le0000_cy<32> (PWM_OBUF)
+     OBUF:I->O                 3.169          PWM_OBUF (PWM)
+    ----------------------------------------
+    Total                      9.476ns (8.101ns logic, 1.375ns route)
+                                       (85.5% logic, 14.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'relojNexys2'
+  Total number of paths / destination ports: 34 / 1
+-------------------------------------------------------------------------
+Offset:              7.572ns (Levels of Logic = 35)
+  Source:            conteoFrecuenciaPWM_0 (FF)
+  Destination:       PWM (PAD)
+  Source Clock:      relojNexys2 rising
+
+  Data Path: conteoFrecuenciaPWM_0 to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.514   0.520  conteoFrecuenciaPWM_0 (conteoFrecuenciaPWM_0)
+     LUT2:I1->O            1   0.612   0.000  Mcompar_PWM_cmp_le0000_lut<0> (Mcompar_PWM_cmp_le0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Mcompar_PWM_cmp_le0000_cy<0> (Mcompar_PWM_cmp_le0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<1> (Mcompar_PWM_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<2> (Mcompar_PWM_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<3> (Mcompar_PWM_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<4> (Mcompar_PWM_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<5> (Mcompar_PWM_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<6> (Mcompar_PWM_cmp_le0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<7> (Mcompar_PWM_cmp_le0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<8> (Mcompar_PWM_cmp_le0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<9> (Mcompar_PWM_cmp_le0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<10> (Mcompar_PWM_cmp_le0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<11> (Mcompar_PWM_cmp_le0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<12> (Mcompar_PWM_cmp_le0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<13> (Mcompar_PWM_cmp_le0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<14> (Mcompar_PWM_cmp_le0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<15> (Mcompar_PWM_cmp_le0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<16> (Mcompar_PWM_cmp_le0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<17> (Mcompar_PWM_cmp_le0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<18> (Mcompar_PWM_cmp_le0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<19> (Mcompar_PWM_cmp_le0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<20> (Mcompar_PWM_cmp_le0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<21> (Mcompar_PWM_cmp_le0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<22> (Mcompar_PWM_cmp_le0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<23> (Mcompar_PWM_cmp_le0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<24> (Mcompar_PWM_cmp_le0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<25> (Mcompar_PWM_cmp_le0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<26> (Mcompar_PWM_cmp_le0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<27> (Mcompar_PWM_cmp_le0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<28> (Mcompar_PWM_cmp_le0000_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_PWM_cmp_le0000_cy<29> (Mcompar_PWM_cmp_le0000_cy<29>)
+     MUXCY:CI->O           1   0.052   0.000  Mcompar_PWM_cmp_le0000_cy<30> (Mcompar_PWM_cmp_le0000_cy<30>)
+     MUXCY:CI->O           1   0.052   0.000  Mcompar_PWM_cmp_le0000_cy<31> (Mcompar_PWM_cmp_le0000_cy<31>)
+     MUXCY:CI->O           1   0.399   0.357  Mcompar_PWM_cmp_le0000_cy<32> (PWM_OBUF)
+     OBUF:I->O                 3.169          PWM_OBUF (PWM)
+    ----------------------------------------
+    Total                      7.572ns (6.695ns logic, 0.877ns route)
+                                       (88.4% logic, 11.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> 
+
+
+Total memory usage is 616252 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

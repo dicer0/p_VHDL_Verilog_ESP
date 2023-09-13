@@ -1,0 +1,14 @@
+//ENTRADAS DEL DIAGRAMA TLD:
+net "Reset" loc = "R17" ;        // Reset para el reloj BTN3.
+net "clkNexys2" loc = "B8" ; 		// Reloj de 50MHz.
+net "modoNocturno" loc = "G18" ; // Activacion del modo nocturno SW0.
+
+//SALIDAS DEL DIAGRAMA TLD:
+//Semaforo Sur Norte.
+net "semaforoSurNorte[2]" loc = "R4" ;  	// LD7 semaforo NS luz verde.
+net "semaforoSurNorte[1]" loc = "F4" ;  	// LD6 semaforo NS luz amarilla.
+net "semaforoSurNorte[0]" loc = "P15" ;	// LD5 semaforo NS luz roja.
+//Semforo Oeste Este.
+net "semaforoOesteEste[2]" loc = "K15" ; 	// LD2 semaforo EO luz verde.
+net "semaforoOesteEste[1]" loc = "J15" ; 	// LD1 semaforo EO luz amarilla.
+net "semaforoOesteEste[0]" loc = "J14" ; 	// LD0 semaforo EO luz roja.

@@ -1,0 +1,18 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/DLPs/practica1punto3VHDL/contadorAscendente_isim_beh.exe" -prj "C:/DLPs/practica1punto3VHDL/contadorAscendente_beh.prj" "work.contadorAscendente" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/DLPs/practica1punto3VHDL/contadorAscendenteDescendente.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity contadorascendente
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable C:/DLPs/practica1punto3VHDL/contadorAscendente_isim_beh.exe
+Fuse Memory Usage: 34112 KB
+Fuse CPU Usage: 1358 ms

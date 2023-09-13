@@ -1,0 +1,51 @@
+V3 28
+FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd 2023/08/16.06:03:36 P.20131013
+EN work/contadorSelector 1692153598 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorSelector/contador2Bits 1692153599 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd \
+      EN work/contadorSelector 1692153598
+FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd 2023/08/16.06:45:09 P.20131013
+EN work/controlDisplay 1692153600 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/controlDisplay/Behavioral 1692153601 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd \
+      EN work/controlDisplay 1692153600
+FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd 2023/08/16.07:40:52 P.20131013
+EN work/displayDe7Segmentos 1692153602 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/displayDe7Segmentos/muxAdisplay 1692153603 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd \
+      EN work/displayDe7Segmentos 1692153602
+FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd 2023/08/16.07:44:20 P.20131013
+EN work/divisorDeReloj 1692153596 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1692153597 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1692153596
+FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd 2023/08/16.08:23:06 P.20131013
+EN work/expendedoraGelAntibacterial 1692153606 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/expendedoraGelAntibacterial/Behavioral 1692153607 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd \
+      EN work/expendedoraGelAntibacterial 1692153606 CP work/divisorDeReloj \
+      CP work/contadorSelector CP work/controlDisplay CP work/displayDe7Segmentos \
+      CP work/servomotorPWM
+FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd 2023/08/16.07:52:28 P.20131013
+EN work/servomotorPWM 1692153604 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/servomotorPWM/frecuenciaNueva 1692153605 \
+      FL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd \
+      EN work/servomotorPWM 1692153604
+FL C:/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd 2020/06/21.22:14:04 P.20131013
+FL C:/cLogicos/proyectoFinalEquipo2/control.vhd 2020/06/22.01:20:53 P.20131013
+FL C:/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd 2020/06/22.01:22:21 P.20131013
+FL C:/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd 2020/06/22.01:11:42 P.20131013
+FL C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd 2020/06/22.01:07:23 P.20131013

@@ -1,0 +1,6 @@
+vhdl work "sumadorRestadorMultiplicador.vhd"
+vhdl work "divisorDeReloj.vhd"
+vhdl work "display7Seg.vhd"
+vhdl work "DecodificadorBinBCD.vhd"
+vhdl work "contadorSelector.vhd"
+vhdl work "relojContadorAritmeticaMuxDisp7SegTLD.vhd"

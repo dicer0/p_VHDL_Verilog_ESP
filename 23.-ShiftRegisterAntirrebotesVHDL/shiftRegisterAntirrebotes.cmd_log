@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/22.-ShiftRegisterAntirrebotesVHDL/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/22.-ShiftRegisterAntirrebotesVHDL/shiftRegisterAntirrebotes.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/22.-ShiftRegisterAntirrebotesVHDL/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/22.-ShiftRegisterAntirrebotesVHDL/shiftRegisterAntirrebotes.syr" 

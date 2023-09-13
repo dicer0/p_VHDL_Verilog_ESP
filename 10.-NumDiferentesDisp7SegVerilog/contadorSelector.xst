@@ -1,0 +1,5 @@
+set -tmpdir "C:/electDigit/numDiferentesDisp7SegVerilog/xst/projnav.tmp"
+set -xsthdpdir "C:/electDigit/numDiferentesDisp7SegVerilog/xst"
+elaborate
+-ifn contadorSelector.prj
+-ifmt mixed

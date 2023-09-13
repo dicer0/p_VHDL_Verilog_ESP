@@ -1,0 +1,9 @@
+V3 4
+FL /home/ise/Aprendiendo/VHDL_Verilog/22.-ShiftRegisterAntirrebotesVHDL/shiftRegisterAntirrebotes.vhd 2023/08/03.01:33:16 P.20131013
+EN work/shiftRegisterAntirrebotes 1691026403 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/22.-ShiftRegisterAntirrebotesVHDL/shiftRegisterAntirrebotes.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/shiftRegisterAntirrebotes/debounce 1691026404 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/22.-ShiftRegisterAntirrebotesVHDL/shiftRegisterAntirrebotes.vhd \
+      EN work/shiftRegisterAntirrebotes 1691026403
+FL /home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotes/shiftRegisterAntirrebotes.vhd 2023/07/26.07:21:54 P.20131013

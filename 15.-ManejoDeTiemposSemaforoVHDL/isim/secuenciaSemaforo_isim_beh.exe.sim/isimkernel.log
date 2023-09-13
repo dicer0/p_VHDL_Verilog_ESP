@@ -1,0 +1,10 @@
+Command line:
+   secuenciaSemaforo_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  59182
+
+Fri Jul 21 10:38:55 2023
+
+
+ Elaboration Time: 0.05 sec

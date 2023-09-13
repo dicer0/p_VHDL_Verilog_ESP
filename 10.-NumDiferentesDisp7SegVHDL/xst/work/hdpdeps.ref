@@ -1,0 +1,39 @@
+V3 23
+FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/contadorSelector.vhd 2023/06/30.11:45:02 P.20131013
+EN work/contadorSelector 1688388333 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/contadorSelector.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorSelector/contador2Bits 1688388334 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/contadorSelector.vhd \
+      EN work/contadorSelector 1688388333
+FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/decodificadorBinHex.vhd 2023/06/30.12:25:44 P.20131013
+EN work/decodificadorBinHex 1688388335 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/decodificadorBinHex.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decodificadorBinHex/binarioAhexadecimal 1688388336 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/decodificadorBinHex.vhd \
+      EN work/decodificadorBinHex 1688388335
+FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/divisorDeReloj.vhd 2023/06/30.12:01:28 P.20131013
+EN work/divisorDeReloj 1688388331 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1688388332 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688388331
+FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/relojContadorMuxDisp7SegTLD.vhd 2023/06/30.11:38:56 P.20131013
+EN work/relojContadorMuxDisp7SegTLD 1688388337 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/relojContadorMuxDisp7SegTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/relojContadorMuxDisp7SegTLD/encenderDisplaysTLD 1688388338 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/10.-numDiferentesDisp7SegVHDL/relojContadorMuxDisp7SegTLD.vhd \
+      EN work/relojContadorMuxDisp7SegTLD 1688388337 CP work/divisorDeReloj \
+      CP work/contadorSelector CP work/decodificadorBinHex
+FL C:/electDigit/11.-numDiferentesDisp7SegVHDL/contadorSelector.vhd 2020/05/03.11:45:19 P.20131013
+FL C:/electDigit/11.-numDiferentesDisp7SegVHDL/decodificadorBinHex.vhd 2020/05/04.18:26:15 P.20131013
+FL C:/electDigit/11.-numDiferentesDisp7SegVHDL/divisorDeReloj.vhd 2020/05/03.14:02:36 P.20131013
+FL C:/electDigit/11.-numDiferentesDisp7SegVHDL/relojContadorMuxDisp7SegTLD.vhd 2020/10/22.09:00:57 P.20131013
+FL C:/electDigit/numDiferentesDisp7SegVHDL/contadorSelector.vhd 2020/05/03.12:45:19 P.20131013
+FL C:/electDigit/numDiferentesDisp7SegVHDL/decodificadorBinHex.vhd 2020/05/03.16:07:50 P.20131013
+FL C:/electDigit/numDiferentesDisp7SegVHDL/divisorDeReloj.vhd 2020/05/03.15:02:36 P.20131013
+FL C:/electDigit/numDiferentesDisp7SegVHDL/relojContadorMuxDisp7SegTLD.vhd 2020/05/03.13:19:46 P.20131013

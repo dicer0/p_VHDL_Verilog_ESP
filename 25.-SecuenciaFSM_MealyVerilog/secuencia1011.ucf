@@ -1,0 +1,12 @@
+//ENTRADAS Y SALIDAS de la Maquina de Estados
+//ENTRADAS:
+net "clk" loc = "B8";				//Entrada clk asignada al reloj en el puerto B8.
+net "boton" loc = "H13";			//Entrada uno asignada al boton BTN3 en el puerto H13.
+
+//SALIDAS:
+net "ledPasos[3]" loc = "R4";		//LD7 que se enciende al identificar el 1er paso de la secuencia.
+net "ledPasos[2]" loc = "F4";		//LD6 que se enciende al identificar el 2do paso de la secuencia.
+net "ledPasos[1]" loc = "P15";	//LD5 que se enciende al identificar el 3er paso de la secuencia.
+net "ledPasos[0]" loc = "E17";	//LD4 que se enciende al identificar el 4to paso de la secuencia.
+//Led LD0 que indica cuando se ha terminado la secuencia asignada al puerto J14.
+net "ledSecuencia" loc = "J14";	//Led que se enciende al identificar la secuencia completa.

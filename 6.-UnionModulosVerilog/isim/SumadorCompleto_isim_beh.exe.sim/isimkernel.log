@@ -1,0 +1,28 @@
+Command line:
+   SumadorCompleto_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  59259
+
+Fri Apr 24 02:16:43 2020
+
+
+ Elaboration Time: 0.3125 sec
+
+ Current Memory Usage: 5814.01 Meg
+
+ Total Signals          : 32
+ Total Nets             : 21
+ Total Signal Drivers   : 10
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 11
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 101
+
+ Total Simulation Time: 0.890625 sec
+
+ Current Memory Usage: 5342.11 Meg
+
+Fri Apr 24 02:18:43 2020
+

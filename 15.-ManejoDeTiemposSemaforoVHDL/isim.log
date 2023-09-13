@@ -1,0 +1,53 @@
+ISim log file
+Running: /home/ise/Aprendiendo/VHDL_Verilog/15.-ManejoDeTiemposSemaforoVHDL/secuenciaSemaforo_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Aprendiendo/VHDL_Verilog/15.-ManejoDeTiemposSemaforoVHDL/secuenciaSemaforo_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /secuenciasemaforo/modoparpadeo 0 -radix bin
+# isim force add /secuenciasemaforo/conteo 00000 -radix bin -value 00001 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 00000 -radix bin -value 00001 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/modoparpadeo 0 -radix bin
+# isim force add /secuenciasemaforo/conteo 00010 -radix bin -value 00011 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 00010 -radix bin -value 00011 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/modoparpadeo 0 -radix bin
+# isim force add /secuenciasemaforo/modoparpadeo 0 -radix bin
+# isim force add /secuenciasemaforo/conteo 00100 -radix bin -value 00101 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 00100 -radix bin -value 00101 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/modoparpadeo 0 -radix bin
+# isim force add /secuenciasemaforo/modoparpadeo 0 -radix bin
+# isim force add /secuenciasemaforo/conteo 00110 -radix bin -value 00111 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 00110 -radix bin -value 00111 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# exit 0
+# isim force add /secuenciasemaforo/conteo 01000 -radix bin -value 01001 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 01000 -radix bin -value 01001 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/conteo 01010 -radix bin -value 01011 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 01010 -radix bin -value 01011 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/conteo 01100 -radix bin -value 01101 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 01100 -radix bin -value 01101 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/conteo 01110 -radix bin -value 01111 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 01110 -radix bin -value 01111 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/conteo 10000 -radix bin -value 10001 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 10000 -radix bin -value 10001 -radix bin -time 1 s -repeat 2 s
+# run 2s
+# isim force add /secuenciasemaforo/conteo 10010 -radix bin -value 10011 -radix bin -time 1 s -repeat 2 s
+# isim force add /secuenciasemaforo/conteo 10010 -radix bin -value 10011 -radix bin -time 1 s -repeat 2 s
+# run 2s

@@ -1,0 +1,55 @@
+//ENTRADAS Y SALIDAS DEL MODULO TDL:
+//El diseno TLD sirve para hacer la conversion binario -> hexadecimal y mostrarlo como numeros diferentes en los 
+//4 displays de 7 segmentos de la placa NEXYS 2 como si estos tuvieran valores diferentes.
+
+//ENTRADAS DEL MODULO decodificadorBinHex:
+//SWITCHES DE LA NEXYS 2:
+net "numBinario[0]" loc = "G18";//Bit 1 (menos significativo) del numero binario conectado al switch SW0.
+net "numBinario[1]" loc = "H18";//Bit 2 del numero binario conectado al switch SW1.
+net "numBinario[2]" loc = "K18";//Bit 3 del numero binario conectado al switch SW2.
+net "numBinario[3]" loc = "K17";//Bit 4 del numero binario conectado al switch SW3.
+net "numBinario[4]" loc = "L14";//Bit 5 del numero binario conectado al switch SW4.
+net "numBinario[5]" loc = "L13";//Bit 6 del numero binario conectado al switch SW5.
+net "numBinario[6]" loc = "N17";//Bit 7 del numero binario conectado al switch SW6.
+net "numBinario[7]" loc = "R17";//Bit 8 del numero binario conectado al switch SW7.
+//SWITCHES EXTERNOS CONECTADOS A LOS PUERTOS JA:
+net "numBinario[8]" loc = "L15";//Bit 9 del numero binario conectado al puerto JA1 perteneciente a los puertos JA.
+net "numBinario[9]" loc = "K12";//Bit 10 del numero binario conectado al puerto JA2 perteneciente a los puertos JA.
+net "numBinario[10]" loc = "L17";//Bit 11 del numero binario conectado al puerto JA3 perteneciente a los puertos JA.
+net "numBinario[11]" loc = "M15";//Bit 12 del numero binario conectado al puerto JA4 perteneciente a los puertos JA.
+//Los puertos JA5 y JA11 estan conectados a tierra y JA6 y JA12 estan conectados a Vcc = 3.3[V].
+net "numBinario[12]" loc = "K13";//Bit 13 del numero binario conectado al puerto JA7 perteneciente a los puertos JA.
+net "numBinario[13]" loc = "L16";//Bit 14 del numero binario conectado al puerto JA8 perteneciente a los puertos JA.
+net "numBinario[14]" loc = "M14";//Bit 15 del numero binario conectado al puerto JA9 perteneciente a los puertos JA.
+net "numBinario[15]" loc = "M16";//Bit 16 del numero binario conectado al puerto JA10 perteneciente a los puertos JA.
+
+
+//ENTRADAS DEL MODULO divisorDeReloj:
+net "clkNexys2" loc = "B8" ;//El reloj de 50MHz viene del puerto B8.
+net "Reset" loc = "H13";//El boton de Reset esta conectado al push button BTN3.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex:
+//Leds A,B,C,D,E,F y G del display de 7 segmentos:
+net "numHexadecimal[6]" loc = "L18";//1er bit del vector conectado al puerto CA (led A) del display de 7 segmentos.
+net "numHexadecimal[5]" loc = "F18";//2do bit del vector conectado al puerto CB (led B) del display de 7 segmentos.
+net "numHexadecimal[4]" loc = "D17";//3er bit del vector conectado al puerto CC (led C) del display de 7 segmentos.
+net "numHexadecimal[3]" loc = "D16";//4to bit del vector conectado al puerto CD (led D) del display de 7 segmentos.
+net "numHexadecimal[2]" loc = "G14";//5to bit del vector conectado al puerto CE (led E) del display de 7 segmentos.
+net "numHexadecimal[1]" loc = "J17";//6to bit del vector conectado al puerto CF (led F) del display de 7 segmentos.
+net "numHexadecimal[0]" loc = "H14";//7mo bit del vector conectado al puerto CG (led G) del display de 7 segmentos.
+//Punto del display de 7 segmentos:
+net "puntoDisplay" LOC = "C17";//Conectado al puerto DP (punto) del display de 7 segmentos.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex:
+//Para que el orden se respete debo meter conectar el mas significativo al nodo AN3 y el bit menos significativo al 
+//nodo AN0.
+net "anodoComun[0]" loc = "F17";
+//Bit menos significativo conectado al puerto AN0, 1er display de 7 segmentos de los 4 disponibles.
+net "anodoComun[1]" loc = "H17";
+//Conectado al puerto AN1, 2do display de 7 segmentos de los 4 disponibles.
+net "anodoComun[2]" loc = "C18";
+//Conectado al puerto AN2, 3er display de 7 segmentos de los 4 disponibles.
+net "anodoComun[3]" loc = "F15";
+//Bit mas significativo conectado al puerto AN3, 4to display de 7 segmentos de los 4 disponibles.

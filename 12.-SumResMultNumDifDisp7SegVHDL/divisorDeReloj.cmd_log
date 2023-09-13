@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVHDL/divisorDeReloj.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVHDL/divisorDeReloj.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVHDL/divisorDeReloj.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVHDL/divisorDeReloj.syr" 

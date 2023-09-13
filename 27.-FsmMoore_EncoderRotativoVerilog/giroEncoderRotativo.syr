@@ -1,0 +1,454 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: giroEncoderRotativo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "giroEncoderRotativo.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "giroEncoderRotativo"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : giroEncoderRotativo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "giroEncoderRotativo.v" in library work
+Module <giroEncoderRotativo> compiled
+No errors in compilation
+Analysis of file <"giroEncoderRotativo.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <giroEncoderRotativo> in library <work> with parameters.
+	AB_0_0 = "011"
+	AB_0_1CW = "001"
+	AB_1_0CCW = "010"
+	AB_1_1 = "000"
+	giroDer = "100"
+	giroIzq = "101"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <giroEncoderRotativo>.
+	AB_0_0 = 3'b011
+	AB_0_1CW = 3'b001
+	AB_1_0CCW = 3'b010
+	AB_1_1 = 3'b000
+	giroDer = 3'b100
+	giroIzq = 3'b101
+"giroEncoderRotativo.v" line 135: Found FullParallel Case directive in module <giroEncoderRotativo>.
+Module <giroEncoderRotativo> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <giroEncoderRotativo>.
+    Related source file is "giroEncoderRotativo.v".
+    Using one-hot encoding for signal <estadoPresente>.
+    Found 25-bit up counter for signal <clkdiv>.
+    Found 2-bit register for signal <delay_1>.
+    Found 2-bit register for signal <delay_2>.
+    Found 6-bit register for signal <estadoPresente>.
+    Found 2-bit register for signal <pinesDebounce>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  12 D-type flip-flop(s).
+Unit <giroEncoderRotativo> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 4
+ 2-bit register                                        : 3
+ 6-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <clkdiv_16> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_17> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_18> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_19> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_20> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_21> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_22> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_23> of sequential type is unconnected in block <giroEncoderRotativo>.
+WARNING:Xst:2677 - Node <clkdiv_24> of sequential type is unconnected in block <giroEncoderRotativo>.
+
+Optimizing unit <giroEncoderRotativo> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block giroEncoderRotativo, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : giroEncoderRotativo.ngr
+Top Level Output File Name         : giroEncoderRotativo
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 59
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 15
+#      LUT2                        : 2
+#      LUT2_L                      : 2
+#      LUT4                        : 6
+#      MUXCY                       : 15
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 28
+#      FD                          : 28
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 2
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       16  out of   4656     0%  
+ Number of Slice Flip Flops:             28  out of   9312     0%  
+ Number of 4 input LUTs:                 26  out of   9312     0%  
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    232     2%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clkdiv_7                           | NONE(delay_1_0)        | 6     |
+clkdiv_15                          | NONE(estadoPresente_0) | 6     |
+clk                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.676ns (Maximum Frequency: 272.072MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 4.134ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_7'
+  Clock period: 1.926ns (frequency: 519.224MHz)
+  Total number of paths / destination ports: 6 / 4
+-------------------------------------------------------------------------
+Delay:               1.926ns (Levels of Logic = 1)
+  Source:            delay_1_0 (FF)
+  Destination:       pinesDebounce_0 (FF)
+  Source Clock:      clkdiv_7 rising
+  Destination Clock: clkdiv_7 rising
+
+  Data Path: delay_1_0 to pinesDebounce_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  delay_1_0 (delay_1_0)
+     LUT2:I0->O            1   0.612   0.000  pinesDebounce_and0000<0>1 (pinesDebounce_and0000<0>)
+     FD:D                      0.268          pinesDebounce_0
+    ----------------------------------------
+    Total                      1.926ns (1.394ns logic, 0.532ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_15'
+  Clock period: 2.712ns (frequency: 368.684MHz)
+  Total number of paths / destination ports: 14 / 6
+-------------------------------------------------------------------------
+Delay:               2.712ns (Levels of Logic = 2)
+  Source:            estadoPresente_4 (FF)
+  Destination:       estadoPresente_0 (FF)
+  Source Clock:      clkdiv_15 rising
+  Destination Clock: clkdiv_15 rising
+
+  Data Path: estadoPresente_4 to estadoPresente_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.514   0.603  estadoPresente_4 (estadoPresente_4)
+     LUT2_L:I0->LO         1   0.612   0.103  estadoFuturo<0>_SW0 (N7)
+     LUT4:I3->O            1   0.612   0.000  estadoFuturo<0> (estadoFuturo<0>)
+     FD:D                      0.268          estadoPresente_0
+    ----------------------------------------
+    Total                      2.712ns (2.006ns logic, 0.706ns route)
+                                       (74.0% logic, 26.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.676ns (frequency: 272.072MHz)
+  Total number of paths / destination ports: 136 / 16
+-------------------------------------------------------------------------
+Delay:               3.676ns (Levels of Logic = 16)
+  Source:            clkdiv_1 (FF)
+  Destination:       clkdiv_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clkdiv_1 to clkdiv_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.509  clkdiv_1 (clkdiv_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_clkdiv_cy<1>_rt (Mcount_clkdiv_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_clkdiv_cy<1> (Mcount_clkdiv_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<2> (Mcount_clkdiv_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<3> (Mcount_clkdiv_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<4> (Mcount_clkdiv_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<5> (Mcount_clkdiv_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<6> (Mcount_clkdiv_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<7> (Mcount_clkdiv_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<8> (Mcount_clkdiv_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<9> (Mcount_clkdiv_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<10> (Mcount_clkdiv_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<11> (Mcount_clkdiv_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<12> (Mcount_clkdiv_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<13> (Mcount_clkdiv_cy<13>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_clkdiv_cy<14> (Mcount_clkdiv_cy<14>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_clkdiv_xor<15> (Result<15>)
+     FD:D                      0.268          clkdiv_15
+    ----------------------------------------
+    Total                      3.676ns (3.167ns logic, 0.509ns route)
+                                       (86.2% logic, 13.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkdiv_7'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            pinesAB<0> (PAD)
+  Destination:       delay_1_0 (FF)
+  Destination Clock: clkdiv_7 rising
+
+  Data Path: pinesAB<0> to delay_1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  pinesAB_0_IBUF (pinesAB_0_IBUF)
+     FD:D                      0.268          delay_1_0
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkdiv_15'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.134ns (Levels of Logic = 1)
+  Source:            estadoPresente_4 (FF)
+  Destination:       giroCW (PAD)
+  Source Clock:      clkdiv_15 rising
+
+  Data Path: estadoPresente_4 to giroCW
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.514   0.451  estadoPresente_4 (estadoPresente_4)
+     OBUF:I->O                 3.169          giroCW_OBUF (giroCW)
+    ----------------------------------------
+    Total                      4.134ns (3.683ns logic, 0.451ns route)
+                                       (89.1% logic, 10.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 0.75 secs
+ 
+--> 
+
+
+Total memory usage is 509968 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

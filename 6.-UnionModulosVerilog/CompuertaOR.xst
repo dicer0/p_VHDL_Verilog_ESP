@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVerilog/xst"
+elaborate
+-ifn CompuertaOR.prj
+-ifmt mixed

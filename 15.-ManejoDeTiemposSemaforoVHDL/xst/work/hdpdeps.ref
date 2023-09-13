@@ -1,0 +1,30 @@
+V3 15
+FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/contadorTiempo.vhd 2023/07/18.14:47:16 P.20131013
+EN work/contadorTiempo 1689692329 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/contadorTiempo.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorTiempo/Behavioral 1689692330 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/contadorTiempo.vhd \
+      EN work/contadorTiempo 1689692329
+FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/divisorDeReloj.vhd 2023/07/18.14:45:00 P.20131013
+EN work/divisorDeReloj 1689692327 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1689692328 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1689692327
+FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.vhd 2023/07/18.14:55:41 P.20131013
+EN work/manejoDeTiemposSemaforoTLD 1689692333 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/manejoDeTiemposSemaforoTLD/Behavioral 1689692334 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/manejoDeTiemposSemaforoTLD.vhd \
+      EN work/manejoDeTiemposSemaforoTLD 1689692333 CP work/divisorDeReloj \
+      CP work/contadorTiempo CP work/secuenciaSemaforo
+FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/secuenciaSemaforo.vhd 2023/07/18.14:24:01 P.20131013
+EN work/secuenciaSemaforo 1689692331 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/secuenciaSemaforo.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/secuenciaSemaforo/Behavioral 1689692332 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/ManejoDeTiemposSemaforoTLD/secuenciaSemaforo.vhd \
+      EN work/secuenciaSemaforo 1689692331

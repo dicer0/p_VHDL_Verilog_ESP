@@ -1,0 +1,105 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/secuenciaFSM_MealyVerilog/fsmMealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc secuencia1011.ucf -p xc3s500e-fg320-5 fsmMealy.ngc fsmMealy.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsmMealy_map.ncd fsmMealy.ngd fsmMealy.pcf 
+par -w -intstyle ise -ol high -t 1 fsmMealy_map.ncd fsmMealy.ncd fsmMealy.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsmMealy.twx fsmMealy.ncd -o fsmMealy.twr fsmMealy.pcf -ucf secuencia1011.ucf 
+bitgen -intstyle ise -f fsmMealy.ut fsmMealy.ncd 

@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Aug 09 21:45:46 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "relojNexys2" LOCATE = SITE "B8" LEVEL 1;
+COMP "ledAngulo<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "ledAngulo<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "ledAngulo<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "selectPos<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "selectPos<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "selectPos<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "PWM" LOCATE = SITE "L15" LEVEL 1;
+COMP "rst" LOCATE = SITE "H13" LEVEL 1;
+NET "relojNexys2_BUFGP/IBUFG" BEL "relojNexys2_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

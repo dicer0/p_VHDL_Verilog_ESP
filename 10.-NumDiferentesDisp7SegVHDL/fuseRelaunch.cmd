@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Aprendiendo/VHDL_Verilog/10.-NumDiferentesDisp7SegVHDL/divisorDeReloj_isim_beh.exe" -prj "/home/ise/Aprendiendo/VHDL_Verilog/10.-NumDiferentesDisp7SegVHDL/divisorDeReloj_beh.prj" "work.divisorDeReloj" 

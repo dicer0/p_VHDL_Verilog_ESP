@@ -1,0 +1,60 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/electDigit/sumResMultNumDifDisp7SegVerilog/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to C:/electDigit/sumResMultNumDifDisp7SegVerilog/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "display7Seg.v" in library work
+Module <display7Seg> compiled
+ERROR:HDLCompilers:247 - "display7Seg.v" line 27 Reference to vector wire 'prenderDisplay' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 27 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 35 Reference to vector wire 'prenderDisplay' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 35 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 43 Reference to vector wire 'prenderDisplay' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 43 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 46 Reference to vector wire 'prenderDisplay' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 46 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 63 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 63 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 65 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 65 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 67 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 67 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 69 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 69 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 71 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 71 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 73 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 73 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 75 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 75 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 77 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 77 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 79 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 79 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 81 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 81 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "display7Seg.v" line 83 Reference to vector wire 'ledsAhastaDP' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "display7Seg.v" line 83 Illegal left hand side of blocking assignment
+Analysis of file <"display7Seg.prj"> failed.
+--> 
+
+Total memory usage is 4478036 kilobytes
+
+Number of errors   :   30 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

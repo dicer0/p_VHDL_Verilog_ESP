@@ -1,0 +1,424 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: Arquitectura_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Arquitectura_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Arquitectura_top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Arquitectura_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/electDigit/frecuenciaRelojVHDL/divisorDeReloj.vhd" in Library work.
+Entity <Divisor_frec> compiled.
+Entity <Divisor_frec> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/electDigit/frecuenciaRelojVHDL/encenderApagarLed.vhd" in Library work.
+Entity <LED> compiled.
+Entity <LED> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/electDigit/frecuenciaRelojVHDL/parpadeoLedTLD.vhd" in Library work.
+Entity <Arquitectura_top> compiled.
+Entity <Arquitectura_top> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Arquitectura_top> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Divisor_frec> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LED> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Arquitectura_top> in library <work> (Architecture <Behavioral>).
+Entity <Arquitectura_top> analyzed. Unit <Arquitectura_top> generated.
+
+Analyzing Entity <Divisor_frec> in library <work> (Architecture <Behavioral>).
+Entity <Divisor_frec> analyzed. Unit <Divisor_frec> generated.
+
+Analyzing Entity <LED> in library <work> (Architecture <Behavioral>).
+Entity <LED> analyzed. Unit <LED> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Divisor_frec>.
+    Related source file is "C:/electDigit/frecuenciaRelojVHDL/divisorDeReloj.vhd".
+    Found 1-bit register for signal <clk_out>.
+    Found 32-bit up counter for signal <contador>.
+    Found 1-bit register for signal <i_clk>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <Divisor_frec> synthesized.
+
+
+Synthesizing Unit <LED>.
+    Related source file is "C:/electDigit/frecuenciaRelojVHDL/encenderApagarLed.vhd".
+Unit <LED> synthesized.
+
+
+Synthesizing Unit <Arquitectura_top>.
+    Related source file is "C:/electDigit/frecuenciaRelojVHDL/parpadeoLedTLD.vhd".
+Unit <Arquitectura_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Arquitectura_top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Arquitectura_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Arquitectura_top.ngr
+Top Level Output File Name         : Arquitectura_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 116
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 31
+#      LUT2                        : 1
+#      LUT4                        : 8
+#      MUXCY                       : 39
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 34
+#      FDC                         : 1
+#      FDE                         : 1
+#      FDR                         : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       22  out of   4656     0%  
+ Number of Slice Flip Flops:             34  out of   9312     0%  
+ Number of 4 input LUTs:                 43  out of   9312     0%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    232     1%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)     | Load  |
+-----------------------------------+---------------------------+-------+
+Divisor_frec/i_clk                 | NONE(Divisor_frec/clk_out)| 1     |
+clk                                | BUFGP                     | 33    |
+-----------------------------------+---------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.588ns (Maximum Frequency: 178.946MHz)
+   Minimum input arrival time before clock: 4.189ns
+   Maximum output required time after clock: 4.063ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Divisor_frec/i_clk'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            Divisor_frec/clk_out (FF)
+  Destination:       Divisor_frec/clk_out (FF)
+  Source Clock:      Divisor_frec/i_clk rising
+  Destination Clock: Divisor_frec/i_clk rising
+
+  Data Path: Divisor_frec/clk_out to Divisor_frec/clk_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.380  Divisor_frec/clk_out (Divisor_frec/clk_out)
+     INV:I->O              1   0.612   0.357  Divisor_frec/clk_out_not00011_INV_0 (Divisor_frec/clk_out_not0001)
+     FDC:D                     0.268          Divisor_frec/clk_out
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.588ns (frequency: 178.946MHz)
+  Total number of paths / destination ports: 1584 / 65
+-------------------------------------------------------------------------
+Delay:               5.588ns (Levels of Logic = 10)
+  Source:            Divisor_frec/contador_8 (FF)
+  Destination:       Divisor_frec/contador_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Divisor_frec/contador_8 to Divisor_frec/contador_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  Divisor_frec/contador_8 (Divisor_frec/contador_8)
+     LUT4:I0->O            1   0.612   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_lut<0> (Divisor_frec/i_clk_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_cy<0> (Divisor_frec/i_clk_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_cy<1> (Divisor_frec/i_clk_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_cy<2> (Divisor_frec/i_clk_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_cy<3> (Divisor_frec/i_clk_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_cy<4> (Divisor_frec/i_clk_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_cy<5> (Divisor_frec/i_clk_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor_frec/i_clk_cmp_eq0000_wg_cy<6> (Divisor_frec/i_clk_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O           2   0.289   0.449  Divisor_frec/i_clk_cmp_eq0000_wg_cy<7> (Divisor_frec/i_clk_cmp_eq0000)
+     LUT2:I1->O           32   0.612   1.073  Divisor_frec/contador_or00001 (Divisor_frec/contador_or0000)
+     FDR:R                     0.795          Divisor_frec/contador_0
+    ----------------------------------------
+    Total                      5.588ns (3.535ns logic, 2.054ns route)
+                                       (63.2% logic, 36.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 33 / 33
+-------------------------------------------------------------------------
+Offset:              4.189ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       Divisor_frec/contador_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to Divisor_frec/contador_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.603  rst_IBUF (rst_IBUF)
+     LUT2:I0->O           32   0.612   1.073  Divisor_frec/contador_or00001 (Divisor_frec/contador_or0000)
+     FDR:R                     0.795          Divisor_frec/contador_0
+    ----------------------------------------
+    Total                      4.189ns (2.513ns logic, 1.676ns route)
+                                       (60.0% logic, 40.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Divisor_frec/i_clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            Divisor_frec/clk_out (FF)
+  Destination:       led_out (PAD)
+  Source Clock:      Divisor_frec/i_clk rising
+
+  Data Path: Divisor_frec/clk_out to led_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.380  Divisor_frec/clk_out (Divisor_frec/clk_out)
+     OBUF:I->O                 3.169          led_out_OBUF (led_out)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.20 secs
+ 
+--> 
+
+Total memory usage is 4506072 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

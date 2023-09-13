@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/parpadeoLedTLD/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/parpadeoLedTLD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/parpadeoLedTLD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/divisorDeReloj/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/divisorDeReloj.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/divisorDeReloj.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/encenderApagarLed/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/encenderApagarLed.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/7.-FrecuenciaRelojVHDL/encenderApagarLed.vhd</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

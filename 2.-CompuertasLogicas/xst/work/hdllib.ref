@@ -1,0 +1,9 @@
+AR punto3a prendidoapagado C:/cLogicos/practica2/punto3a.vhd sub00/vhpl06 1582753470
+EN punto3a NULL C:/cLogicos/practica2/punto3a.vhd sub00/vhpl05 1582753469
+EN punto3d NULL C:/cLogicos/practica2/punto3d.vhd sub00/vhpl07 1582756690
+AR punto3d accesopuerta C:/cLogicos/practica2/punto3d.vhd sub00/vhpl08 1582756691
+AR punto2 alarmacasahabitacion C:/cLogicos/practica2/punto2.vhd sub00/vhpl04 1582744942
+AR punto1 compuertas /home/ise/Aprendiendo/VHDL_Verilog/2.-CompuertasLogicas/punto1.vhd sub00/vhpl02 1688016591
+AR punto1 behavioral C:/cLogicos/practica2/punto1.vhd sub00/vhpl01 1582737279
+EN punto1 NULL /home/ise/Aprendiendo/VHDL_Verilog/2.-CompuertasLogicas/punto1.vhd sub00/vhpl00 1688016590
+EN punto2 NULL C:/cLogicos/practica2/punto2.vhd sub00/vhpl03 1582744941

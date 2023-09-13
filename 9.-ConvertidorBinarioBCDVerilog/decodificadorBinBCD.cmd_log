@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBDCVerilog/decodificadorBinBCD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBDCVerilog/decodificadorBinBCD.syr" 

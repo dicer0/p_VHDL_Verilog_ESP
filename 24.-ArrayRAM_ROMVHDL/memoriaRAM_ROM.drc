@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Jul 28 05:24:06 2023
+
+drc -z memoriaRAM_ROM.ncd memoriaRAM_ROM.pcf
+
+DRC detected 0 errors and 0 warnings.

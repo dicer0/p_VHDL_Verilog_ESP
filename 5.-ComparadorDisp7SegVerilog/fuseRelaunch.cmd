@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/electDigit/display7Segmentos/display7Segmentos_isim_beh.exe" -prj "C:/electDigit/display7Segmentos/display7Segmentos_beh.prj" "work.display7Segmentos" "work.glbl" 

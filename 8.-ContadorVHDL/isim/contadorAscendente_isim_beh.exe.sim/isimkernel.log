@@ -1,0 +1,28 @@
+Command line:
+   contadorAscendente_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62858
+
+Wed May 27 22:18:05 2020
+
+
+ Elaboration Time: 0.296875 sec
+
+ Current Memory Usage: 5815.23 Meg
+
+ Total Signals          : 4
+ Total Nets             : 12
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 390
+
+ Total Simulation Time: 0.625 sec
+
+ Current Memory Usage: 5343.33 Meg
+
+Wed May 27 22:19:20 2020
+

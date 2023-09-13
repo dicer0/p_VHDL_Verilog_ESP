@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Aprendiendo/VHDL_Verilog/17.-PWMServomotorControlSwitchesVHDL/controlSwitchesPWM_isim_beh.exe" -prj "/home/ise/Aprendiendo/VHDL_Verilog/17.-PWMServomotorControlSwitchesVHDL/controlSwitchesPWM_beh.prj" "work.controlSwitchesPWM" 

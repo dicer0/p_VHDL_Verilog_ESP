@@ -1,0 +1,10 @@
+V3 5
+FL /home/ise/Aprendiendo/VHDL_Verilog/4.-ComparadorDisp7SegVHDL/comparador.vhd 2023/06/29.09:44:40 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/5.-ComparadorDisp7SegVHDL/comparador.vhd 2023/06/29.09:53:26 P.20131013
+EN work/comparador 1688385907 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/5.-ComparadorDisp7SegVHDL/comparador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparador/nombreArquitectura 1688385908 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/5.-ComparadorDisp7SegVHDL/comparador.vhd \
+      EN work/comparador 1688385907
+FL C:/electDigit/comparadorDisp7SegVHDL/comparador.vhd 2020/04/18.03:37:36 P.20131013

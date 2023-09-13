@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/electDigit/UnionModulosVHDL/TopLevelDesign.xst" -ofn "C:/electDigit/UnionModulosVHDL/TopLevelDesign.syr" 
+xst -intstyle ise -ifn "C:/electDigit/UnionModulosVHDL/TopLevelDesign.xst" -ofn "C:/electDigit/UnionModulosVHDL/TopLevelDesign.syr" 
+xst -intstyle ise -ifn "C:/electDigit/UnionModulosVHDL/TopLevelDesign.xst" -ofn "C:/electDigit/UnionModulosVHDL/TopLevelDesign.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/electDigit/9.-UnionModulosVHDL/TopLevelDesign.xst" -ofn "/home/ise/Aprendiendo/electDigit/9.-UnionModulosVHDL/TopLevelDesign.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVHDL/TopLevelDesign.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVHDL/TopLevelDesign.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVHDL/TopLevelDesign.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-UnionModulosVHDL/TopLevelDesign.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/TopLevelDesign.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/6.-UnionModulosVHDL/TopLevelDesign.syr" 

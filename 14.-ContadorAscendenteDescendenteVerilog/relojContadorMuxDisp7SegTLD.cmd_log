@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3Verilog/relojContadorMuxDisp7SegTLD.xst" -ofn "C:/DLPs/practica1punto3Verilog/relojContadorMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3Verilog/relojContadorMuxDisp7SegTLD.xst" -ofn "C:/DLPs/practica1punto3Verilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "C:/DLPs/practica1punto3Verilog/relojContadorMuxDisp7SegTLD.xst" -ofn "C:/DLPs/practica1punto3Verilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/12.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/12.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/13.-ContadorAscendenteDescendenteVerilog/relojContadorMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc encenderDisplay7Seg.ucf -p xc3s500e-fg320-5 relojContadorMuxDisp7SegTLD.ngc relojContadorMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ngd relojContadorMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorMuxDisp7SegTLD_map.ncd relojContadorMuxDisp7SegTLD.ncd relojContadorMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr relojContadorMuxDisp7SegTLD.pcf -ucf encenderDisplay7Seg.ucf 
+bitgen -intstyle ise -f relojContadorMuxDisp7SegTLD.ut relojContadorMuxDisp7SegTLD.ncd 

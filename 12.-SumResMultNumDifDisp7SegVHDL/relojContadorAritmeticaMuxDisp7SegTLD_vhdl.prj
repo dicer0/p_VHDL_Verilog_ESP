@@ -1,0 +1,6 @@
+vhdl work "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd"
+vhdl work "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd"
+vhdl work "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd"
+vhdl work "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd"
+vhdl work "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd"
+vhdl work "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd"

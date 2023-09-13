@@ -1,0 +1,9 @@
+//ENTRADAS Y SALIDAS de la Maquina de Estados
+//ENTRADAS:
+net "clk" loc = "B8";				//Entrada clk asignada al reloj en el puerto B8.
+net "pinesAB[1]" loc = "K12";		//Pin A del encoder asignado al puerto JA2 en el puerto K12.
+net "pinesAB[0]" loc = "L15";		//Pin B del encoder asignado al puerto JA1 en el puerto L15.
+
+//SALIDAS:
+net "giroCW" loc = "J14";			//LD0 que se enciende al identificar el giro del encoder en sentido CW.
+net "giroCCW" loc = "R4";			//LD7 que se enciende al identificar el giro del encoder en sentido CCW.

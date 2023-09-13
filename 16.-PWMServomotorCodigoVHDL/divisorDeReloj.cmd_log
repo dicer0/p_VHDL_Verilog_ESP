@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/PWMServomotorVHDL/divisorDeReloj.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/PWMServomotorVHDL/divisorDeReloj.syr" 

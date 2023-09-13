@@ -1,0 +1,25 @@
+V3 14
+FL /home/ise/Aprendiendo/VHDL_Verilog/2.-CompuertasLogicas/punto1.vhd 2023/06/28.07:10:47 P.20131013
+EN work/punto1 1688016590 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/2.-CompuertasLogicas/punto1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/punto1/Compuertas 1688016591 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/2.-CompuertasLogicas/punto1.vhd \
+      EN work/punto1 1688016590
+FL C:/cLogicos/practica2/punto1.vhd 2020/02/26.18:13:25 P.20131013
+FL C:/cLogicos/practica2/punto2.vhd 2020/02/26.13:17:50 P.20131013
+EN work/punto2 1582744941 FL C:/cLogicos/practica2/punto2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/punto2/AlarmaCasaHabitacion 1582744942 \
+      FL C:/cLogicos/practica2/punto2.vhd EN work/punto2 1582744941
+FL C:/cLogicos/practica2/punto3a.vhd 2020/02/26.15:42:41 P.20131013
+EN work/punto3a 1582753469 FL C:/cLogicos/practica2/punto3a.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/punto3a/PrendidoApagado 1582753470 \
+      FL C:/cLogicos/practica2/punto3a.vhd EN work/punto3a 1582753469
+FL C:/cLogicos/practica2/punto3d.vhd 2020/02/26.15:21:57 P.20131013
+EN work/punto3d 1582756690 FL C:/cLogicos/practica2/punto3d.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/punto3d/accesoPuerta 1582756691 \
+      FL C:/cLogicos/practica2/punto3d.vhd EN work/punto3d 1582756690
+FL C:/electDigit/practica2/punto1.vhd 2020/02/26.18:13:25 P.20131013

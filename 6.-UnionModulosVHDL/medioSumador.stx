@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/electDigit/UnionModulosVHDL/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to C:/electDigit/UnionModulosVHDL/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" in Library work.
+Entity <nombreentidadmediosumador> compiled.
+ERROR:HDLParsers:3010 - "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" Line 13. Entity medioSumador does not exist.
+ERROR:HDLParsers:3312 - "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" Line 15. Undefined symbol 'sumMedSum'.
+ERROR:HDLParsers:3312 - "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" Line 15. Undefined symbol 'AMedSum'.
+ERROR:HDLParsers:1209 - "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" Line 15. AMedSum: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" Line 15. Undefined symbol 'BMedSum'.
+ERROR:HDLParsers:1209 - "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" Line 15. BMedSum: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/electDigit/UnionModulosVHDL/medioSumador.vhd" Line 16. Undefined symbol 'coutMedSum'.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> 
+
+Total memory usage is 4477652 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

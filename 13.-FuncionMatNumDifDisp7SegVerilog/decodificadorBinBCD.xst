@@ -1,0 +1,5 @@
+set -tmpdir "C:/electDigit/sumResMultNumDifDisp7SegVerilog/xst/projnav.tmp"
+set -xsthdpdir "C:/electDigit/sumResMultNumDifDisp7SegVerilog/xst"
+elaborate
+-ifn decodificadorBinBCD.prj
+-ifmt mixed

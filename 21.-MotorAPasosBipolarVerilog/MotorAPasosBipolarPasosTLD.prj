@@ -1,0 +1,3 @@
+verilog work "divisorDeReloj.v"
+verilog work "controlMotor.v"
+verilog work "MotorAPasosBipolarPasosTLD.v"

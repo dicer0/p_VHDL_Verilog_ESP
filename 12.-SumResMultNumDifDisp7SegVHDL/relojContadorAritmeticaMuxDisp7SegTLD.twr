@@ -1,0 +1,155 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx
+relojContadorAritmeticaMuxDisp7SegTLD.ncd -o
+relojContadorAritmeticaMuxDisp7SegTLD.twr
+relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf
+
+Design file:              relojContadorAritmeticaMuxDisp7SegTLD.ncd
+Physical constraint file: relojContadorAritmeticaMuxDisp7SegTLD.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clkNexys2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkNexys2      |    3.375|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+-----------------------+---------------+---------+
+Source Pad             |Destination Pad|  Delay  |
+-----------------------+---------------+---------+
+numero1<0>             |ledsDisplay<1> |   23.467|
+numero1<0>             |ledsDisplay<2> |   24.622|
+numero1<0>             |ledsDisplay<3> |   24.077|
+numero1<0>             |ledsDisplay<4> |   24.840|
+numero1<0>             |ledsDisplay<5> |   24.225|
+numero1<0>             |ledsDisplay<6> |   23.845|
+numero1<0>             |ledsDisplay<7> |   24.250|
+numero1<0>             |ledsNEXYS<4>   |    5.957|
+numero1<1>             |ledsDisplay<1> |   23.766|
+numero1<1>             |ledsDisplay<2> |   24.921|
+numero1<1>             |ledsDisplay<3> |   24.376|
+numero1<1>             |ledsDisplay<4> |   25.139|
+numero1<1>             |ledsDisplay<5> |   24.524|
+numero1<1>             |ledsDisplay<6> |   24.144|
+numero1<1>             |ledsDisplay<7> |   24.549|
+numero1<1>             |ledsNEXYS<5>   |    4.847|
+numero1<2>             |ledsDisplay<1> |   23.838|
+numero1<2>             |ledsDisplay<2> |   24.993|
+numero1<2>             |ledsDisplay<3> |   24.448|
+numero1<2>             |ledsDisplay<4> |   25.211|
+numero1<2>             |ledsDisplay<5> |   24.596|
+numero1<2>             |ledsDisplay<6> |   24.216|
+numero1<2>             |ledsDisplay<7> |   24.621|
+numero1<2>             |ledsNEXYS<6>   |    7.932|
+numero1<3>             |ledsDisplay<1> |   23.117|
+numero1<3>             |ledsDisplay<2> |   24.272|
+numero1<3>             |ledsDisplay<3> |   23.727|
+numero1<3>             |ledsDisplay<4> |   24.490|
+numero1<3>             |ledsDisplay<5> |   23.875|
+numero1<3>             |ledsDisplay<6> |   23.495|
+numero1<3>             |ledsDisplay<7> |   23.900|
+numero1<3>             |ledsNEXYS<7>   |    6.473|
+numero2<0>             |ledsDisplay<1> |   23.957|
+numero2<0>             |ledsDisplay<2> |   25.112|
+numero2<0>             |ledsDisplay<3> |   24.567|
+numero2<0>             |ledsDisplay<4> |   25.330|
+numero2<0>             |ledsDisplay<5> |   24.715|
+numero2<0>             |ledsDisplay<6> |   24.335|
+numero2<0>             |ledsDisplay<7> |   24.740|
+numero2<0>             |ledsNEXYS<0>   |    4.806|
+numero2<1>             |ledsDisplay<1> |   23.388|
+numero2<1>             |ledsDisplay<2> |   24.543|
+numero2<1>             |ledsDisplay<3> |   23.998|
+numero2<1>             |ledsDisplay<4> |   24.761|
+numero2<1>             |ledsDisplay<5> |   24.146|
+numero2<1>             |ledsDisplay<6> |   23.766|
+numero2<1>             |ledsDisplay<7> |   24.171|
+numero2<1>             |ledsNEXYS<1>   |    4.261|
+numero2<2>             |ledsDisplay<1> |   22.117|
+numero2<2>             |ledsDisplay<2> |   23.272|
+numero2<2>             |ledsDisplay<3> |   22.727|
+numero2<2>             |ledsDisplay<4> |   23.490|
+numero2<2>             |ledsDisplay<5> |   22.875|
+numero2<2>             |ledsDisplay<6> |   22.495|
+numero2<2>             |ledsDisplay<7> |   22.900|
+numero2<2>             |ledsNEXYS<2>   |    4.261|
+numero2<3>             |ledsDisplay<1> |   22.706|
+numero2<3>             |ledsDisplay<2> |   23.861|
+numero2<3>             |ledsDisplay<3> |   23.316|
+numero2<3>             |ledsDisplay<4> |   24.079|
+numero2<3>             |ledsDisplay<5> |   23.464|
+numero2<3>             |ledsDisplay<6> |   23.084|
+numero2<3>             |ledsDisplay<7> |   23.489|
+numero2<3>             |ledsNEXYS<3>   |    4.748|
+seleccionarOperacion<0>|ledsDisplay<1> |   23.193|
+seleccionarOperacion<0>|ledsDisplay<2> |   24.348|
+seleccionarOperacion<0>|ledsDisplay<3> |   23.803|
+seleccionarOperacion<0>|ledsDisplay<4> |   24.566|
+seleccionarOperacion<0>|ledsDisplay<5> |   23.951|
+seleccionarOperacion<0>|ledsDisplay<6> |   23.571|
+seleccionarOperacion<0>|ledsDisplay<7> |   23.976|
+seleccionarOperacion<1>|ledsDisplay<1> |   22.790|
+seleccionarOperacion<1>|ledsDisplay<2> |   23.945|
+seleccionarOperacion<1>|ledsDisplay<3> |   23.400|
+seleccionarOperacion<1>|ledsDisplay<4> |   24.163|
+seleccionarOperacion<1>|ledsDisplay<5> |   23.548|
+seleccionarOperacion<1>|ledsDisplay<6> |   23.168|
+seleccionarOperacion<1>|ledsDisplay<7> |   23.573|
+seleccionarOperacion<2>|ledsDisplay<1> |   23.184|
+seleccionarOperacion<2>|ledsDisplay<2> |   24.339|
+seleccionarOperacion<2>|ledsDisplay<3> |   23.794|
+seleccionarOperacion<2>|ledsDisplay<4> |   24.557|
+seleccionarOperacion<2>|ledsDisplay<5> |   23.942|
+seleccionarOperacion<2>|ledsDisplay<6> |   23.562|
+seleccionarOperacion<2>|ledsDisplay<7> |   23.967|
+-----------------------+---------------+---------+
+
+
+Analysis completed Mon Jul  3 12:48:07 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 348 MB
+
+
+

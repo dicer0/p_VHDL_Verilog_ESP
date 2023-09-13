@@ -1,0 +1,13 @@
+//Asi se ponen comentarios en los archivos ucf que sirven para indicar los 
+//puertos de conexion con la NEXYS 2.
+net "a" loc = "G18"; //variable a conectada al switch SW0.
+net "b" loc = "H18"; //variable b conectada al switch SW1.
+net "c" loc = "K18"; //variable c conectada al switch SW2.
+
+net "salidaAND" loc = "J14"; //variable salidaAND conectada al led LD0.
+net "salidaOR" loc = "J15"; //variable salidaAND conectada al led LD1.
+net "salidaNAND" loc = "K15"; //variable salidaAND conectada al led LD2.
+net "salidaNOR" loc = "K14"; //variable salidaNOR conectada al led LD3.
+net "salidaXOR" loc = "E17"; //variable salidaXOR conectada al led LD4.
+net "salidaXNOR" loc = "P15"; //variable salidaXNOR conectada al led LD5.
+net "salidaNOTa" loc = "F4"; //variable salidaNOTa conectada al led LD6.

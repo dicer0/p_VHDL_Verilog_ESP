@@ -1,0 +1,108 @@
+xst -intstyle ise -ifn "C:/cLogicos/display7Segmentos/display7Segmentos.xst" -ofn "C:/cLogicos/display7Segmentos/display7Segmentos.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/display7Segmentos/display7Segmentos.xst" -ofn "C:/cLogicos/display7Segmentos/display7Segmentos.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/display7Segmentos/display7Segmentos.xst" -ofn "C:/cLogicos/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "C:/electDigit/display7Segmentos/display7Segmentos.xst" -ofn "C:/electDigit/display7Segmentos/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/4.-ComparadorDisp7SegVerilog/display7Segmentos.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/4.-ComparadorDisp7SegVerilog/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/4.-ComparadorDisp7SegVerilog/display7Segmentos.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/4.-ComparadorDisp7SegVerilog/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/5.-ComparadorDisp7SegVerilog/display7Segmentos.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/5.-ComparadorDisp7SegVerilog/display7Segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc display.ucf -p xc3s500e-fg320-5 display7Segmentos.ngc display7Segmentos.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o display7Segmentos_map.ncd display7Segmentos.ngd display7Segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 display7Segmentos_map.ncd display7Segmentos.ncd display7Segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display7Segmentos.twx display7Segmentos.ncd -o display7Segmentos.twr display7Segmentos.pcf -ucf display.ucf 
+bitgen -intstyle ise -f display7Segmentos.ut display7Segmentos.ncd 

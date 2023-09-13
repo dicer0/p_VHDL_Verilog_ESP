@@ -1,0 +1,5 @@
+set -tmpdir "C:/electDigit/frecuenciaRelojVerilog/xst/projnav.tmp"
+set -xsthdpdir "C:/electDigit/frecuenciaRelojVerilog/xst"
+elaborate
+-ifn divisorDeReloj.prj
+-ifmt mixed

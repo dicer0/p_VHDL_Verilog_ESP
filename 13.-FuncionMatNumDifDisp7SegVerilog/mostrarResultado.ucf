@@ -1,0 +1,55 @@
+//ENTRADAS Y SALIDAS DEL MODULO TDL:
+//El diseno TLD sirve para hacer la conversion binario -> BCD y mostrarlo como numeros diferentes en los 
+//4 displays de 7 segmentos de la placa NEXYS 2 como si estos tuvieran valores diferentes despues de haberle
+//aplicado una funcion matematica al numero binario introducido con switches, las entradas y salidas usadas 
+//aqui deben ser las del modulo TLD.
+
+
+//ENTRADAS DEL MODULO sumadorRestadorMultiplicador
+//SWITCHES DE LA NEXYS 2
+net "numBinario[0]" loc = "G18";//Bit 1 (menos significativo) del numero binario conectado al switch SW0.
+net "numBinario[1]" loc = "H18";//Bit 2 del numero binario 2 conectado al switch SW1.
+net "numBinario[2]" loc = "K18";//Bit 3 del numero binario 2 conectado al switch SW2.
+net "numBinario[3]" loc = "K17";//Bit 4 (mas significativo) del numero binario conectado al switch SW3.
+
+//PUSH BUTTON DEL SELECTOR PARA ELEGIR LA FUNCION MATEMATICA
+net "seleccionarOperacion[0]" loc = "H13";//Funcion Y(x)=2*x+2 conectada al push button BTN3.
+net "seleccionarOperacion[1]" loc = "E18";//Funcion Y(x)=x*x conectada al push button BTN2.
+
+
+//ENTRADAS DEL MODULO divisorDeReloj
+net "clkNexys2" loc = "B8" ;//El reloj de 50MHz viene del puerto B8.
+net "Reset" loc = "B18";//El boton de Reset esta conectado al push button BTN0.
+
+
+//SALIDAS DEL MODULO TLD: relojContadorAritmeticaMuxDisp7SegTLD para encender leds indicativos.
+//Leds A,B,C,D,E,F y G del display de 7 segmentos
+net "leds[3]" loc = "K14";//1er bit (mas significativo) de la signal resultado conectada al LED LD3.
+net "leds[2]" loc = "K15";//2do bit de la signal resultado conectada al LED LD2.
+net "leds[1]" loc = "J15";//3er bit de la signal resultado conectada al LED LD1.
+net "leds[0]" loc = "J14";//4to bit (menos significativo) de la signal resultado conectada al LED LD0.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex
+//Leds A,B,C,D,E,F y G del display de 7 segmentos
+net "ledsDisplay[7]" loc = "L18";//1er bit del vector conectado al puerto CA (led A) del display de 7 segmentos.
+net "ledsDisplay[6]" loc = "F18";//2do bit del vector conectado al puerto CB (led B) del display de 7 segmentos.
+net "ledsDisplay[5]" loc = "D17";//3er bit del vector conectado al puerto CC (led C) del display de 7 segmentos.
+net "ledsDisplay[4]" loc = "D16";//4to bit del vector conectado al puerto CD (led D) del display de 7 segmentos.
+net "ledsDisplay[3]" loc = "G14";//5to bit del vector conectado al puerto CE (led E) del display de 7 segmentos.
+net "ledsDisplay[2]" loc = "J17";//6to bit del vector conectado al puerto CF (led F) del display de 7 segmentos.
+net "ledsDisplay[1]" loc = "H14";//7mo bit del vector conectado al puerto CG (led G) del display de 7 segmentos.
+net "ledsDisplay[0]" loc = "C17";//8vo bit del vector conectado al puerto DP, osea el punto del display de 7 segmentos.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex
+//Para que el orden que puse en el codigo se respete debo conectar el bit mas significativo al nodo AN3 y el bit 
+//menos significativo al nodo AN0.
+net "anodoComun[0]" loc = "F17";
+//Bit menos significativo conectado al puerto AN0, 1er display de 7 segmentos de los 4 disponibles.
+net "anodoComun[1]" loc = "H17";
+//Conectado al puerto AN1, 2do display de 7 segmentos de los 4 disponibles.
+net "anodoComun[2]" loc = "C18";
+//Conectado al puerto AN2, 3er display de 7 segmentos de los 4 disponibles.
+net "anodoComun[3]" loc = "F15";
+//Bit mas significativo conectado al puerto AN3, 4to display de 7 segmentos de los 4 disponibles.

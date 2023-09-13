@@ -1,0 +1,430 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: memoriaRAM_ROM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "memoriaRAM_ROM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "memoriaRAM_ROM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : memoriaRAM_ROM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/Aprendiendo/VHDL_Verilog/23.-ArrayRAM_ROMVHDL/memoriaRAM_ROM.vhd" in Library work.
+Entity <memoriaram_rom> compiled.
+Entity <memoriaram_rom> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <memoriaRAM_ROM> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <memoriaRAM_ROM> in library <work> (Architecture <behavioral>).
+Entity <memoriaRAM_ROM> analyzed. Unit <memoriaRAM_ROM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <memoriaRAM_ROM>.
+    Related source file is "/home/ise/Aprendiendo/VHDL_Verilog/23.-ArrayRAM_ROMVHDL/memoriaRAM_ROM.vhd".
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <RAM_8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8x8-bit ROM for signal <dataOutROM$mux0000> created at line 73.
+    Found 8-bit 8-to-1 multiplexer for signal <dataOutRAM>.
+    Found 8-bit register for signal <dataOutROM>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <memoriaRAM_ROM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x8-bit ROM                                           : 1
+# Registers                                            : 1
+ 8-bit register                                        : 1
+# Latches                                              : 8
+ 8-bit latch                                           : 8
+# Multiplexers                                         : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <memoriaRAM_ROM>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_dataOutROM_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <memoriaRAM_ROM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x8-bit ROM                                           : 1
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Latches                                              : 8
+ 8-bit latch                                           : 8
+# Multiplexers                                         : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <dataOutROM_3> (without init value) has a constant value of 0 in block <memoriaRAM_ROM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataOutROM_4> (without init value) has a constant value of 0 in block <memoriaRAM_ROM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataOutROM_5> (without init value) has a constant value of 0 in block <memoriaRAM_ROM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataOutROM_6> (without init value) has a constant value of 0 in block <memoriaRAM_ROM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dataOutROM_7> (without init value) has a constant value of 0 in block <memoriaRAM_ROM>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <memoriaRAM_ROM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block memoriaRAM_ROM, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : memoriaRAM_ROM.ngr
+Top Level Output File Name         : memoriaRAM_ROM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 72
+#      LUT2                        : 5
+#      LUT3                        : 43
+#      MUXF5                       : 16
+#      MUXF6                       : 8
+# FlipFlops/Latches                : 67
+#      FD                          : 3
+#      LDE_1                       : 64
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 20
+#      IBUF                        : 12
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       55  out of   4656     1%  
+ Number of Slice Flip Flops:             67  out of   9312     0%  
+ Number of 4 input LUTs:                 48  out of   9312     0%  
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    232     9%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 3     |
+RW                                 | BUFGP                  | 64    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 4.072ns
+   Maximum output required time after clock: 6.919ns
+   Maximum combinational path delay: 8.238ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.449ns (Levels of Logic = 1)
+  Source:            adressBus<0> (PAD)
+  Destination:       dataOutROM_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: adressBus<0> to dataOutROM_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            41   1.106   1.075  adressBus_0_IBUF (Mrom_dataOutROM_mux0000)
+     FD:D                      0.268          dataOutROM_0
+    ----------------------------------------
+    Total                      2.449ns (1.374ns logic, 1.075ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'RW'
+  Total number of paths / destination ports: 256 / 128
+-------------------------------------------------------------------------
+Offset:              4.072ns (Levels of Logic = 2)
+  Source:            adressBus<0> (PAD)
+  Destination:       RAM_6_0 (LATCH)
+  Destination Clock: RW rising
+
+  Data Path: adressBus<0> to RAM_6_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            41   1.106   1.227  adressBus_0_IBUF (Mrom_dataOutROM_mux0000)
+     LUT3:I0->O            8   0.612   0.643  RAM_6_cmp_eq00001 (RAM_6_cmp_eq0000)
+     LDE_1:GE                  0.483          RAM_6_7
+    ----------------------------------------
+    Total                      4.072ns (2.201ns logic, 1.871ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'RW'
+  Total number of paths / destination ports: 64 / 8
+-------------------------------------------------------------------------
+Offset:              6.919ns (Levels of Logic = 5)
+  Source:            RAM_1_7 (LATCH)
+  Destination:       dataBus<7> (PAD)
+  Source Clock:      RW rising
+
+  Data Path: RAM_1_7 to dataBus<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE_1:G->Q            1   0.588   0.426  RAM_1_7 (RAM_1_7)
+     LUT3:I1->O            1   0.612   0.000  Mmux_dataOutRAM_67 (Mmux_dataOutRAM_67)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_dataOutRAM_4_f5_6 (Mmux_dataOutRAM_4_f57)
+     MUXF6:I0->O           1   0.451   0.426  Mmux_dataOutRAM_2_f6_6 (dataOutRAM<7>)
+     LUT2:I1->O            1   0.612   0.357  dataBus<7>1 (dataBus_7_OBUF)
+     OBUF:I->O                 3.169          dataBus_7_OBUF (dataBus<7>)
+    ----------------------------------------
+    Total                      6.919ns (5.710ns logic, 1.209ns route)
+                                       (82.5% logic, 17.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              5.039ns (Levels of Logic = 2)
+  Source:            dataOutROM_2 (FF)
+  Destination:       dataBus<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: dataOutROM_2 to dataBus<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.387  dataOutROM_2 (dataOutROM_2)
+     LUT3:I2->O            1   0.612   0.357  dataBus<2>1 (dataBus_2_OBUF)
+     OBUF:I->O                 3.169          dataBus_2_OBUF (dataBus<2>)
+    ----------------------------------------
+    Total                      5.039ns (4.295ns logic, 0.744ns route)
+                                       (85.2% logic, 14.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 64 / 8
+-------------------------------------------------------------------------
+Delay:               8.238ns (Levels of Logic = 6)
+  Source:            adressBus<0> (PAD)
+  Destination:       dataBus<7> (PAD)
+
+  Data Path: adressBus<0> to dataBus<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            41   1.106   1.227  adressBus_0_IBUF (Mrom_dataOutROM_mux0000)
+     LUT3:I0->O            1   0.612   0.000  Mmux_dataOutRAM_4 (Mmux_dataOutRAM_4)
+     MUXF5:I1->O           1   0.278   0.000  Mmux_dataOutRAM_3_f5 (Mmux_dataOutRAM_3_f5)
+     MUXF6:I1->O           1   0.451   0.426  Mmux_dataOutRAM_2_f6 (dataOutRAM<0>)
+     LUT3:I1->O            1   0.612   0.357  dataBus<0>1 (dataBus_0_OBUF)
+     OBUF:I->O                 3.169          dataBus_0_OBUF (dataBus<0>)
+    ----------------------------------------
+    Total                      8.238ns (6.228ns logic, 2.010ns route)
+                                       (75.6% logic, 24.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 0.68 secs
+ 
+--> 
+
+
+Total memory usage is 615884 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

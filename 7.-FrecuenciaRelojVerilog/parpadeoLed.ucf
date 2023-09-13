@@ -1,0 +1,7 @@
+//ENTRADAS Y SALIDAS DEL archivo Top Level Design endenderApagarLedTLD
+//ENTRADAS:
+net "clk" loc = "B8";//Entrada clk asignada al reloj en el puerto B8.
+net "rst" loc = "H13";//Entrada reset asignada al push button BTN3 en el puerto H13.
+
+//SALIDAS:
+net "led_out" loc = "R4";//Salida asignada al led LD7.

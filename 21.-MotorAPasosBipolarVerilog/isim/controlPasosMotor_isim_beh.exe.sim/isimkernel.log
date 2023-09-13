@@ -1,0 +1,28 @@
+Command line:
+   controlPasosMotor_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54403
+
+Mon Jul 10 09:38:51 2023
+
+
+ Elaboration Time: 0.08 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 15
+ Total Nets             : 25
+ Total Signal Drivers   : 9
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 113
+
+ Total Simulation Time: 0.1 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Mon Jul 10 09:43:12 2023
+

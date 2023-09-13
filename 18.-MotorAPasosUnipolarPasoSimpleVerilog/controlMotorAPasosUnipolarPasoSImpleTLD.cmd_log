@@ -1,0 +1,116 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/15.-motorAPasosUnipolarVerilog/controlMotorAPasosUnipolarPasoSImpleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 controlMotorAPasosUnipolarPasoSImpleTLD.ngc controlMotorAPasosUnipolarPasoSImpleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ngd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 controlMotorAPasosUnipolarPasoSImpleTLD_map.ncd controlMotorAPasosUnipolarPasoSImpleTLD.ncd controlMotorAPasosUnipolarPasoSImpleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml controlMotorAPasosUnipolarPasoSImpleTLD.twx controlMotorAPasosUnipolarPasoSImpleTLD.ncd -o controlMotorAPasosUnipolarPasoSImpleTLD.twr controlMotorAPasosUnipolarPasoSImpleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f controlMotorAPasosUnipolarPasoSImpleTLD.ut controlMotorAPasosUnipolarPasoSImpleTLD.ncd 

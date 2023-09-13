@@ -1,0 +1,54 @@
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "C:/electDigit/sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/12.-funcionMatNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/12.-funcionMatNumDifDisp7SegVerilog/relojContadorAritmeticaMuxDisp7SegTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mostrarResultado.ucf -p xc3s500e-fg320-5 relojContadorAritmeticaMuxDisp7SegTLD.ngc relojContadorAritmeticaMuxDisp7SegTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ngd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+par -w -intstyle ise -ol high -t 1 relojContadorAritmeticaMuxDisp7SegTLD_map.ncd relojContadorAritmeticaMuxDisp7SegTLD.ncd relojContadorAritmeticaMuxDisp7SegTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml relojContadorAritmeticaMuxDisp7SegTLD.twx relojContadorAritmeticaMuxDisp7SegTLD.ncd -o relojContadorAritmeticaMuxDisp7SegTLD.twr relojContadorAritmeticaMuxDisp7SegTLD.pcf -ucf mostrarResultado.ucf 
+bitgen -intstyle ise -f relojContadorAritmeticaMuxDisp7SegTLD.ut relojContadorAritmeticaMuxDisp7SegTLD.ncd 

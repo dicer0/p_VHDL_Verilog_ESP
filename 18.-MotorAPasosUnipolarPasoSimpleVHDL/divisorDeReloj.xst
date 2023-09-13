@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/xst"
+elaborate
+-ifn divisorDeReloj.prj
+-ifmt mixed

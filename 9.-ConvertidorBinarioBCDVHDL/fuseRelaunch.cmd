@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3_isim_beh.exe" -prj "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3_beh.prj" "work.shiftAdd3" 

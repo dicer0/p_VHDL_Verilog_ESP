@@ -1,0 +1,28 @@
+Command line:
+   shiftRegisterAntirrebotes_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34898
+
+Wed Jul 26 08:11:46 2023
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 198.578 Meg
+
+ Total Signals          : 17
+ Total Nets             : 17
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 100
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 276.177 Meg
+
+Wed Jul 26 08:12:40 2023
+

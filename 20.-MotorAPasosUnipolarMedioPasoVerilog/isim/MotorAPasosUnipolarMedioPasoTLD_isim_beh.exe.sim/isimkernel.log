@@ -1,0 +1,28 @@
+Command line:
+   MotorAPasosUnipolarMedioPasoTLD_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  51733
+
+Thu Jul  6 18:34:46 2023
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 24
+ Total Nets             : 22
+ Total Signal Drivers   : 8
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 11
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 135
+
+ Total Simulation Time: 0.06 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Thu Jul  6 18:35:53 2023
+

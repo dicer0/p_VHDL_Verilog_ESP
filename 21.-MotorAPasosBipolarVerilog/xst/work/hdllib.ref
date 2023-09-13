@@ -1,0 +1,3 @@
+MO MotorAPasosBipolarPasosTLD NULL MotorAPasosBipolarPasosTLD.v vlg2B/_motor_a_pasos_bipolar_pasos_t_l_d.bin 1688979446
+MO controlPasosMotor NULL controlMotor.v vlg38/control_pasos_motor.bin 1688979446
+MO divisorDeReloj NULL divisorDeReloj.v vlg55/divisor_de_reloj.bin 1688979446

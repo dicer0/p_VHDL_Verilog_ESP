@@ -1,0 +1,29 @@
+V3 17
+FL /home/ise/Aprendiendo/electDigit/10.-frecuenciaRelojVHDL/divisorDeReloj.vhd 2020/05/28.04:37:42 P.20131013
+FL /home/ise/Aprendiendo/electDigit/10.-frecuenciaRelojVHDL/encenderApagarLed.vhd 2020/04/28.04:42:20 P.20131013
+FL /home/ise/Aprendiendo/electDigit/10.-frecuenciaRelojVHDL/parpadeoLedTLD.vhd 2020/05/01.06:11:56 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/divisorDeReloj.vhd 2023/07/07.10:45:46 P.20131013
+EN work/divisorDeReloj 1688727008 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/divisorDeReloj/Behavioral 1688727009 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688727008
+FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/encenderApagarLed.vhd 2023/06/29.19:29:42 P.20131013
+EN work/encenderApagarLed 1688727010 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/encenderApagarLed.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/encenderApagarLed/Behavioral 1688727011 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/encenderApagarLed.vhd \
+      EN work/encenderApagarLed 1688727010
+FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/parpadeoLedTLD.vhd 2023/06/29.18:40:27 P.20131013
+EN work/parpadeoLedTLD 1688727012 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/parpadeoLedTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/parpadeoLedTLD/Behavioral 1688727013 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/7.-frecuenciaRelojVHDL/parpadeoLedTLD.vhd \
+      EN work/parpadeoLedTLD 1688727012 CP work/divisorDeReloj \
+      CP work/encenderApagarLed
+FL C:/electDigit/frecuenciaRelojVHDL/divisorDeReloj.vhd 2020/05/27.23:37:40 P.20131013
+FL C:/electDigit/frecuenciaRelojVHDL/encenderApagarLed.vhd 2020/04/27.23:42:19 P.20131013
+FL C:/electDigit/frecuenciaRelojVHDL/parpadeoLedTLD.vhd 2020/04/27.23:41:02 P.20131013

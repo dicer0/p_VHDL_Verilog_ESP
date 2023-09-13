@@ -1,0 +1,555 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: relojContadorAritmeticaMuxDisp7SegTLD.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "relojContadorAritmeticaMuxDisp7SegTLD.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "relojContadorAritmeticaMuxDisp7SegTLD"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : relojContadorAritmeticaMuxDisp7SegTLD
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sumadorRestadorMultiplicador.v" in library work
+Compiling verilog file "divisorDeReloj.v" in library work
+Module <funcionMatematica> compiled
+Compiling verilog file "display7Seg.v" in library work
+Module <divisorDeReloj> compiled
+Compiling verilog file "decodificadorBinBCD.v" in library work
+Module <display7Seg> compiled
+Compiling verilog file "contadorSelector.v" in library work
+Module <decodificadorBinBCD> compiled
+Compiling verilog file "relojContadorAritmeticaMuxDisp7SegTLD.v" in library work
+Module <contadorSelector> compiled
+Module <relojContadorAritmeticaMuxDisp7SegTLD> compiled
+No errors in compilation
+Analysis of file <"relojContadorAritmeticaMuxDisp7SegTLD.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <relojContadorAritmeticaMuxDisp7SegTLD> in library <work>.
+
+Analyzing hierarchy for module <divisorDeReloj> in library <work>.
+
+Analyzing hierarchy for module <contadorSelector> in library <work>.
+
+Analyzing hierarchy for module <funcionMatematica> in library <work>.
+
+Analyzing hierarchy for module <decodificadorBinBCD> in library <work>.
+
+Analyzing hierarchy for module <display7Seg> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <relojContadorAritmeticaMuxDisp7SegTLD>.
+Module <relojContadorAritmeticaMuxDisp7SegTLD> is correct for synthesis.
+ 
+Analyzing module <divisorDeReloj> in library <work>.
+Module <divisorDeReloj> is correct for synthesis.
+ 
+Analyzing module <contadorSelector> in library <work>.
+Module <contadorSelector> is correct for synthesis.
+ 
+Analyzing module <funcionMatematica> in library <work>.
+Module <funcionMatematica> is correct for synthesis.
+ 
+Analyzing module <decodificadorBinBCD> in library <work>.
+Module <decodificadorBinBCD> is correct for synthesis.
+ 
+Analyzing module <display7Seg> in library <work>.
+Module <display7Seg> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divisorDeReloj>.
+    Related source file is "divisorDeReloj.v".
+    Found 24-bit up counter for signal <divisorDeReloj>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <divisorDeReloj> synthesized.
+
+
+Synthesizing Unit <contadorSelector>.
+    Related source file is "contadorSelector.v".
+    Found 2-bit up counter for signal <conteoAscendente>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contadorSelector> synthesized.
+
+
+Synthesizing Unit <funcionMatematica>.
+    Related source file is "sumadorRestadorMultiplicador.v".
+    Found 8-bit 4-to-1 multiplexer for signal <Result>.
+    Found 5-bit adder carry out for signal <Result$addsub0000> created at line 17.
+    Found 4x4-bit multiplier for signal <Result$mult0000> created at line 19.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   8 Multiplexer(s).
+Unit <funcionMatematica> synthesized.
+
+
+Synthesizing Unit <decodificadorBinBCD>.
+    Related source file is "decodificadorBinBCD.v".
+WARNING:Xst:646 - Signal <posiciones> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit adder for signal <$add0000> created at line 48.
+    Found 4-bit adder for signal <$add0001> created at line 48.
+    Found 4-bit adder for signal <$add0002> created at line 48.
+    Found 4-bit adder for signal <$add0003> created at line 48.
+    Found 4-bit adder for signal <$add0004> created at line 56.
+    Found 4-bit adder for signal <$add0005> created at line 48.
+    Found 4-bit adder for signal <$add0006> created at line 56.
+    Found 4-bit comparator greater for signal <posiciones_19_1$cmp_gt0000> created at line 45.
+    Found 4-bit comparator greater for signal <posiciones_19_1$cmp_gt0001> created at line 45.
+    Found 4-bit comparator greater for signal <posiciones_19_1$cmp_gt0002> created at line 45.
+    Found 4-bit comparator greater for signal <posiciones_19_1$cmp_gt0003> created at line 54.
+    Found 4-bit comparator greater for signal <posiciones_19_1$cmp_gt0004> created at line 45.
+    Found 4-bit comparator greater for signal <posiciones_19_1$cmp_gt0005> created at line 54.
+    Found 4-bit comparator greater for signal <posiciones_19_1$cmp_gt0006> created at line 45.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <decodificadorBinBCD> synthesized.
+
+
+Synthesizing Unit <display7Seg>.
+    Related source file is "display7Seg.v".
+    Found 4x4-bit ROM for signal <prenderDisplay>.
+    Found 16x8-bit ROM for signal <ledsAhastaDP>.
+    Found 4-bit 4-to-1 multiplexer for signal <digito>.
+    Summary:
+	inferred   2 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <display7Seg> synthesized.
+
+
+Synthesizing Unit <relojContadorAritmeticaMuxDisp7SegTLD>.
+    Related source file is "relojContadorAritmeticaMuxDisp7SegTLD.v".
+Unit <relojContadorAritmeticaMuxDisp7SegTLD> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x8-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Multipliers                                          : 1
+ 4x4-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 8
+ 4-bit adder                                           : 7
+ 5-bit adder carry out                                 : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 1
+# Comparators                                          : 7
+ 4-bit comparator greater                              : 7
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x8-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Multipliers                                          : 1
+ 4x4-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 8
+ 4-bit adder                                           : 7
+ 5-bit adder carry out                                 : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 1
+# Comparators                                          : 7
+ 4-bit comparator greater                              : 7
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_17> of sequential type is unconnected in block <relojContadorAritmeticaMuxDisp7SegTLD>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_18> of sequential type is unconnected in block <relojContadorAritmeticaMuxDisp7SegTLD>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_19> of sequential type is unconnected in block <relojContadorAritmeticaMuxDisp7SegTLD>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_20> of sequential type is unconnected in block <relojContadorAritmeticaMuxDisp7SegTLD>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_21> of sequential type is unconnected in block <relojContadorAritmeticaMuxDisp7SegTLD>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_22> of sequential type is unconnected in block <relojContadorAritmeticaMuxDisp7SegTLD>.
+WARNING:Xst:2677 - Node <frecuenciaReloj/divisorDeReloj_23> of sequential type is unconnected in block <relojContadorAritmeticaMuxDisp7SegTLD>.
+
+Optimizing unit <relojContadorAritmeticaMuxDisp7SegTLD> ...
+
+Optimizing unit <decodificadorBinBCD> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block relojContadorAritmeticaMuxDisp7SegTLD, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 19
+ Flip-Flops                                            : 19
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : relojContadorAritmeticaMuxDisp7SegTLD.ngr
+Top Level Output File Name         : relojContadorAritmeticaMuxDisp7SegTLD
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 118
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 16
+#      LUT2                        : 9
+#      LUT3                        : 6
+#      LUT4                        : 45
+#      MUXCY                       : 16
+#      MUXF5                       : 6
+#      VCC                         : 1
+#      XORCY                       : 17
+# FlipFlops/Latches                : 19
+#      FD                          : 1
+#      FDC                         : 17
+#      FDR                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 7
+#      OBUF                        : 16
+# MULTs                            : 1
+#      MULT18X18SIO                : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       42  out of   4656     0%  
+ Number of Slice Flip Flops:             19  out of   9312     0%  
+ Number of 4 input LUTs:                 77  out of   9312     0%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    232    10%  
+ Number of MULT18X18SIOs:                 1  out of     20     5%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                   | Load  |
+-----------------------------------+-----------------------------------------+-------+
+clkNexys2                          | BUFGP                                   | 17    |
+frecuenciaReloj/divisorDeReloj_16  | NONE(selectorDisplay/conteoAscendente_1)| 2     |
+-----------------------------------+-----------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Reset                              | IBUF                   | 17    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.727ns (Maximum Frequency: 268.312MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 8.279ns
+   Maximum combinational path delay: 22.970ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkNexys2'
+  Clock period: 3.727ns (frequency: 268.312MHz)
+  Total number of paths / destination ports: 153 / 17
+-------------------------------------------------------------------------
+Delay:               3.727ns (Levels of Logic = 17)
+  Source:            frecuenciaReloj/divisorDeReloj_1 (FF)
+  Destination:       frecuenciaReloj/divisorDeReloj_16 (FF)
+  Source Clock:      clkNexys2 rising
+  Destination Clock: clkNexys2 rising
+
+  Data Path: frecuenciaReloj/divisorDeReloj_1 to frecuenciaReloj/divisorDeReloj_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.509  frecuenciaReloj/divisorDeReloj_1 (frecuenciaReloj/divisorDeReloj_1)
+     LUT1:I0->O            1   0.612   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<1>_rt (frecuenciaReloj/Mcount_divisorDeReloj_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<1> (frecuenciaReloj/Mcount_divisorDeReloj_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<2> (frecuenciaReloj/Mcount_divisorDeReloj_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<3> (frecuenciaReloj/Mcount_divisorDeReloj_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<4> (frecuenciaReloj/Mcount_divisorDeReloj_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<5> (frecuenciaReloj/Mcount_divisorDeReloj_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<6> (frecuenciaReloj/Mcount_divisorDeReloj_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<7> (frecuenciaReloj/Mcount_divisorDeReloj_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<8> (frecuenciaReloj/Mcount_divisorDeReloj_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<9> (frecuenciaReloj/Mcount_divisorDeReloj_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<10> (frecuenciaReloj/Mcount_divisorDeReloj_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<11> (frecuenciaReloj/Mcount_divisorDeReloj_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<12> (frecuenciaReloj/Mcount_divisorDeReloj_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<13> (frecuenciaReloj/Mcount_divisorDeReloj_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<14> (frecuenciaReloj/Mcount_divisorDeReloj_cy<14>)
+     MUXCY:CI->O           0   0.051   0.000  frecuenciaReloj/Mcount_divisorDeReloj_cy<15> (frecuenciaReloj/Mcount_divisorDeReloj_cy<15>)
+     XORCY:CI->O           1   0.699   0.000  frecuenciaReloj/Mcount_divisorDeReloj_xor<16> (Result<16>)
+     FDC:D                     0.268          frecuenciaReloj/divisorDeReloj_16
+    ----------------------------------------
+    Total                      3.727ns (3.218ns logic, 0.509ns route)
+                                       (86.3% logic, 13.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'frecuenciaReloj/divisorDeReloj_16'
+  Clock period: 2.339ns (frequency: 427.524MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.339ns (Levels of Logic = 1)
+  Source:            selectorDisplay/conteoAscendente_1 (FF)
+  Destination:       selectorDisplay/conteoAscendente_1 (FF)
+  Source Clock:      frecuenciaReloj/divisorDeReloj_16 rising
+  Destination Clock: frecuenciaReloj/divisorDeReloj_16 rising
+
+  Data Path: selectorDisplay/conteoAscendente_1 to selectorDisplay/conteoAscendente_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              11   0.514   0.945  selectorDisplay/conteoAscendente_1 (selectorDisplay/conteoAscendente_1)
+     LUT2:I0->O            1   0.612   0.000  selectorDisplay/Mcount_conteoAscendente_xor<1>11 (Result<1>1)
+     FD:D                      0.268          selectorDisplay/conteoAscendente_1
+    ----------------------------------------
+    Total                      2.339ns (1.394ns logic, 0.945ns route)
+                                       (59.6% logic, 40.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'frecuenciaReloj/divisorDeReloj_16'
+  Total number of paths / destination ports: 90 / 10
+-------------------------------------------------------------------------
+Offset:              8.279ns (Levels of Logic = 5)
+  Source:            selectorDisplay/conteoAscendente_1 (FF)
+  Destination:       ledsDisplay<7> (PAD)
+  Source Clock:      frecuenciaReloj/divisorDeReloj_16 rising
+
+  Data Path: selectorDisplay/conteoAscendente_1 to ledsDisplay<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              11   0.514   0.945  selectorDisplay/conteoAscendente_1 (selectorDisplay/conteoAscendente_1)
+     LUT4:I0->O            1   0.612   0.000  mostrarDigito/Mmux_digito289_SW0_G (N49)
+     MUXF5:I1->O           1   0.278   0.509  mostrarDigito/Mmux_digito289_SW0 (N40)
+     LUT3:I0->O            7   0.612   0.671  mostrarDigito/Mmux_digito289 (mostrarDigito/digito<0>)
+     LUT4:I1->O            1   0.612   0.357  mostrarDigito/Mrom_ledsAhastaDP111 (ledsDisplay_1_OBUF)
+     OBUF:I->O                 3.169          ledsDisplay_1_OBUF (ledsDisplay<1>)
+    ----------------------------------------
+    Total                      8.279ns (5.797ns logic, 2.482ns route)
+                                       (70.0% logic, 30.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 111129 / 11
+-------------------------------------------------------------------------
+Delay:               22.970ns (Levels of Logic = 15)
+  Source:            numBinario<0> (PAD)
+  Destination:       ledsDisplay<2> (PAD)
+
+  Data Path: numBinario<0> to ledsDisplay<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.106   0.643  numBinario_0_IBUF (leds_0_OBUF)
+     MULT18X18SIO:A0->P7    3   3.861   0.603  seleccionarFuncion/Mmult_Result_mult0000 (seleccionarFuncion/Result_mult0000<7>)
+     LUT3:I0->O            7   0.612   0.605  seleccionarFuncion/Mmux_Result81 (resultado<7>)
+     LUT4:I3->O            7   0.612   0.671  ShiftAdd_3/posiciones_19_1_mux00041 (ShiftAdd_3/posiciones_19_1_mux0004)
+     LUT4:I1->O            5   0.612   0.690  ShiftAdd_3/posiciones_19_1_mux000811 (ShiftAdd_3/N7)
+     LUT3:I0->O            4   0.612   0.502  ShiftAdd_3/posiciones_19_1_mux001811 (ShiftAdd_3/N3)
+     LUT4:I3->O            6   0.612   0.599  ShiftAdd_3/posiciones_19_1_mux00161 (ShiftAdd_3/Madd__add0006_cy<0>)
+     LUT4:I2->O            1   0.612   0.509  ShiftAdd_3/Madd__add0006_cy<1>11 (ShiftAdd_3/Madd__add0006_cy<1>)
+     LUT4:I0->O            2   0.612   0.383  ShiftAdd_3/posiciones_19_1_mux002036_SW0 (N26)
+     LUT4:I3->O            3   0.612   0.454  ShiftAdd_3/posiciones_19_1_mux002036 (CENTENAS<0>)
+     LUT4:I3->O            1   0.612   0.360  mostrarDigito/Mmux_digito649 (mostrarDigito/Mmux_digito649)
+     LUT4:I3->O            1   0.612   0.360  mostrarDigito/Mmux_digito6121_SW0 (N32)
+     LUT4:I3->O            7   0.612   0.754  mostrarDigito/Mmux_digito6121 (mostrarDigito/digito<2>)
+     LUT4:I0->O            1   0.612   0.357  mostrarDigito/Mrom_ledsAhastaDP21 (ledsDisplay_2_OBUF)
+     OBUF:I->O                 3.169          ledsDisplay_2_OBUF (ledsDisplay<2>)
+    ----------------------------------------
+    Total                     22.970ns (15.480ns logic, 7.490ns route)
+                                       (67.4% logic, 32.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 0.47 secs
+ 
+--> 
+
+
+Total memory usage is 519976 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

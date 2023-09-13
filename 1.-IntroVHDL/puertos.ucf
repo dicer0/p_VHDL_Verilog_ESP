@@ -1,0 +1,14 @@
+//Entradas y salidas asignadas a cada elemento electronico de la tarjeta NEXYS2
+net "a" loc = "R17";//Entrada a asignada al switch SW7
+net "b" loc = "N17";//Entrada a asignada al switch SW6
+net "c" loc = "L13";//Entrada a asignada al switch SW5
+
+net "salidaAND" loc = "R4";//Salida salidaAND asignada al led LD7
+net "salidaOR" loc = "F4";//Salida salidaOR asignada al led LD6
+net "salidaNAND2" loc = "P15";//Salida salidaNAND2 asignada al led LD5
+net "salidaNOR2" loc = "E17";//Salida salidaNOR2 asignada al led LD4
+net "salidaXOR" loc = "K14";//Salida salidaXOR asignada al led LD3
+net "salidaXNOR2" loc = "K15";//Salida salidaXNOR2 asignada al led LD2
+net "salidaNOTa" loc = "J15";//Salida salidaNOTa asignada al led LD1
+
+//Las salidas faltantes podran ser dirigidas a los puertos para que enciendan leds externos

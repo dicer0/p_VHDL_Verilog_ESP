@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml expendedoraGelAntibacterial.twx
+expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr
+expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf
+
+Design file:              expendedoraGelAntibacterial.ncd
+Physical constraint file: expendedoraGelAntibacterial.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+-------------------+------------+------------+------------------+--------+
+                   |Max Setup to|Max Hold to |                  | Clock  |
+Source             | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+-------------------+------------+------------+------------------+--------+
+on_off             |    7.223(R)|   -0.796(R)|CLK_BUFGP         |   0.000|
+productoDisponible |    6.583(R)|   -0.750(R)|CLK_BUFGP         |   0.000|
+selectorArticulo<0>|    3.641(R)|   -1.283(R)|CLK_BUFGP         |   0.000|
+selectorArticulo<1>|    4.463(R)|   -1.941(R)|CLK_BUFGP         |   0.000|
+selectorArticulo<2>|    4.378(R)|   -1.872(R)|CLK_BUFGP         |   0.000|
+-------------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+PWM_Servo   |   10.585(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.744|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+-------------------+------------------+---------+
+Source Pad         |Destination Pad   |  Delay  |
+-------------------+------------------+---------+
+on_off             |DP                |   10.438|
+on_off             |anodoComun<0>     |   10.755|
+on_off             |anodoComun<1>     |   11.053|
+on_off             |anodoComun<2>     |   11.348|
+on_off             |anodoComun<3>     |   11.283|
+on_off             |disponible        |    8.844|
+on_off             |ledsDisplay7Seg<0>|   10.866|
+on_off             |ledsDisplay7Seg<1>|   11.157|
+on_off             |ledsDisplay7Seg<2>|   11.254|
+on_off             |ledsDisplay7Seg<3>|   11.919|
+on_off             |ledsDisplay7Seg<4>|   11.902|
+on_off             |ledsDisplay7Seg<5>|   10.675|
+on_off             |ledsDisplay7Seg<6>|   11.933|
+productoDisponible |DP                |   10.184|
+productoDisponible |anodoComun<0>     |   10.115|
+productoDisponible |anodoComun<1>     |   10.413|
+productoDisponible |anodoComun<2>     |   10.708|
+productoDisponible |anodoComun<3>     |   10.643|
+productoDisponible |disponible        |    8.204|
+productoDisponible |ledsDisplay7Seg<0>|   10.226|
+productoDisponible |ledsDisplay7Seg<1>|   10.517|
+productoDisponible |ledsDisplay7Seg<2>|   10.614|
+productoDisponible |ledsDisplay7Seg<3>|   11.279|
+productoDisponible |ledsDisplay7Seg<4>|   11.262|
+productoDisponible |ledsDisplay7Seg<5>|   10.035|
+productoDisponible |ledsDisplay7Seg<6>|   11.293|
+selectorArticulo<0>|DP                |    6.839|
+selectorArticulo<0>|anodoComun<0>     |    7.045|
+selectorArticulo<0>|anodoComun<1>     |    7.343|
+selectorArticulo<0>|anodoComun<2>     |    7.638|
+selectorArticulo<0>|anodoComun<3>     |    7.573|
+selectorArticulo<0>|ledsDisplay7Seg<0>|    6.819|
+selectorArticulo<0>|ledsDisplay7Seg<1>|    7.575|
+selectorArticulo<0>|ledsDisplay7Seg<2>|    7.510|
+selectorArticulo<0>|ledsDisplay7Seg<3>|    8.053|
+selectorArticulo<0>|ledsDisplay7Seg<4>|    8.036|
+selectorArticulo<0>|ledsDisplay7Seg<5>|    6.965|
+selectorArticulo<0>|ledsDisplay7Seg<6>|    8.009|
+selectorArticulo<1>|DP                |    7.782|
+selectorArticulo<1>|anodoComun<0>     |    8.099|
+selectorArticulo<1>|anodoComun<1>     |    8.397|
+selectorArticulo<1>|anodoComun<2>     |    8.692|
+selectorArticulo<1>|anodoComun<3>     |    8.627|
+selectorArticulo<1>|ledsDisplay7Seg<0>|    7.598|
+selectorArticulo<1>|ledsDisplay7Seg<1>|    8.401|
+selectorArticulo<1>|ledsDisplay7Seg<2>|    8.564|
+selectorArticulo<1>|ledsDisplay7Seg<3>|    8.423|
+selectorArticulo<1>|ledsDisplay7Seg<4>|    8.584|
+selectorArticulo<1>|ledsDisplay7Seg<5>|    8.019|
+selectorArticulo<1>|ledsDisplay7Seg<6>|    8.831|
+selectorArticulo<2>|DP                |    7.576|
+selectorArticulo<2>|anodoComun<0>     |    7.849|
+selectorArticulo<2>|anodoComun<1>     |    8.147|
+selectorArticulo<2>|anodoComun<2>     |    8.442|
+selectorArticulo<2>|anodoComun<3>     |    8.377|
+selectorArticulo<2>|ledsDisplay7Seg<0>|    7.513|
+selectorArticulo<2>|ledsDisplay7Seg<1>|    8.312|
+selectorArticulo<2>|ledsDisplay7Seg<2>|    8.314|
+selectorArticulo<2>|ledsDisplay7Seg<3>|    8.506|
+selectorArticulo<2>|ledsDisplay7Seg<4>|    8.489|
+selectorArticulo<2>|ledsDisplay7Seg<5>|    7.769|
+selectorArticulo<2>|ledsDisplay7Seg<6>|    8.746|
+-------------------+------------------+---------+
+
+
+Analysis completed Wed Aug 16 02:40:23 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 349 MB
+
+
+

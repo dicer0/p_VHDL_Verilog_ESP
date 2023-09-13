@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MotorAPasosBipolarPasosTLD</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/MotorAPasosBipolarPasosTLD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MotorAPasosBipolarPasosTLD/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/MotorAPasosBipolarPasosTLD.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/controlPasosMotor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/controlPasosMotor.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/controlPasosMotor.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/controlPasosMotor/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/controlPasosMotor.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/controlPasosMotor.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/divisorDeReloj</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/divisorDeReloj.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/divisorDeReloj.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/divisorDeReloj/frecuenciaNueva</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/divisorDeReloj.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/divisorDeReloj.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Divisor_frec/divisorDeReloj_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MotorAPasosBipolarPasosTLD</arg>&gt;.
+</msg>
+
+</messages>
+

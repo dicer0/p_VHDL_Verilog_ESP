@@ -1,0 +1,4 @@
+MO controlMotorAPasosUnipolarPasoSImpleTLD NULL TLDMotorApasos.v vlg40/control_motor_a_pasos_unipolar_paso_s_imple_t_l_d.bin 1688661550
+MO controlPasosMotor NULL controlMotor.v vlg38/control_pasos_motor.bin 1688967325
+MO divisorDeReloj NULL divisorDeReloj.v vlg55/divisor_de_reloj.bin 1688967325
+MO MotorAPasosUnipolarPasoSImpleTLD NULL TLDMotorApasos.v vlg5F/_motor_a_pasos_unipolar_paso_s_imple_t_l_d.bin 1688967325

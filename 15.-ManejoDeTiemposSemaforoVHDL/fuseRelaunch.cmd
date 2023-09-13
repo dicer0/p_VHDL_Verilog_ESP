@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Aprendiendo/VHDL_Verilog/15.-ManejoDeTiemposSemaforoVHDL/secuenciaSemaforo_isim_beh.exe" -prj "/home/ise/Aprendiendo/VHDL_Verilog/15.-ManejoDeTiemposSemaforoVHDL/secuenciaSemaforo_beh.prj" "work.secuenciaSemaforo" 

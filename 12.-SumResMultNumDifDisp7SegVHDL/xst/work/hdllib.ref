@@ -1,0 +1,15 @@
+EN sumadorrestadormultiplicador NULL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd sub00/vhpl00 1688388457
+AR contadorselector contador2bits /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd sub00/vhpl06 1688388456
+EN decodificadorbinbcd NULL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd sub00/vhpl03 1688388459
+EN divisordereloj NULL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd sub00/vhpl07 1688388453
+AR decodificadorbinbcd shiftadd3 /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/DecodificadorBinBCD.vhd sub00/vhpl04 1688388460
+AR divisordereloj frecuencianueva /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/divisorDeReloj.vhd sub00/vhpl08 1688388454
+EN contadorselector NULL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/contadorSelector.vhd sub00/vhpl05 1688388455
+AR relojcontadoraritmeticamuxdisp7segtld behavioral /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd sub00/vhpl12 1688388464
+EN display7seg NULL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd sub00/vhpl09 1688388461
+AR display7seg mostrar4valores /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/display7Seg.vhd sub00/vhpl10 1688388462
+EN relojcontadoraritmeticamuxdisp7segtld NULL /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/relojContadorAritmeticaMuxDisp7SegTLD.vhd sub00/vhpl11 1688388463
+AR sumadorrestadormultiplicador seleccionaroperacion /home/ise/Aprendiendo/VHDL_Verilog/11.-sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd sub00/vhpl02 1688388458
+AR sumadorrestadormultiplicador behavioral C:/electDigit/sumResMultNumDifDisp7SegVHDL/sumadorRestadorMultiplicador.vhd sub00/vhpl01 1588617785
+AR selectorencoder behavioral C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/selectorEncoder.vhd sub00/vhpl14 1608078860
+EN selectorencoder NULL C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/selectorEncoder.vhd sub00/vhpl13 1608078859

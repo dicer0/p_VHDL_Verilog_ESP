@@ -1,0 +1,479 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: fsmMealy.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "fsmMealy.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "fsmMealy"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : fsmMealy
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fsmMealy.v" in library work
+Module <fsmMealy> compiled
+No errors in compilation
+Analysis of file <"fsmMealy.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <fsmMealy> in library <work> with parameters.
+	Estado_1 = "01"
+	Estado_2 = "10"
+	Estado_3 = "11"
+	Inicio = "00"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <fsmMealy>.
+	Estado_1 = 2'b01
+	Estado_2 = 2'b10
+	Estado_3 = 2'b11
+	Inicio = 2'b00
+Module <fsmMealy> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <fsmMealy>.
+    Related source file is "fsmMealy.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <estadoPresente> of Case statement line 135 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <estadoPresente> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+WARNING:Xst:2475 - Clock and clock enable of counter <clkdiv> are driven by the same logic. The clock enable is removed.
+WARNING:Xst:2474 - Clock and clock enable of register <delay_1> are driven by the same logic. The clock enable is removed.
+WARNING:Xst:2474 - Clock and clock enable of register <delay_2> are driven by the same logic. The clock enable is removed.
+WARNING:Xst:2474 - Clock and clock enable of register <estadoPresente> are driven by the same logic. The clock enable is removed.
+    Using one-hot encoding for signal <estadoPresente>.
+    Found 1-bit register for signal <botonDebounce>.
+    Found 25-bit up counter for signal <clkdiv>.
+    Found 1-bit register for signal <delay_1>.
+    Found 1-bit register for signal <delay_2>.
+    Found 4-bit register for signal <estadoPresente>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   7 D-type flip-flop(s).
+Unit <fsmMealy> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 4
+ 1-bit register                                        : 3
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <fsmMealy> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block fsmMealy, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : fsmMealy.ngr
+Top Level Output File Name         : fsmMealy
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 82
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 24
+#      LUT2                        : 2
+#      LUT3                        : 2
+#      LUT4                        : 1
+#      MUXCY                       : 24
+#      VCC                         : 1
+#      XORCY                       : 25
+# FlipFlops/Latches                : 32
+#      FD                          : 30
+#      FDR                         : 1
+#      FDSE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 1
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       17  out of   4656     0%  
+ Number of Slice Flip Flops:             32  out of   9312     0%  
+ Number of 4 input LUTs:                 31  out of   9312     0%  
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clkdiv_19                          | NONE(delay_1)          | 3     |
+clkdiv_24                          | NONE(estadoPresente_1) | 4     |
+clk                                | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.139ns (Maximum Frequency: 241.604MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 5.396ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_24'
+  Clock period: 1.926ns (frequency: 519.224MHz)
+  Total number of paths / destination ports: 6 / 4
+-------------------------------------------------------------------------
+Delay:               1.926ns (Levels of Logic = 1)
+  Source:            estadoPresente_2 (FF)
+  Destination:       estadoPresente_3 (FF)
+  Source Clock:      clkdiv_24 rising
+  Destination Clock: clkdiv_24 rising
+
+  Data Path: estadoPresente_2 to estadoPresente_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  estadoPresente_2 (estadoPresente_2)
+     LUT2:I0->O            2   0.612   0.000  ledPasos<1>1 (ledPasos_1_OBUF)
+     FD:D                      0.268          estadoPresente_3
+    ----------------------------------------
+    Total                      1.926ns (1.394ns logic, 0.532ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_19'
+  Clock period: 2.658ns (frequency: 376.230MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               2.658ns (Levels of Logic = 1)
+  Source:            delay_1 (FF)
+  Destination:       botonDebounce (FF)
+  Source Clock:      clkdiv_19 rising
+  Destination Clock: clkdiv_19 rising
+
+  Data Path: delay_1 to botonDebounce
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.380  delay_1 (delay_1)
+     INV:I->O              1   0.612   0.357  delay_1_inv1_INV_0 (delay_1_inv)
+     FDR:R                     0.795          botonDebounce
+    ----------------------------------------
+    Total                      2.658ns (1.921ns logic, 0.737ns route)
+                                       (72.3% logic, 27.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.139ns (frequency: 241.604MHz)
+  Total number of paths / destination ports: 325 / 25
+-------------------------------------------------------------------------
+Delay:               4.139ns (Levels of Logic = 25)
+  Source:            clkdiv_1 (FF)
+  Destination:       clkdiv_24 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clkdiv_1 to clkdiv_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.509  clkdiv_1 (clkdiv_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_clkdiv_cy<1>_rt (Mcount_clkdiv_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_clkdiv_cy<1> (Mcount_clkdiv_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_clkdiv_cy<2> (Mcount_clkdiv_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_clkdiv_cy<3> (Mcount_clkdiv_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<4> (Mcount_clkdiv_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<5> (Mcount_clkdiv_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<6> (Mcount_clkdiv_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<7> (Mcount_clkdiv_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<8> (Mcount_clkdiv_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<9> (Mcount_clkdiv_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<10> (Mcount_clkdiv_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<11> (Mcount_clkdiv_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<12> (Mcount_clkdiv_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<13> (Mcount_clkdiv_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<14> (Mcount_clkdiv_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<15> (Mcount_clkdiv_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<16> (Mcount_clkdiv_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<17> (Mcount_clkdiv_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<18> (Mcount_clkdiv_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<19> (Mcount_clkdiv_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<20> (Mcount_clkdiv_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<21> (Mcount_clkdiv_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_clkdiv_cy<22> (Mcount_clkdiv_cy<22>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_clkdiv_cy<23> (Mcount_clkdiv_cy<23>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_clkdiv_xor<24> (Result<24>)
+     FD:D                      0.268          clkdiv_24
+    ----------------------------------------
+    Total                      4.139ns (3.630ns logic, 0.509ns route)
+                                       (87.7% logic, 12.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkdiv_19'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            boton (PAD)
+  Destination:       delay_1 (FF)
+  Destination Clock: clkdiv_19 rising
+
+  Data Path: boton to delay_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  boton_IBUF (boton_IBUF)
+     FD:D                      0.268          delay_1
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkdiv_24'
+  Total number of paths / destination ports: 8 / 5
+-------------------------------------------------------------------------
+Offset:              5.278ns (Levels of Logic = 2)
+  Source:            estadoPresente_3 (FF)
+  Destination:       ledSecuencia (PAD)
+  Source Clock:      clkdiv_24 rising
+
+  Data Path: estadoPresente_3 to ledSecuencia
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.514   0.603  estadoPresente_3 (estadoPresente_3)
+     LUT2:I0->O            2   0.612   0.380  ledSecuencia1 (ledSecuencia_OBUF)
+     OBUF:I->O                 3.169          ledSecuencia_OBUF (ledSecuencia)
+    ----------------------------------------
+    Total                      5.278ns (4.295ns logic, 0.983ns route)
+                                       (81.4% logic, 18.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkdiv_19'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              5.396ns (Levels of Logic = 2)
+  Source:            botonDebounce (FF)
+  Destination:       ledPasos<2> (PAD)
+  Source Clock:      clkdiv_19 rising
+
+  Data Path: botonDebounce to ledPasos<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              6   0.514   0.721  botonDebounce (botonDebounce)
+     LUT3:I0->O            2   0.612   0.380  ledPasos<2>1 (ledPasos_2_OBUF)
+     OBUF:I->O                 3.169          ledPasos_2_OBUF (ledPasos<2>)
+    ----------------------------------------
+    Total                      5.396ns (4.295ns logic, 1.101ns route)
+                                       (79.6% logic, 20.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 0.82 secs
+ 
+--> 
+
+
+Total memory usage is 606732 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

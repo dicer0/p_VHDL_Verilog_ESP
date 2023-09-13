@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="secuenciaFSM_MooreVerilog.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="fsmMoore.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="fsmMoore.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="fsmMoore.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="fsmMoore.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="fsmMoore.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="fsmMoore.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="fsmMoore.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="fsmMoore.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="fsmMoore.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="fsmMoore.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="fsmMoore.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="fsmMoore.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="fsmMoore.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fsmMoore.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="fsmMoore.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="fsmMoore.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="fsmMoore.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="fsmMoore.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="fsmMoore.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="fsmMoore.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="fsmMoore.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="fsmMoore.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="fsmMoore.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="fsmMoore_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="fsmMoore_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="fsmMoore_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="fsmMoore_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="fsmMoore_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="fsmMoore_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fsmMoore_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fsmMoore_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="fsmMoore_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="fsmMoore_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fsmMoore_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="fsmMoore_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="fsmMoore_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="fsmMoore_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fsmMoore_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1690830481" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1690830481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1690830481" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8838592316620997025" xil_pn:start_ts="1690830481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1690830481" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-286128664428244696" xil_pn:start_ts="1690830481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1690830481" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1690830481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1690830481" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7551353879458731425" xil_pn:start_ts="1690830481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1690830481" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1690830481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1690830481" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1657089450648579634" xil_pn:start_ts="1690830481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1691179570" xil_pn:in_ck="4900457733289324" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8105041773081693221" xil_pn:start_ts="1691179563">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="fsmMoore.lso"/>
+      <outfile xil_pn:name="fsmMoore.ngc"/>
+      <outfile xil_pn:name="fsmMoore.ngr"/>
+      <outfile xil_pn:name="fsmMoore.prj"/>
+      <outfile xil_pn:name="fsmMoore.stx"/>
+      <outfile xil_pn:name="fsmMoore.syr"/>
+      <outfile xil_pn:name="fsmMoore.xst"/>
+      <outfile xil_pn:name="fsmMoore_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1690886038" xil_pn:in_ck="-8230297026582191329" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784893640731485834" xil_pn:start_ts="1690886038">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1691028420" xil_pn:in_ck="2649708474166521069" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7922392584207130645" xil_pn:start_ts="1691028415">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="fsmMoore.bld"/>
+      <outfile xil_pn:name="fsmMoore.ngd"/>
+      <outfile xil_pn:name="fsmMoore_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1691028424" xil_pn:in_ck="5541056848097955598" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1691028420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="fsmMoore.pcf"/>
+      <outfile xil_pn:name="fsmMoore_map.map"/>
+      <outfile xil_pn:name="fsmMoore_map.mrp"/>
+      <outfile xil_pn:name="fsmMoore_map.ncd"/>
+      <outfile xil_pn:name="fsmMoore_map.ngm"/>
+      <outfile xil_pn:name="fsmMoore_map.xrpt"/>
+      <outfile xil_pn:name="fsmMoore_summary.xml"/>
+      <outfile xil_pn:name="fsmMoore_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1691028437" xil_pn:in_ck="8789741671951119047" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1691028424">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="fsmMoore.ncd"/>
+      <outfile xil_pn:name="fsmMoore.pad"/>
+      <outfile xil_pn:name="fsmMoore.par"/>
+      <outfile xil_pn:name="fsmMoore.ptwx"/>
+      <outfile xil_pn:name="fsmMoore.unroutes"/>
+      <outfile xil_pn:name="fsmMoore.xpi"/>
+      <outfile xil_pn:name="fsmMoore_pad.csv"/>
+      <outfile xil_pn:name="fsmMoore_pad.txt"/>
+      <outfile xil_pn:name="fsmMoore_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1691028440" xil_pn:in_ck="5336598471552068491" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1691028437">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="fsmMoore.bgn"/>
+      <outfile xil_pn:name="fsmMoore.bit"/>
+      <outfile xil_pn:name="fsmMoore.drc"/>
+      <outfile xil_pn:name="fsmMoore.ut"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1691028437" xil_pn:in_ck="-7182047036660369910" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1691028434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="fsmMoore.twr"/>
+      <outfile xil_pn:name="fsmMoore.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

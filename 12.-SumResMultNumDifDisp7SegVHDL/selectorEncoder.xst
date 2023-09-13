@@ -1,0 +1,5 @@
+set -tmpdir "C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/xst/projnav.tmp"
+set -xsthdpdir "C:/electDigit/12.-sumResMultNumDifDisp7SegVHDL/xst"
+elaborate
+-ifn selectorEncoder.prj
+-ifmt mixed

@@ -1,0 +1,4 @@
+vhdl work "mostrarHexadecimalDisplay.vhd"
+vhdl work "divisorDeReloj.vhd"
+vhdl work "contadorAscendenteDescendente.vhd"
+vhdl work "contadorHezadecimalTLD.vhd"

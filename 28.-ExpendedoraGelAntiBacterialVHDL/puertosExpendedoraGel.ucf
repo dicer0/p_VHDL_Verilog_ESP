@@ -1,0 +1,45 @@
+//ENTRADAS DEL MODULO TLD:
+//SWITCHES DE LA NEXYS 2: ON/OFF
+net "on_off" loc = "R17";//Encendido y apagado de toda la maquina conectado al switch SW7
+
+//SWITCHES PARA SELECCIONAR UN PRODUCTO
+net "selectorArticulo[2]" loc = "D18";//Selecciono el articulo 3 con el push button BTN1.
+net "selectorArticulo[1]" loc = "E18";//Selecciono el articulo 2 con el push button BTN2.
+net "selectorArticulo[0]" loc = "H13";//Selecciono el articulo 1 con el push button BTN3.
+
+//SWITCH PARA REPRESENTAR AL SENSOR LDR QUE INDICA LA DISPONIBILIDAD DE PRODUCTO
+net "productoDisponible" loc = "N17";//Bit del sensor LDR representado por el switch SW6.
+
+//ENTRADAS DEL MDULO divisorDeReloj
+net "CLK" loc = "B8" ;//El reloj de 50MHz viene del puerto B8.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex
+//Leds A,B,C,D,E,F y G del display de 7 segmentos
+net "ledsDisplay7Seg[6]" loc = "L18";//1er bit del vector conectado al puerto CA (led A) del display de 7 segmentos.
+net "ledsDisplay7Seg[5]" loc = "F18";//2do bit del vector conectado al puerto CB (led B) del display de 7 segmentos.
+net "ledsDisplay7Seg[4]" loc = "D17";//3er bit del vector conectado al puerto CC (led C) del display de 7 segmentos.
+net "ledsDisplay7Seg[3]" loc = "D16";//4to bit del vector conectado al puerto CD (led D) del display de 7 segmentos.
+net "ledsDisplay7Seg[2]" loc = "G14";//5to bit del vector conectado al puerto CE (led E) del display de 7 segmentos.
+net "ledsDisplay7Seg[1]" loc = "J17";//6to bit del vector conectado al puerto CF (led F) del display de 7 segmentos.
+net "ledsDisplay7Seg[0]" loc = "H14";//7mo bit del vector conectado al puerto CG (led G) del display de 7 segmentos.
+//Punto de los displays de 7 segmentos.
+net "DP" loc = "C17";//Punto del display de 7 segmentos.
+
+//SALIDAS DEL MODULO decodificadorBinHex
+//Para que el orden que puse en el codigo se respete debo conectar el bit mas significativo al nodo AN3 y el bit 
+//menos significativo al nodo AN0.
+net "anodoComun[0]" loc = "F17";
+//Bit menos singnificativo conectado al puerto AN0, 1er display de 7 segmentos de los 4 disponibles.
+net "anodoComun[1]" loc = "H17";
+//Conectado al puerto AN1, 2do display de 7 segmentos de los 4 disponibles.
+net "anodoComun[2]" loc = "C18";
+//Conectado al puerto AN2, 3er display de 7 segmentos de los 4 disponibles.
+net "anodoComun[3]" loc = "F15";
+//Bit mas singnificativo conectado al puerto AN3, 4to display de 7 segmentos de los 4 disponibles.
+
+//Se indica si hay productos disponibles o no con el switch SW6.
+net "disponible" loc = "J14";//el LED LD0 se enciende cuando hay productos disponibles y se apaga cuando no
+
+//SALIDA DEL MODULO servomotorPWM
+net "PWM_Servo" loc = "L15";//La senal PWM del servomotor esta conectada al puerto JA1.

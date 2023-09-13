@@ -1,0 +1,5 @@
+set -tmpdir "C:/electDigit/UnionModulosVHDL/xst/projnav.tmp"
+set -xsthdpdir "C:/electDigit/UnionModulosVHDL/xst"
+elaborate
+-ifn medioSumador.prj
+-ifmt mixed

@@ -1,0 +1,26 @@
+V3 14
+FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/controlPasosMotor.vhd 2023/07/10.10:03:36 P.20131013
+EN work/controlPasosMotor 1688984106 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/controlPasosMotor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/controlPasosMotor/Behavioral 1688984107 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/controlPasosMotor.vhd \
+      EN work/controlPasosMotor 1688984106
+FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/divisorDeReloj.vhd 2023/07/10.10:05:51 P.20131013
+EN work/divisorDeReloj 1688984104 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1688984105 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688984104
+FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/MotorAPasosBipolarPasosTLD.vhd 2023/07/10.10:12:47 P.20131013
+EN work/MotorAPasosBipolarPasosTLD 1688984108 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/MotorAPasosBipolarPasosTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MotorAPasosBipolarPasosTLD/Behavioral 1688984109 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/18.-MotorAPasosBipolarVHDL/MotorAPasosBipolarPasosTLD.vhd \
+      EN work/MotorAPasosBipolarPasosTLD 1688984108 CP work/divisorDeReloj \
+      CP work/controlPasosMotor
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/controlPasosMotor.vhd 2023/07/10.10:03:36 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/divisorDeReloj.vhd 2023/07/10.10:05:51 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosBipolarPasosTLD/MotorAPasosBipolarPasosTLD.vhd 2023/07/10.10:12:47 P.20131013

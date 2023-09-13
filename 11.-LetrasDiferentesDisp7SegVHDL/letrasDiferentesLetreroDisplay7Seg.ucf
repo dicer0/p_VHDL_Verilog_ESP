@@ -1,0 +1,32 @@
+//ENTRADAS Y SALIDAS DEL MODULO TDL:
+//El diseno TLD sirve para hacer la conversion binario -> letrero y mostrarlo como letras diferentes en los 
+//4 displays de 7 segmentos de la placa NEXYS 2 como si estos tuvieran digitos diferentes.
+
+//ENTRADAS DEL MODULO divisorDeReloj
+net "clkNexys2" loc = "B8" ;//El reloj de 50MHz viene del puerto B8.
+net "Reset" loc = "H13";//El boton de Reset esta conectado al push button BTN3.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex
+//Leds A,B,C,D,E,F,G y DP del display de 7 segmentos vistos en orden de derecha a izquierda.
+net "letreroIPN[7]" loc = "L18";//8vo bit del vector conectado al puerto CA (led A) del display de 7 segmentos.
+net "letreroIPN[6]" loc = "F18";//7mo bit del vector conectado al puerto CB (led B) del display de 7 segmentos.
+net "letreroIPN[5]" loc = "D17";//6to bit del vector conectado al puerto CC (led C) del display de 7 segmentos.
+net "letreroIPN[4]" loc = "D16";//5to bit del vector conectado al puerto CD (led D) del display de 7 segmentos.
+net "letreroIPN[3]" loc = "G14";//4to bit del vector conectado al puerto CE (led E) del display de 7 segmentos.
+net "letreroIPN[2]" loc = "J17";//3er bit del vector conectado al puerto CF (led F) del display de 7 segmentos.
+net "letreroIPN[1]" loc = "H14";//2do bit del vector conectado al puerto CG (led G) del display de 7 segmentos.
+net "letreroIPN[0]" loc = "C17";//1er bit del vector conectado al puerto DP (punto) del display de 7 segmentos.
+
+
+//SALIDAS DEL MODULO decodificadorBinHex
+//Para que el orden se respete debo conectar el bit mas significativo al nodo AN3 y el bit menos significativo 
+//al nodo AN0.
+net "anodoComun[3]" loc = "F17";
+//Bit mas significativo conectado al puerto AN0, 4to display de 7 segmentos de los 4 disponibles.
+net "anodoComun[2]" loc = "H17";
+//Conectado al puerto AN1, 3er display de 7 segmentos de los 4 disponibles.
+net "anodoComun[1]" loc = "C18";
+//Conectado al puerto AN2, 2do display de 7 segmentos de los 4 disponibles.
+net "anodoComun[0]" loc = "F15";
+//Bit menos significativo conectado al puerto AN3, 1er display de 7 segmentos de los 4 disponibles.

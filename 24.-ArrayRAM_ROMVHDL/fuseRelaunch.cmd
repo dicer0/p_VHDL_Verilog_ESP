@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Aprendiendo/VHDL_Verilog/23.-ArrayRAM_ROMVHDL/memoriaRAM_ROM_isim_beh.exe" -prj "/home/ise/Aprendiendo/VHDL_Verilog/23.-ArrayRAM_ROMVHDL/memoriaRAM_ROM_beh.prj" "work.memoriaRAM_ROM" 

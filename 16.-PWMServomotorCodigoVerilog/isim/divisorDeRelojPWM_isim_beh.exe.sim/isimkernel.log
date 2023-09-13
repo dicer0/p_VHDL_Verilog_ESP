@@ -1,0 +1,28 @@
+Command line:
+   divisorDeRelojPWM_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50550
+
+Sun Jul 23 11:25:22 2023
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 15
+ Total Nets             : 16
+ Total Signal Drivers   : 6
+ Total Blocks           : 5
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 219
+
+ Total Simulation Time: 1.73 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Sun Jul 23 11:25:59 2023
+

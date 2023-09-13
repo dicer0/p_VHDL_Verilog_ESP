@@ -1,0 +1,3 @@
+verilog work "endenderApagarLed.v"
+verilog work "divisorDeReloj.v"
+verilog work "parpadeoLedTLD.v"

@@ -1,0 +1,26 @@
+V3 14
+FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/controlPasosMotor.vhd 2023/07/07.11:28:41 P.20131013
+EN work/controlPasosMotor 1688730840 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/controlPasosMotor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/controlPasosMotor/Behavioral 1688730841 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/controlPasosMotor.vhd \
+      EN work/controlPasosMotor 1688730840
+FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/divisorDeReloj.vhd 2023/07/07.11:53:53 P.20131013
+EN work/divisorDeReloj 1688730838 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1688730839 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688730838
+FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/MotorAPasosUnipolarPasoSImpleTLD.vhd 2023/07/07.11:20:15 P.20131013
+EN work/MotorAPasosUnipolarPasoSImpleTLD 1688730842 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/MotorAPasosUnipolarPasoSImpleTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MotorAPasosUnipolarPasoSImpleTLD/Behavioral 1688730843 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/15.-MotorAPasosUnipolarPasoSimpleVHDL/MotorAPasosUnipolarPasoSImpleTLD.vhd \
+      EN work/MotorAPasosUnipolarPasoSImpleTLD 1688730842 CP work/divisorDeReloj \
+      CP work/controlPasosMotor
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/controlPasosMotor.vhd 2023/07/07.10:49:36 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/divisorDeReloj.vhd 2023/07/07.11:08:58 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/MotorAPasosUnipolarPasoSImpleTLD.vhd 2023/07/07.11:05:22 P.20131013

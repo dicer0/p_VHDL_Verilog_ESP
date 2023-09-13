@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/control.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/control.syr" 

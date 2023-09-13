@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jul 06 16:39:22 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "bobinasMotor<0>" LOCATE = SITE "M15" LEVEL 1;
+COMP "bobinasMotor<1>" LOCATE = SITE "L17" LEVEL 1;
+COMP "bobinasMotor<2>" LOCATE = SITE "K12" LEVEL 1;
+COMP "bobinasMotor<3>" LOCATE = SITE "L15" LEVEL 1;
+COMP "rst" LOCATE = SITE "H13" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,7 @@
+MO relojContadorAritmeticaMuxDisp7SegTLD NULL relojContadorAritmeticaMuxDisp7SegTLD.v vlg51/reloj_contador_aritmetica_mux_disp7_seg_t_l_d.bin 1688388652
+MO display7Seg NULL display7Seg.v vlg14/display7_seg.bin 1688388651
+MO funcionMatematica NULL sumadorRestadorMultiplicador.v vlg48/funcion_matematica.bin 1688388651
+MO sumadorRestadorMultiplicador NULL sumadorRestadorMultiplicador.v vlg64/sumador_restador_multiplicador.bin 1688146695
+MO decodificadorBinBCD NULL decodificadorBinBCD.v vlg06/decodificador_bin_b_c_d.bin 1688388652
+MO divisorDeReloj NULL divisorDeReloj.v vlg55/divisor_de_reloj.bin 1688388651
+MO contadorSelector NULL contadorSelector.v vlg23/contador_selector.bin 1688388652

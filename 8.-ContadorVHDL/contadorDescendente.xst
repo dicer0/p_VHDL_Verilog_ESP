@@ -1,0 +1,5 @@
+set -tmpdir "C:/electDigit/contadorVHDL/xst/projnav.tmp"
+set -xsthdpdir "C:/electDigit/contadorVHDL/xst"
+elaborate
+-ifn contadorDescendente.prj
+-ifmt mixed

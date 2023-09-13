@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.xst" -ofn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.syr" 
+xst -intstyle ise -ifn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.xst" -ofn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.syr" 
+xst -intstyle ise -ifn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.xst" -ofn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.syr" 
+xst -intstyle ise -ifn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.xst" -ofn "C:/electDigit/numDiferentesDisp7SegVerilog/divisorDeReloj.syr" 

@@ -1,0 +1,15 @@
+V3 8
+FL /home/ise/Aprendiendo/VHDL_Verilog/7.-ConvertidorBinarioBCDVHDL/shiftAdd3.vhd 2023/06/29.11:30:18 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBCDVHDL/shiftAdd3.vhd 2023/06/30.17:27:22 P.20131013
+AR work/shiftAdd3/metodoShiftAdd3 1688113525 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBCDVHDL/shiftAdd3.vhd \
+      EN work/shiftAdd3 1688113524
+EN work/DecodificadorBinBCD 1688145026 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBCDVHDL/shiftAdd3.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/DecodificadorBinBCD/SHIFTADD3 1688145027 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBCDVHDL/shiftAdd3.vhd \
+      EN work/DecodificadorBinBCD 1688145026
+FL C:/cLogicos/ConvertidorBinarioBCDVHDL/shiftAdd3.vhd 2020/04/21.18:46:46 P.20131013
+FL C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3.vhd 2020/05/04.13:56:46 P.20131013

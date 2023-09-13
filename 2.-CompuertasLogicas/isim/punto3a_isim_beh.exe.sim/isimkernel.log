@@ -1,0 +1,28 @@
+Command line:
+   punto3a_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58090
+
+Thu Apr 16 01:36:14 2020
+
+
+ Elaboration Time: 0.296875 sec
+
+ Current Memory Usage: 5814.64 Meg
+
+ Total Signals          : 3
+ Total Nets             : 3
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 363
+
+ Total Simulation Time: 0.4375 sec
+
+ Current Memory Usage: 5185.46 Meg
+
+Thu Apr 16 01:41:11 2020
+

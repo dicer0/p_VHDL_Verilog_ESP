@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotesVerilog/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotesVerilog/shiftRegisterAntirrebotes.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotesVerilog/shiftRegisterAntirrebotes.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/shiftRegisterAntirrebotesVerilog/shiftRegisterAntirrebotes.syr" 

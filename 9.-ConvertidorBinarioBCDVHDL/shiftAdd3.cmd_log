@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "C:/cLogicos/ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "C:/cLogicos/ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 
+xst -intstyle ise -ifn "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 
+xst -intstyle ise -ifn "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "C:/electDigit/ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/7.-ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/7.-ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/7.-ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/7.-ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBCDVHDL/shiftAdd3.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/9.-ConvertidorBinarioBCDVHDL/shiftAdd3.syr" 

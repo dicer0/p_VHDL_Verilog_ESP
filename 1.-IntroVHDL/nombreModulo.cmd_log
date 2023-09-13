@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/electDigit/introVHDL/nombreModulo.xst" -ofn "C:/electDigit/introVHDL/nombreModulo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 nombreModulo.ngc nombreModulo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o nombreModulo_map.ncd nombreModulo.ngd nombreModulo.pcf 
+xst -intstyle ise -ifn "C:/electDigit/introVHDL/nombreModulo.xst" -ofn "C:/electDigit/introVHDL/nombreModulo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 nombreModulo.ngc nombreModulo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o nombreModulo_map.ncd nombreModulo.ngd nombreModulo.pcf 
+par -w -intstyle ise -ol high -t 1 nombreModulo_map.ncd nombreModulo.ncd nombreModulo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml nombreModulo.twx nombreModulo.ncd -o nombreModulo.twr nombreModulo.pcf 
+bitgen -intstyle ise -f nombreModulo.ut nombreModulo.ncd 
+xst -intstyle ise -ifn "C:/electDigit/introVHDL/nombreModulo.xst" -ofn "C:/electDigit/introVHDL/nombreModulo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertos.ucf -p xc3s500e-fg320-5 nombreModulo.ngc nombreModulo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o nombreModulo_map.ncd nombreModulo.ngd nombreModulo.pcf 
+par -w -intstyle ise -ol high -t 1 nombreModulo_map.ncd nombreModulo.ncd nombreModulo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml nombreModulo.twx nombreModulo.ncd -o nombreModulo.twr nombreModulo.pcf -ucf puertos.ucf 
+bitgen -intstyle ise -f nombreModulo.ut nombreModulo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/1.-IntroVHDL/nombreModulo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/1.-IntroVHDL/nombreModulo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertos.ucf -p xc3s500e-fg320-5 nombreModulo.ngc nombreModulo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o nombreModulo_map.ncd nombreModulo.ngd nombreModulo.pcf 
+par -w -intstyle ise -ol high -t 1 nombreModulo_map.ncd nombreModulo.ncd nombreModulo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml nombreModulo.twx nombreModulo.ncd -o nombreModulo.twr nombreModulo.pcf -ucf puertos.ucf 
+bitgen -intstyle ise -f nombreModulo.ut nombreModulo.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/1.-IntroVHDL/nombreModulo.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/1.-IntroVHDL/nombreModulo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertos.ucf -p xc3s500e-fg320-5 nombreModulo.ngc nombreModulo.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o nombreModulo_map.ncd nombreModulo.ngd nombreModulo.pcf 
+par -w -intstyle ise -ol high -t 1 nombreModulo_map.ncd nombreModulo.ncd nombreModulo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml nombreModulo.twx nombreModulo.ncd -o nombreModulo.twr nombreModulo.pcf -ucf puertos.ucf 
+bitgen -intstyle ise -f nombreModulo.ut nombreModulo.ncd 

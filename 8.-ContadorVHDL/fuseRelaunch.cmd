@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/electDigit/contadorVHDL/contadorAscendente_isim_beh.exe" -prj "C:/electDigit/contadorVHDL/contadorAscendente_beh.prj" "work.contadorAscendente" 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/DLPs/practica1punto3Verilog/xst/projnav.tmp"
+set -xsthdpdir "C:/DLPs/practica1punto3Verilog/xst"
+elaborate
+-ifn contadorSelector.prj
+-ifmt mixed

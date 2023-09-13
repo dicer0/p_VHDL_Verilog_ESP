@@ -1,0 +1,35 @@
+V3 19
+FL /home/ise/Aprendiendo/DLPs/practica2Punto4/contadorSelector.vhd 2023/07/04.13:08:24 P.20131013
+EN work/contadorSelector 1688476650 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/contadorSelector.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contadorSelector/contador2Bits 1688476651 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/contadorSelector.vhd \
+      EN work/contadorSelector 1688476650
+FL /home/ise/Aprendiendo/DLPs/practica2Punto4/decodificadorBinHex.vhd 2023/07/04.13:12:38 P.20131013
+EN work/decodificadorIPN 1688476652 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/decodificadorBinHex.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decodificadorIPN/Behavioral 1688476653 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/decodificadorBinHex.vhd \
+      EN work/decodificadorIPN 1688476652
+FL /home/ise/Aprendiendo/DLPs/practica2Punto4/displayLetreroIPN.vhd 2023/07/04.13:17:10 P.20131013
+EN work/displayLetreroIPN 1688476654 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/displayLetreroIPN.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/displayLetreroIPN/encenderDisplaysTLD 1688476655 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/displayLetreroIPN.vhd \
+      EN work/displayLetreroIPN 1688476654 CP work/divisorDeReloj \
+      CP work/contadorSelector CP work/decodificadorIPN
+FL /home/ise/Aprendiendo/DLPs/practica2Punto4/divisorDeReloj.vhd 2023/07/04.13:06:35 P.20131013
+EN work/divisorDeReloj 1688476648 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1688476649 \
+      FL /home/ise/Aprendiendo/DLPs/practica2Punto4/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688476648
+FL C:/DLPs/practica2Punto4/contadorSelector.vhd 2020/10/27.22:45:35 P.20131013
+FL C:/DLPs/practica2Punto4/decodificadorBinHex.vhd 2020/10/27.23:59:34 P.20131013
+FL C:/DLPs/practica2Punto4/displayLetreroIPN.vhd 2020/10/27.23:50:09 P.20131013
+FL C:/DLPs/practica2Punto4/divisorDeReloj.vhd 2020/10/28.00:47:39 P.20131013

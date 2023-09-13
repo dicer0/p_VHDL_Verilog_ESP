@@ -1,0 +1,26 @@
+V3 14
+FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/controlPasosMotor.vhd 2023/07/07.11:41:17 P.20131013
+EN work/controlPasosMotor 1688731193 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/controlPasosMotor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/controlPasosMotor/Behavioral 1688731194 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/controlPasosMotor.vhd \
+      EN work/controlPasosMotor 1688731193
+FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/divisorDeReloj.vhd 2023/07/07.11:59:49 P.20131013
+EN work/divisorDeReloj 1688731191 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/divisorDeReloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisorDeReloj/frecuenciaNueva 1688731192 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/divisorDeReloj.vhd \
+      EN work/divisorDeReloj 1688731191
+FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.vhd 2023/07/07.11:42:29 P.20131013
+EN work/MotorAPasosUnipolarPasoDobleTLD 1688731195 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MotorAPasosUnipolarPasoDobleTLD/Behavioral 1688731196 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.vhd \
+      EN work/MotorAPasosUnipolarPasoDobleTLD 1688731195 CP work/divisorDeReloj \
+      CP work/controlPasosMotor
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoDobleTLD/controlPasosMotor.vhd 2023/07/07.11:41:17 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoDobleTLD/divisorDeReloj.vhd 2023/07/07.11:38:43 P.20131013
+FL /home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoDobleTLD/MotorAPasosUnipolarPasoDobleTLD.vhd 2023/07/07.11:42:29 P.20131013

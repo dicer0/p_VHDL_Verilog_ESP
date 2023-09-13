@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoDobleTLD/MotorAPasosUnipolarPasoDobleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoDobleTLD/MotorAPasosUnipolarPasoDobleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 MotorAPasosUnipolarPasoDobleTLD.ngc MotorAPasosUnipolarPasoDobleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ngd MotorAPasosUnipolarPasoDobleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ncd MotorAPasosUnipolarPasoDobleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosUnipolarPasoDobleTLD.twx MotorAPasosUnipolarPasoDobleTLD.ncd -o MotorAPasosUnipolarPasoDobleTLD.twr MotorAPasosUnipolarPasoDobleTLD.pcf 
+bitgen -intstyle ise -f MotorAPasosUnipolarPasoDobleTLD.ut MotorAPasosUnipolarPasoDobleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoDobleTLD/MotorAPasosUnipolarPasoDobleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoDobleTLD/MotorAPasosUnipolarPasoDobleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 MotorAPasosUnipolarPasoDobleTLD.ngc MotorAPasosUnipolarPasoDobleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ngd MotorAPasosUnipolarPasoDobleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ncd MotorAPasosUnipolarPasoDobleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosUnipolarPasoDobleTLD.twx MotorAPasosUnipolarPasoDobleTLD.ncd -o MotorAPasosUnipolarPasoDobleTLD.twr MotorAPasosUnipolarPasoDobleTLD.pcf 
+bitgen -intstyle ise -f MotorAPasosUnipolarPasoDobleTLD.ut MotorAPasosUnipolarPasoDobleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 MotorAPasosUnipolarPasoDobleTLD.ngc MotorAPasosUnipolarPasoDobleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ngd MotorAPasosUnipolarPasoDobleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ncd MotorAPasosUnipolarPasoDobleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosUnipolarPasoDobleTLD.twx MotorAPasosUnipolarPasoDobleTLD.ncd -o MotorAPasosUnipolarPasoDobleTLD.twr MotorAPasosUnipolarPasoDobleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosUnipolarPasoDobleTLD.ut MotorAPasosUnipolarPasoDobleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 MotorAPasosUnipolarPasoDobleTLD.ngc MotorAPasosUnipolarPasoDobleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ngd MotorAPasosUnipolarPasoDobleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ncd MotorAPasosUnipolarPasoDobleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosUnipolarPasoDobleTLD.twx MotorAPasosUnipolarPasoDobleTLD.ncd -o MotorAPasosUnipolarPasoDobleTLD.twr MotorAPasosUnipolarPasoDobleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosUnipolarPasoDobleTLD.ut MotorAPasosUnipolarPasoDobleTLD.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/16.-motorAPasosUnipolarPasoDobleVHDL/MotorAPasosUnipolarPasoDobleTLD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc motorAPasosUnipolar.ucf -p xc3s500e-fg320-5 MotorAPasosUnipolarPasoDobleTLD.ngc MotorAPasosUnipolarPasoDobleTLD.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ngd MotorAPasosUnipolarPasoDobleTLD.pcf 
+par -w -intstyle ise -ol high -t 1 MotorAPasosUnipolarPasoDobleTLD_map.ncd MotorAPasosUnipolarPasoDobleTLD.ncd MotorAPasosUnipolarPasoDobleTLD.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MotorAPasosUnipolarPasoDobleTLD.twx MotorAPasosUnipolarPasoDobleTLD.ncd -o MotorAPasosUnipolarPasoDobleTLD.twr MotorAPasosUnipolarPasoDobleTLD.pcf -ucf motorAPasosUnipolar.ucf 
+bitgen -intstyle ise -f MotorAPasosUnipolarPasoDobleTLD.ut MotorAPasosUnipolarPasoDobleTLD.ncd 

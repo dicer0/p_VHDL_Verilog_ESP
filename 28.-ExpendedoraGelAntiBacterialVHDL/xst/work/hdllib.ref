@@ -1,0 +1,14 @@
+AR servomotorpwm frecuencianueva /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd sub00/vhpl13 1692153605
+AR expendedoragelantibacterial behavioral /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd sub00/vhpl09 1692153607
+EN controldisplay NULL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd sub00/vhpl10 1692153600
+AR contadorselector contador2bits /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd sub00/vhpl05 1692153599
+EN divisordereloj NULL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd sub00/vhpl02 1692153596
+AR divisordereloj frecuencianueva /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/divisorDeReloj.vhd sub00/vhpl03 1692153597
+EN expendedoragelantibacterial NULL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.vhd sub00/vhpl08 1692153606
+EN contadorselector NULL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/contadorDisplay.vhd sub00/vhpl04 1692153598
+EN displayde7segmentos NULL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd sub00/vhpl06 1692153602
+AR displayde7segmentos muxadisplay /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/displayDe7Segmentos.vhd sub00/vhpl07 1692153603
+EN control NULL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd sub00/vhpl00 1692145083
+AR controldisplay behavioral /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd sub00/vhpl11 1692153601
+AR control behavioral /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/control.vhd sub00/vhpl01 1692145084
+EN servomotorpwm NULL /home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/servomotorPWM.vhd sub00/vhpl12 1692153604

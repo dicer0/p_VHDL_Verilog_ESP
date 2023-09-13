@@ -1,0 +1,8 @@
+AR contadorselector contador2bits /home/ise/Aprendiendo/DLPs/practica2Punto4/contadorSelector.vhd sub00/vhpl05 1688476651
+EN divisordereloj NULL /home/ise/Aprendiendo/DLPs/practica2Punto4/divisorDeReloj.vhd sub00/vhpl02 1688476648
+AR divisordereloj frecuencianueva /home/ise/Aprendiendo/DLPs/practica2Punto4/divisorDeReloj.vhd sub00/vhpl03 1688476649
+EN contadorselector NULL /home/ise/Aprendiendo/DLPs/practica2Punto4/contadorSelector.vhd sub00/vhpl04 1688476650
+EN decodificadoripn NULL /home/ise/Aprendiendo/DLPs/practica2Punto4/decodificadorBinHex.vhd sub00/vhpl00 1688476652
+EN displayletreroipn NULL /home/ise/Aprendiendo/DLPs/practica2Punto4/displayLetreroIPN.vhd sub00/vhpl06 1688476654
+AR decodificadoripn behavioral /home/ise/Aprendiendo/DLPs/practica2Punto4/decodificadorBinHex.vhd sub00/vhpl01 1688476653
+AR displayletreroipn encenderdisplaystld /home/ise/Aprendiendo/DLPs/practica2Punto4/displayLetreroIPN.vhd sub00/vhpl07 1688476655

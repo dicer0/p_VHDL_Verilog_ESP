@@ -1,0 +1,3 @@
+vhdl work "encenderApagarLed.vhd"
+vhdl work "divisorDeReloj.vhd"
+vhdl work "parpadeoLedTLD.vhd"

@@ -1,0 +1,181 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml relojContadorMuxDisp7SegTLD.twx
+relojContadorMuxDisp7SegTLD.ncd -o relojContadorMuxDisp7SegTLD.twr
+relojContadorMuxDisp7SegTLD.pcf -ucf numDiferentesDisp7Seg.ucf
+
+Design file:              relojContadorMuxDisp7SegTLD.ncd
+Physical constraint file: relojContadorMuxDisp7SegTLD.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clkNexys2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkNexys2      |    3.435|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+-----------------+---------+
+Source Pad     |Destination Pad  |  Delay  |
+---------------+-----------------+---------+
+numBinario<0>  |numHexadecimal<0>|    8.923|
+numBinario<0>  |numHexadecimal<1>|    8.089|
+numBinario<0>  |numHexadecimal<2>|    9.161|
+numBinario<0>  |numHexadecimal<3>|    9.575|
+numBinario<0>  |numHexadecimal<4>|    9.420|
+numBinario<0>  |numHexadecimal<5>|    9.298|
+numBinario<0>  |numHexadecimal<6>|    8.135|
+numBinario<1>  |numHexadecimal<0>|    8.448|
+numBinario<1>  |numHexadecimal<1>|    7.401|
+numBinario<1>  |numHexadecimal<2>|    8.867|
+numBinario<1>  |numHexadecimal<3>|    9.060|
+numBinario<1>  |numHexadecimal<4>|    9.126|
+numBinario<1>  |numHexadecimal<5>|    9.055|
+numBinario<1>  |numHexadecimal<6>|    7.470|
+numBinario<2>  |numHexadecimal<0>|    7.882|
+numBinario<2>  |numHexadecimal<1>|    7.848|
+numBinario<2>  |numHexadecimal<2>|    8.263|
+numBinario<2>  |numHexadecimal<3>|    9.132|
+numBinario<2>  |numHexadecimal<4>|    8.522|
+numBinario<2>  |numHexadecimal<5>|    8.422|
+numBinario<2>  |numHexadecimal<6>|    7.861|
+numBinario<3>  |numHexadecimal<0>|    7.581|
+numBinario<3>  |numHexadecimal<1>|    7.351|
+numBinario<3>  |numHexadecimal<2>|    7.867|
+numBinario<3>  |numHexadecimal<3>|    9.184|
+numBinario<3>  |numHexadecimal<4>|    8.126|
+numBinario<3>  |numHexadecimal<5>|    8.060|
+numBinario<3>  |numHexadecimal<6>|    7.370|
+numBinario<4>  |numHexadecimal<0>|    8.720|
+numBinario<4>  |numHexadecimal<1>|    7.886|
+numBinario<4>  |numHexadecimal<2>|    8.958|
+numBinario<4>  |numHexadecimal<3>|    9.372|
+numBinario<4>  |numHexadecimal<4>|    9.217|
+numBinario<4>  |numHexadecimal<5>|    9.095|
+numBinario<4>  |numHexadecimal<6>|    7.932|
+numBinario<5>  |numHexadecimal<0>|    8.329|
+numBinario<5>  |numHexadecimal<1>|    7.282|
+numBinario<5>  |numHexadecimal<2>|    8.748|
+numBinario<5>  |numHexadecimal<3>|    8.941|
+numBinario<5>  |numHexadecimal<4>|    9.007|
+numBinario<5>  |numHexadecimal<5>|    8.936|
+numBinario<5>  |numHexadecimal<6>|    7.351|
+numBinario<6>  |numHexadecimal<0>|    8.095|
+numBinario<6>  |numHexadecimal<1>|    8.061|
+numBinario<6>  |numHexadecimal<2>|    8.476|
+numBinario<6>  |numHexadecimal<3>|    9.345|
+numBinario<6>  |numHexadecimal<4>|    8.735|
+numBinario<6>  |numHexadecimal<5>|    8.635|
+numBinario<6>  |numHexadecimal<6>|    8.074|
+numBinario<7>  |numHexadecimal<0>|    8.122|
+numBinario<7>  |numHexadecimal<1>|    7.892|
+numBinario<7>  |numHexadecimal<2>|    8.408|
+numBinario<7>  |numHexadecimal<3>|    9.725|
+numBinario<7>  |numHexadecimal<4>|    8.667|
+numBinario<7>  |numHexadecimal<5>|    8.601|
+numBinario<7>  |numHexadecimal<6>|    7.911|
+numBinario<8>  |numHexadecimal<0>|    8.445|
+numBinario<8>  |numHexadecimal<1>|    7.611|
+numBinario<8>  |numHexadecimal<2>|    8.683|
+numBinario<8>  |numHexadecimal<3>|    9.097|
+numBinario<8>  |numHexadecimal<4>|    8.942|
+numBinario<8>  |numHexadecimal<5>|    8.820|
+numBinario<8>  |numHexadecimal<6>|    7.657|
+numBinario<9>  |numHexadecimal<0>|    7.888|
+numBinario<9>  |numHexadecimal<1>|    6.841|
+numBinario<9>  |numHexadecimal<2>|    8.307|
+numBinario<9>  |numHexadecimal<3>|    8.500|
+numBinario<9>  |numHexadecimal<4>|    8.566|
+numBinario<9>  |numHexadecimal<5>|    8.495|
+numBinario<9>  |numHexadecimal<6>|    6.910|
+numBinario<10> |numHexadecimal<0>|    7.380|
+numBinario<10> |numHexadecimal<1>|    7.346|
+numBinario<10> |numHexadecimal<2>|    7.761|
+numBinario<10> |numHexadecimal<3>|    8.630|
+numBinario<10> |numHexadecimal<4>|    8.020|
+numBinario<10> |numHexadecimal<5>|    7.920|
+numBinario<10> |numHexadecimal<6>|    7.359|
+numBinario<11> |numHexadecimal<0>|    8.203|
+numBinario<11> |numHexadecimal<1>|    7.973|
+numBinario<11> |numHexadecimal<2>|    8.489|
+numBinario<11> |numHexadecimal<3>|    9.806|
+numBinario<11> |numHexadecimal<4>|    8.748|
+numBinario<11> |numHexadecimal<5>|    8.682|
+numBinario<11> |numHexadecimal<6>|    7.992|
+numBinario<12> |numHexadecimal<0>|    8.104|
+numBinario<12> |numHexadecimal<1>|    7.270|
+numBinario<12> |numHexadecimal<2>|    8.342|
+numBinario<12> |numHexadecimal<3>|    8.756|
+numBinario<12> |numHexadecimal<4>|    8.601|
+numBinario<12> |numHexadecimal<5>|    8.479|
+numBinario<12> |numHexadecimal<6>|    7.316|
+numBinario<13> |numHexadecimal<0>|    8.365|
+numBinario<13> |numHexadecimal<1>|    7.318|
+numBinario<13> |numHexadecimal<2>|    8.784|
+numBinario<13> |numHexadecimal<3>|    8.977|
+numBinario<13> |numHexadecimal<4>|    9.043|
+numBinario<13> |numHexadecimal<5>|    8.972|
+numBinario<13> |numHexadecimal<6>|    7.387|
+numBinario<14> |numHexadecimal<0>|    8.062|
+numBinario<14> |numHexadecimal<1>|    8.028|
+numBinario<14> |numHexadecimal<2>|    8.443|
+numBinario<14> |numHexadecimal<3>|    9.312|
+numBinario<14> |numHexadecimal<4>|    8.702|
+numBinario<14> |numHexadecimal<5>|    8.602|
+numBinario<14> |numHexadecimal<6>|    8.041|
+numBinario<15> |numHexadecimal<0>|    8.269|
+numBinario<15> |numHexadecimal<1>|    8.039|
+numBinario<15> |numHexadecimal<2>|    8.555|
+numBinario<15> |numHexadecimal<3>|    9.872|
+numBinario<15> |numHexadecimal<4>|    8.814|
+numBinario<15> |numHexadecimal<5>|    8.748|
+numBinario<15> |numHexadecimal<6>|    8.058|
+---------------+-----------------+---------+
+
+
+Analysis completed Mon Jul  3 12:46:03 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 348 MB
+
+
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/divisorDeReloj.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/divisorDeReloj.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/divisorDeReloj.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/MotorAPasosUnipolarPasoSImpleTLD/divisorDeReloj.syr" 

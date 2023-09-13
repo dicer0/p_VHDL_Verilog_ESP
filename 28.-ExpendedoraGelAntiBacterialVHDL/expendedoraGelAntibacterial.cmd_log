@@ -1,0 +1,121 @@
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "C:/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.xst" -ofn "/home/ise/Aprendiendo/cLogicos/proyectoFinalEquipo2/expendedoraGelAntibacterial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc puertosExpendedoraGel.ucf -p xc3s500e-fg320-5 expendedoraGelAntibacterial.ngc expendedoraGelAntibacterial.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ngd expendedoraGelAntibacterial.pcf 
+par -w -intstyle ise -ol high -t 1 expendedoraGelAntibacterial_map.ncd expendedoraGelAntibacterial.ncd expendedoraGelAntibacterial.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml expendedoraGelAntibacterial.twx expendedoraGelAntibacterial.ncd -o expendedoraGelAntibacterial.twr expendedoraGelAntibacterial.pcf -ucf puertosExpendedoraGel.ucf 
+bitgen -intstyle ise -f expendedoraGelAntibacterial.ut expendedoraGelAntibacterial.ncd 

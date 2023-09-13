@@ -1,0 +1,9 @@
+V3 4
+FL /home/ise/Aprendiendo/VHDL_Verilog/24.-SecuenciaFSM_MealyVHDL/fsmMealy.vhd 2023/08/01.10:52:19 P.20131013
+EN work/fsmMealy 1690916736 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/24.-SecuenciaFSM_MealyVHDL/fsmMealy.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/fsmMealy/deteccionSecuencia1011Boton 1690916737 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/24.-SecuenciaFSM_MealyVHDL/fsmMealy.vhd \
+      EN work/fsmMealy 1690916736
+FL /home/ise/Aprendiendo/VHDL_Verilog/maquinaDeEstadosMealyVHDL/fsmMealy.vhd 2023/07/30.17:23:10 P.20131013

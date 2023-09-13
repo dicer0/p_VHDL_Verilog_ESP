@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Aprendiendo/VHDL_Verilog/convertidorBinarioBDCVerilog/shiftAdd3.xst" -ofn "/home/ise/Aprendiendo/VHDL_Verilog/convertidorBinarioBDCVerilog/shiftAdd3.syr" 

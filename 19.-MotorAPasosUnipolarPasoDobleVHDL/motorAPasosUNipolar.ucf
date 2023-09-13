@@ -1,0 +1,13 @@
+//ENTRADAS Y SALIDAS DEL archivo Top Level Design controlMotorAPasosUnipolarPasoSImpleTLD
+//ENTRADAS:
+net "clk" loc = "B8";//Entrada clk asignada al reloj en el puerto B8.
+net "rst" loc = "H13";//Entrada reset asignada al push button BTN3 en el puerto H13.
+net "direcc" loc = "G18";//Entrada direccion de giro asignada al switch SW0 en el puerto G18.
+
+//SALIDAS:
+net "bobinasMotor[3]" loc = "L15";//Bobina A conectada al puerto JA1 perteneciente a los puertos JA.
+net "bobinasMotor[2]" loc = "K12";//Bobina B conectada al puerto JA2 perteneciente a los puertos JA.
+net "bobinasMotor[1]" loc = "L17";//Bobina C conectada al puerto JA3 perteneciente a los puertos JA.
+net "bobinasMotor[0]" loc = "M15";//Bobina D conectada al puerto JA4 perteneciente a los puertos JA.
+
+net "ledDirecc" loc = "J14";//Salida ledDirecc asignada al led LD0 en el puerto J14.

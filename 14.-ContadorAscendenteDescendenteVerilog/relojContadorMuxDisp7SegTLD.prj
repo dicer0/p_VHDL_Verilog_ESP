@@ -1,0 +1,4 @@
+verilog work "divisorDeReloj.v"
+verilog work "decodificadorBinHex.v"
+verilog work "contadorAsc_Desc.v"
+verilog work "contadorHexadecimalTLD.v"

@@ -1,0 +1,42 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jul 03 12:47:49 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "ledsDisplay<0>" LOCATE = SITE "C17" LEVEL 1;
+COMP "ledsDisplay<1>" LOCATE = SITE "H14" LEVEL 1;
+COMP "ledsDisplay<2>" LOCATE = SITE "J17" LEVEL 1;
+COMP "ledsDisplay<3>" LOCATE = SITE "G14" LEVEL 1;
+COMP "ledsDisplay<4>" LOCATE = SITE "D16" LEVEL 1;
+COMP "ledsDisplay<5>" LOCATE = SITE "D17" LEVEL 1;
+COMP "ledsDisplay<6>" LOCATE = SITE "F18" LEVEL 1;
+COMP "ledsDisplay<7>" LOCATE = SITE "L18" LEVEL 1;
+COMP "clkNexys2" LOCATE = SITE "B8" LEVEL 1;
+COMP "ledsNEXYS<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "ledsNEXYS<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "ledsNEXYS<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "ledsNEXYS<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "ledsNEXYS<4>" LOCATE = SITE "E17" LEVEL 1;
+COMP "ledsNEXYS<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "ledsNEXYS<6>" LOCATE = SITE "F4" LEVEL 1;
+COMP "ledsNEXYS<7>" LOCATE = SITE "R4" LEVEL 1;
+COMP "Reset" LOCATE = SITE "B18" LEVEL 1;
+COMP "numero1<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "numero1<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "numero1<2>" LOCATE = SITE "N17" LEVEL 1;
+COMP "numero1<3>" LOCATE = SITE "R17" LEVEL 1;
+COMP "anodoComun<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "seleccionarOperacion<0>" LOCATE = SITE "H13" LEVEL 1;
+COMP "numero2<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "anodoComun<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "seleccionarOperacion<1>" LOCATE = SITE "E18" LEVEL 1;
+COMP "numero2<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "anodoComun<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "seleccionarOperacion<2>" LOCATE = SITE "D18" LEVEL 1;
+COMP "numero2<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "anodoComun<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "numero2<3>" LOCATE = SITE "K17" LEVEL 1;
+NET "clkNexys2_BUFGP/IBUFG" BEL "clkNexys2_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,9 @@
+V3 4
+FL /home/ise/Aprendiendo/VHDL_Verilog/1.-IntroVHDL/nombreEntidad.vhd 2023/06/28.06:58:24 P.20131013
+EN work/nombreModulo 1688385179 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/1.-IntroVHDL/nombreEntidad.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nombreModulo/nombreArquitectura 1688385180 \
+      FL /home/ise/Aprendiendo/VHDL_Verilog/1.-IntroVHDL/nombreEntidad.vhd \
+      EN work/nombreModulo 1688385179
+FL C:/electDigit/introVHDL/nombreEntidad.vhd 2020/04/14.17:36:19 P.20131013

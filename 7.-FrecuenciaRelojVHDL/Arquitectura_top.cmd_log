@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/electDigit/frecuenciaRelojVHDL/Arquitectura_top.xst" -ofn "C:/electDigit/frecuenciaRelojVHDL/Arquitectura_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc parpadeoLed.ucf -p xc3s500e-fg320-5 Arquitectura_top.ngc Arquitectura_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Arquitectura_top_map.ncd Arquitectura_top.ngd Arquitectura_top.pcf 
+par -w -intstyle ise -ol high -t 1 Arquitectura_top_map.ncd Arquitectura_top.ncd Arquitectura_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Arquitectura_top.twx Arquitectura_top.ncd -o Arquitectura_top.twr Arquitectura_top.pcf -ucf parpadeoLed.ucf 
+bitgen -intstyle ise -f Arquitectura_top.ut Arquitectura_top.ncd 

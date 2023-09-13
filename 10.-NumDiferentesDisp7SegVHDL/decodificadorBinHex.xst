@@ -1,0 +1,5 @@
+set -tmpdir "C:/electDigit/11.-numDiferentesDisp7SegVHDL/xst/projnav.tmp"
+set -xsthdpdir "C:/electDigit/11.-numDiferentesDisp7SegVHDL/xst"
+elaborate
+-ifn decodificadorBinHex.prj
+-ifmt mixed
