@@ -11,4 +11,4 @@ And this specific repository contains documentation about the VHDL and Verilog h
 <br/>
 &nbsp;
 
-[![Altium Designer](http://dicer0.com/wp-content/uploads/2023/11/p_VHDL_Verilog.png)](https://dicer0.com/#skills)
+[![VHDL & Verilog](http://dicer0.com/wp-content/uploads/2023/11/p_VHDL_Verilog.png)](https://dicer0.com/#skills)
